@@ -1,0 +1,68 @@
+.ImageTextTileContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.71875vw;
+  width: 20.83333vw;
+}
+
+.ImageTextTileContainer .imageArea {
+  width: 2.03125vw;
+  height: 2.13542vw;
+  margin-right: 1.61458vw;
+}
+
+.ImageTextTileContainer .imageArea .MuiSvgIcon-root {
+  font-size: 1.8rem;
+}
+
+.ImageTextTileContainer .imageArea img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.ImageTextTileContainer .textArea {
+  font-size: 1.04167vw;
+  margin-right: 6.45833vw;
+  text-align: left;
+  word-break: keep-all;
+}
+
+@media only screen and (max-width: 800px) {
+  .ImageTextTileContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 165px;
+    height: 50px;
+  }
+  .ImageTextTileContainer .imageArea {
+    width: 12.07729vw;
+    height: 7.24638vw;
+    margin-right: 2.89855vw;
+  }
+  .ImageTextTileContainer .imageArea img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .ImageTextTileContainer .textArea {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    margin-right: 0vw;
+    text-align: left;
+    word-break: keep-all;
+  }
+}
+/*# sourceMappingURL=imagetexttile.css.map */

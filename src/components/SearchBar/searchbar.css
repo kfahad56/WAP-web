@@ -1,0 +1,597 @@
+.searchBtn {
+  margin-top: 0 !important;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media only screen and (max-width: 800px) {
+  .searchBtn {
+    font-size: 9px !important;
+  }
+}
+
+.SearchBarContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 5.88542vw;
+  width: 100%;
+  height: 3.38542vw;
+  border-top: 0.04167vw solid #c7c7c7;
+  border-bottom: 0.04167vw solid #c7c7c7;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.SearchBarContainer .leftSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 37.5vw;
+  border-right: 0.04167vw solid #c7c7c7;
+  height: 3.33333vw;
+}
+
+.SearchBarContainer .leftSection .searchCardAdjust {
+  position: absolute;
+  left: 9.63542vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 26.97917vw;
+  z-index: 30;
+}
+
+.SearchBarContainer .leftSection .searchCardAdjust .searchImage {
+  position: absolute;
+  left: 0.52083vw;
+  width: 1.19792vw;
+  height: 1.19792vw;
+  margin-right: 1.40625vw;
+  z-index: 100;
+}
+
+.SearchBarContainer .leftSection .searchCardAdjust .searchImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 9.6875vw;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox {
+  position: relative;
+  z-index: 10 !important;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox input {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  font-family: Roboto-regular;
+  font-size: 0.88542vw;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-webkit-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox :-ms-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-ms-input-placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::placeholder {
+  color: #000000;
+  z-index: 2;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions {
+  position: absolute;
+  width: 26.04167vw;
+  min-height: 13.69792vw;
+  max-height: 12.1vw;
+  background: white;
+  z-index: 1;
+  -webkit-box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+  top: -0.78125vw;
+  left: 8.33333vw;
+  right: 0;
+  overflow: auto;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer {
+  position: absolute;
+  top: 1.71875vw;
+  right: 0.78125vw;
+  width: 1.30208vw;
+  height: 1.30208vw;
+  cursor: pointer;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0.83333vw 0.36458vw 0.36458vw 0.625vw;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData p {
+  margin-top: 3.64583vw;
+  padding-left: 0.52083vw;
+}
+
+.SearchBarContainer .rightSection {
+  position: relative;
+  width: 62.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.SearchBarContainer .rightSection .roundbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  padding-left: 0.52083vw;
+  padding-right: 0.52083vw;
+  height: 1.92708vw;
+  border-radius: 1.71875vw;
+  background: #ffffff;
+  margin-left: 1.77083vw;
+  border: 0.05208vw solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.SearchBarContainer .rightSection .roundbutton div {
+  font-size: 0.88542vw;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.SearchBarContainer .rightSection .roundbutton:hover {
+  background: #e4e4e4;
+}
+
+.SearchBarContainer .rightSection .active {
+  background: #e4e4e4;
+}
+
+@media only screen and (max-width: 480px) {
+  .SearchBarContainer {
+    position: -webkit-sticky;
+    position: sticky;
+    display: inline-block;
+    top: 0vw;
+    width: 100%;
+    height: 25.36232vw;
+    border-top: 0.24155vw solid #c7c7c7;
+    border-bottom: 0.24155vw solid #c7c7c7;
+    background-color: #ffffff;
+    z-index: 10;
+  }
+  .SearchBarContainer .leftSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    border-right: 0.24155vw solid #c7c7c7;
+    height: 13.28502vw;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust {
+    position: absolute;
+    left: 0.96618vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 99.03382vw;
+    z-index: 30;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust .searchImage {
+    position: absolute;
+    left: 3.62319vw;
+    width: 5.55556vw;
+    height: 5.55556vw;
+    z-index: 100;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust .searchImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer {
+    display: none;
+    width: 86.71498vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 7.24638vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .searchImage {
+    width: 6.03865vw;
+    height: 6.03865vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .searchImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer input {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-family: Roboto-regular;
+    font-size: 2.89855vw !important;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::-webkit-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer :-ms-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::-ms-input-placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer ::placeholder {
+    color: #000000;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .mobMap {
+    width: 4.83092vw;
+    height: 4.83092vw;
+    margin-left: 36.95652vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .mobMap img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap {
+    position: absolute;
+    top: 7.97101vw;
+    right: 10.38647vw;
+    width: 4.83092vw;
+    height: 4.83092vw;
+    cursor: pointer;
+    z-index: 111;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .mobMap {
+    position: absolute;
+    right: 4.83092vw;
+    z-index: 31;
+    cursor: pointer;
+  }
+  .SearchBarContainer .leftSection .mobMap .fas {
+    font-size: 6.03865vw;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .SearchBarContainer .rightSection {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 22.94686vw;
+    border-right: 0.24155vw solid #c7c7c7;
+    border-top: 0.24155vw solid #c7c7c7;
+    border-bottom: 0.24155vw solid #c7c7c7;
+    background-color: #ffffff;
+  }
+  .SearchBarContainer .rightSection .roundbutton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+    height: 5.7971vw;
+    padding-left: 1.20773vw;
+    padding-right: 1.20773vw;
+    border-radius: 7.97101vw;
+    background: #ffffff;
+    margin-right: 2.41546vw;
+    margin-left: 2.41546vw;
+    border: 0.24155vw solid rgba(0, 0, 0, 0.5);
+  }
+  .SearchBarContainer .rightSection .roundbutton div {
+    font-family: Roboto-regular;
+    font-size: 2.657vw;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .SearchBarContainer .rightSection .mobFilter {
+    display: none;
+    margin-left: 34.29952vw;
+    margin-top: 1.20773vw;
+    width: 5.55556vw;
+    height: 6.03865vw;
+  }
+  .SearchBarContainer .rightSection .mobFilter img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .SearchBarContainer {
+    position: -webkit-sticky;
+    position: sticky;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 11.19792vw;
+    width: 100%;
+    height: 7.55208vw;
+    border-top: 0.10417vw solid #c7c7c7;
+    border-bottom: 0.10417vw solid #c7c7c7;
+    background-color: #ffffff;
+    z-index: 10;
+  }
+  .SearchBarContainer .leftSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 33.33333vw;
+    border-right: 0.10417vw solid #c7c7c7;
+    height: 7.55208vw;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust {
+    position: absolute;
+    left: 1.95313vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 33.33333vw;
+    z-index: 30;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust .searchImage {
+    position: absolute;
+    left: -1.30208vw;
+    width: 2.99479vw;
+    height: 2.99479vw;
+    margin-right: 3.51563vw;
+    z-index: 100;
+  }
+  .SearchBarContainer .leftSection .searchCardAdjust .searchImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 24.21875vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox {
+    position: relative;
+    z-index: 10 !important;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox input {
+    outline: 0;
+    border: 0;
+    background: transparent;
+    font-size: 2.21354vw;
+    z-index: 2;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-webkit-input-placeholder {
+    color: #000000;
+    z-index: 2;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox :-ms-input-placeholder {
+    color: #000000;
+    z-index: 2;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::-ms-input-placeholder {
+    color: #000000;
+    z-index: 2;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .inputBox ::placeholder {
+    color: #000000;
+    z-index: 2;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions {
+    position: absolute;
+    width: 65.10417vw;
+    min-height: 34.24479vw;
+    max-height: 12.1vw;
+    background: white;
+    z-index: 1;
+    -webkit-box-shadow: 0 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+    top: -1.95313vw;
+    left: 20.83333vw;
+    right: 0;
+    overflow: auto;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer {
+    position: absolute;
+    top: 4.29688vw;
+    right: 1.95313vw;
+    width: 3.25521vw;
+    height: 3.25521vw;
+    cursor: pointer;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2.08333vw 0.91146vw 0.91146vw 1.5625vw;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .SearchBarContainer .leftSection .searchBoxContainer .stateSuggestionContainer .suggestions .suggestionData .otherData p {
+    margin-top: 9.11458vw;
+    padding-left: 1.30208vw;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap {
+    position: absolute;
+    top: 7.97101vw;
+    right: 10.38647vw;
+    width: 4.83092vw;
+    height: 4.83092vw;
+    cursor: pointer;
+    z-index: 111;
+  }
+  .SearchBarContainer .leftSection .closeButtonContainerMap img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchBarContainer .leftSection .mobMap {
+    position: absolute;
+    left: 93.75vw;
+    z-index: 31;
+    cursor: pointer;
+  }
+  .SearchBarContainer .leftSection .mobMap .fas {
+    font-size: 3.25521vw;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .SearchBarContainer .rightSection {
+    position: relative;
+    width: 66.66667vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .SearchBarContainer .rightSection .roundbutton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: auto;
+    height: 3.51563vw;
+    padding-left: 0.91146vw;
+    padding-right: 0.91146vw;
+    border-radius: 4.29688vw;
+    background: #ffffff;
+    margin-left: 1.82292vw;
+    border: 0.13021vw solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .SearchBarContainer .rightSection .roundbutton div {
+    font-size: 1.69271vw;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .SearchBarContainer .rightSection .roundbutton:hover {
+    background: #e4e4e4;
+  }
+  .SearchBarContainer .rightSection .active {
+    background: #e4e4e4;
+  }
+  .mobFilter {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .mobMap {
+    display: none;
+  }
+  .closeButtonContainerMap {
+    display: none;
+  }
+  .mobFilter {
+    display: none;
+  }
+}
+/*# sourceMappingURL=searchbar.css.map */

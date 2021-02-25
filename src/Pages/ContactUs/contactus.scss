@@ -1,0 +1,680 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+a {
+    color: #000;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+.error404 {
+    position: relative;
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+    margin-top: 0.8vw;
+    margin-bottom: 0.8vw;
+    white-space: nowrap;
+}
+.loader {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0.8vw;
+}
+.btnAdjust {
+    // width: 50%;
+    cursor: pointer;
+}
+textarea {
+    padding-top: 12px !important;
+    font-size: 14px !important;
+}
+.contactUsContainer {
+    position: relative;
+    background-color: #ffffff;
+    .contactDetailsContainer {
+        position: relative;
+        width: 100%;
+        height: 1048 * $desk + vw;
+        display: flex;
+        .leftSection {
+            position: relative;
+            h3 {
+                font-family: Roboto-regular;
+                font-size: 52 * $desk + vw;
+                margin-left: 157 * $desk + vw;
+                margin-bottom: 23 * $desk + vw;
+                margin-top: 98 * $desk + vw;
+            }
+            p {
+                width: 477 * $desk + vw;
+                font-family: Roboto-regular;
+                font-size: 20 * $desk + vw;
+                margin-left: 157 * $desk + vw;
+                margin-bottom: 65 * $desk + vw;
+                line-height: 27 * $desk + vw;
+                color: #707070;
+            }
+            .contactFormContainer {
+                position: relative;
+                margin-left: 157 * $desk + vw;
+                display: flex;
+                .formRight {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-right: 44 * $desk + vw;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 16 * $desk + vw;
+                        background-color: #ffffff;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 385 * $desk + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        border-radius: 4 * $desk + vw;
+                        margin-bottom: 37 * $desk + vw;
+                        width: 385 * $desk + vw;
+                    }
+                    .MuiFormLabel-root {
+                        color: #000000 !important;
+                        // font-size: 19 * $desk + vw;
+                    }
+                    .MuiOutlinedInput-notchedOutline {
+                        border-color: #000000;
+                    }
+                    .MuiOutlinedInput-notchedOutline:focus {
+                        border-color: #0055ff;
+                    }
+                    .signInWithMobileContainer {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 385 * $desk + vw;
+                        height: 74 * $desk + vw;
+                        background: #0055ff;
+                        border-radius: 4 * $desk + vw;
+                        margin-top: 26 * $desk + vw;
+                        cursor: pointer;
+                        .btnText {
+                            font-family: Roboto-regular;
+                            font-size: 24 * $desk + vw;
+                            color: #ffffff;
+                        }
+                    }
+                    .signInWithMobileContainer:hover {
+                        background: #00c;
+                    }
+                    .signInWithMobileContainer2 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 385 * $desk + vw;
+                        height: 74 * $desk + vw;
+                        background: #0055ff;
+                        opacity: 0.55;
+                        border-radius: 4 * $desk + vw;
+                        cursor: pointer;
+                        .btnText {
+                            font-family: Roboto-regular;
+                            font-size: 24 * $desk + vw;
+                            color: #ffffff;
+                        }
+                    }
+                    .loader {
+                        position: absolute;
+                        z-index: 1;
+                        bottom: 3vw;
+                        right: 7.5vw;
+                    }
+                    .error409 {
+                        position: relative;
+                        color: rgb(255, 0, 0);
+                        font-size: 18 * $desk + vw;
+                        margin-bottom: 1vw;
+                    }
+                    .error404 {
+                        position: relative;
+                        color: rgb(255, 0, 0);
+                        font-size: 18 * $desk + vw;
+                        margin-top: 0.8vw;
+                        margin-bottom: 0.8vw;
+                        white-space: nowrap;
+                    }
+                    .error203 {
+                        position: relative;
+                        color: rgb(255, 0, 0);
+                        font-size: 18 * $desk + vw;
+                        margin-bottom: 1vw;
+                    }
+                    .error200 {
+                        position: relative;
+                        color: rgb(4, 109, 0);
+                        font-size: 18 * $desk + vw;
+                        margin-bottom: 1vw;
+                    }
+                }
+                .formLeft {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 16 * $desk + vw;
+                        background-color: #ffffff;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 385 * $desk + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        border-radius: 4 * $desk + vw;
+                        // margin-bottom: 58 * $desk + vw;
+                        width: 385 * $desk + vw;
+                    }
+                    .MuiFormLabel-root {
+                        color: #000000 !important;
+                        // font-size: 19 * $desk + vw;
+                    }
+                    .MuiOutlinedInput-notchedOutline {
+                        border-color: #000000;
+                    }
+                    .MuiOutlinedInput-notchedOutline:focus {
+                        border-color: #0055ff !important;
+                    }
+                    textarea {
+                        height: 343 * $desk + vw !important;
+                    }
+                }
+            }
+            // .termsText {
+            //     position: relative;
+            //     margin-top: 30 * $desk + vw;
+            //     margin-left: 157 * $desk + vw;
+            //     width: 800 * $desk + vw;
+            //     font-family: Roboto-regular;
+            //     font-size: 20 * $desk + vw;
+            //     line-height: 27 * $desk + vw;
+            //     color: #707070;
+            //     a {
+            //         color: #0055ff;
+            //     }
+            // }
+            // .termsText a:hover {
+            //     text-decoration: underline;
+            // }
+        }
+        .divideBorder {
+            height: 808 * $desk + vw;
+            margin-top: 100 * $desk + vw;
+            margin-right: 100 * $desk + vw;
+            margin-left: 100 * $desk + vw;
+            border-left: 2 * $desk + vw solid rgba(0, 0, 0, 0.2);
+        }
+        .rightSection {
+            position: relative;
+            // margin-left: 239 * $desk + vw;
+            .topSection {
+                position: relative;
+                margin-top: 110 * $desk + vw;
+                .officeText {
+                    font-family: Roboto-medium;
+                    font-size: 32 * $desk + vw;
+                    margin-bottom: 17 * $desk + vw;
+                }
+                .addressText {
+                    font-family: Roboto-regular;
+                    font-size: 21 * $desk + vw;
+                }
+            }
+            .bottomSection {
+                position: relative;
+                // display: flex;
+                margin-top: 39 * $desk + vw;
+                .bottomRight {
+                    margin-right: 127 * $desk + vw;
+                    .tollfreeNumber {
+                        font-family: Roboto-medium;
+                        font-size: 32 * $desk + vw;
+                        margin-bottom: 17 * $desk + vw;
+                    }
+                    .NumberText {
+                        font-family: Roboto-regular;
+                        font-size: 21 * $desk + vw;
+                        margin-bottom: 17 * $desk + vw;
+                    }
+                }
+                .bottomLeft {
+                    .emailHeadText {
+                        font-family: Roboto-medium;
+                        font-size: 32 * $desk + vw;
+                        margin-bottom: 17 * $desk + vw;
+                    }
+                    .emailText {
+                        font-family: Roboto-regular;
+                        font-size: 21 * $desk + vw;
+                    }
+                }
+                .contactMap {
+                    margin-top: 60 * $desk + vw;
+                }
+            }
+        }
+    }
+    .footerContainer {
+        background-color: #f9f9f9;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .btn2 {
+        width: 100%;
+    }
+    .contactUsContainer {
+        position: relative;
+        .contactDetailsContainer {
+            position: relative;
+            margin-top: 0 * $mob + vw;
+            height: 1348 * $mob + vw;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .leftSection {
+                position: absolute;
+                margin: 0;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 28 * $mob + vw;
+                    margin-left: 19 * $mob + vw;
+                    margin-bottom: 23 * $mob + vw;
+                    margin-top: 0 * $mob + vw;
+                }
+                p {
+                    width: 372 * $mob + vw;
+                    font-family: Roboto-regular;
+                    font-size: 15 * $mob + vw;
+                    // margin-left: 157 * $mob + vw;
+                    margin-left: 19 * $mob + vw;
+                    margin-bottom: 65 * $mob + vw;
+                    line-height: 20 * $mob + vw;
+                }
+                .contactFormContainer {
+                    position: relative;
+                    display: flex;
+                    top: 420 * $mob + vw;
+                    flex-direction: column;
+                    margin-left: 0;
+                    .formRight {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-right: 0;
+                        .MuiOutlinedInput-input {
+                            font-family: Roboto-regular;
+                            font-size: 13 * $mob + vw;
+                            background-color: #ffffff;
+                        }
+                        .MuiInputBase-fullWidth {
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiOutlinedInput-root {
+                            border-radius: 4 * $mob + vw;
+                            margin-bottom: 37 * $mob + vw;
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiFormLabel-root {
+                            // font-size: 16 * $mob + vw;
+                            color: #000000;
+                        }
+                        .signInWithMobileContainer {
+                            position: absolute;
+                            top: 590 * $mob + vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 174 * $mob + vw;
+                            height: 45 * $mob + vw;
+                            background: #0055ff;
+                            border-radius: 4 * $mob + vw;
+                            cursor: pointer;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 15 * $mob + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer2 {
+                            position: absolute;
+                            top: 590 * $mob + vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 174 * $mob + vw;
+                            height: 45 * $mob + vw;
+                            background: #0055ff;
+                            opacity: 0.55;
+                            border-radius: 4 * $mob + vw;
+                            cursor: pointer;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 15 * $mob + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .loader {
+                            position: absolute;
+                            z-index: 1;
+                            bottom: 3vw;
+                            right: 7.5vw;
+                        }
+                        .error409 {
+                            position: absolute;
+                            top: 560 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error404 {
+                            position: absolute;
+                            top: 560 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error203 {
+                            position: absolute;
+                            top: 560 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error200 {
+                            position: absolute;
+                            top: 560 * $mob + vw;
+                            color: rgb(4, 109, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                    }
+                    .formLeft {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .MuiOutlinedInput-input {
+                            font-family: Roboto-regular;
+                            font-size: 13 * $mob + vw;
+                            background-color: #ffffff;
+                        }
+                        .MuiInputBase-fullWidth {
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiOutlinedInput-root {
+                            border-radius: 4 * $mob + vw;
+                            margin-bottom: 48 * $mob + vw;
+                            width: 300 * $mob + vw;
+                        }
+                        // .MuiFormLabel-root {
+                        //     // font-size: 19 * $mob + vw;
+                        // }
+                        textarea {
+                            height: 132 * $mob + vw !important;
+                        }
+                    }
+                }
+                .termsText {
+                    position: relative;
+                    margin-top: 480 * $mob + vw;
+                    margin-left: 20 * $mob + vw;
+                    width: 375 * $mob + vw;
+                    font-family: Roboto-regular;
+                    font-size: 15 * $mob + vw;
+                    line-height: 27 * $mob + vw;
+                    color: #707070;
+                    a {
+                        color: #0055ff;
+                    }
+                }
+            }
+            .divideBorder {
+                display: none;
+            }
+            .rightSection {
+                position: relative;
+                margin-left: 19 * $mob + vw;
+                .topSection {
+                    position: relative;
+                    margin-top: 120 * $mob + vw;
+                    .officeText {
+                        font-family: Roboto-bold;
+                        font-size: 20 * $mob + vw;
+                        margin-bottom: 10 * $mob + vw;
+                    }
+                    .addressText {
+                        font-family: Roboto-regular;
+                        font-size: 15 * $mob + vw;
+                        width: 351 * $mob + vw;
+                    }
+                }
+                .bottomSection {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 20 * $mob + vw;
+                    .bottomRight {
+                        width: 139 * $mob + vw;
+                        // margin-right: 127 * $mob + vw;
+                        .tollfreeNumber {
+                            font-family: Roboto-bold;
+                            font-size: 20 * $mob + vw;
+                            margin-bottom: 10 * $mob + vw;
+                        }
+                        .NumberText {
+                            font-family: Roboto-regular;
+                            font-size: 15 * $mob + vw;
+                            margin-bottom: 14 * $mob + vw;
+                        }
+                    }
+                    .bottomLeft {
+                        width: 139 * $mob + vw;
+                        .emailHeadText {
+                            font-family: Roboto-bold;
+                            font-size: 20 * $mob + vw;
+                            margin-bottom: 10 * $mob + vw;
+                        }
+                        .emailText {
+                            font-family: Roboto-regular;
+                            font-size: 15 * $mob + vw;
+                        }
+                    }
+                    .contactMap {
+                        margin-top: 30 * $mob + vw;
+                    }
+                }
+            }
+            .followup {
+                // top: 461px;
+                margin-top: 22 * $mob + vw;
+                left: 21 * $mob + vw;
+                width: 194 * $mob + vw;
+                height: 39 * $mob + vw;
+
+                text-align: left;
+                font-family: Roboto-bold;
+                font-size: 28 * $mob + vw;
+                letter-spacing: 0 * $mob + vw;
+                color: #000000;
+                // opacity: 1;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .contactUsContainer {
+        .contactDetailsContainer {
+            height: 1208 * $mob + vw;
+            .leftSection {
+                position: absolute;
+                margin: 0;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 28 * $mob + vw;
+                    margin-left: 19 * $mob + vw;
+                    margin-bottom: 23 * $mob + vw;
+                    margin-top: 0 * $mob + vw;
+                }
+                p {
+                    width: 372 * $mob + vw;
+                    font-family: Roboto-regular;
+                    font-size: 15 * $mob + vw;
+                    // margin-left: 157 * $mob + vw;
+                    margin-left: 19 * $mob + vw;
+                    margin-bottom: 65 * $mob + vw;
+                    line-height: 20 * $mob + vw;
+                }
+                .contactFormContainer {
+                    position: relative;
+                    display: flex;
+                    top: 420 * $mob + vw;
+                    flex-direction: column;
+                    margin-left: 0;
+                    .formRight {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-right: 0;
+                        .MuiOutlinedInput-input {
+                            font-family: Roboto-regular;
+                            font-size: 13 * $mob + vw;
+                            background-color: #ffffff;
+                        }
+                        .MuiInputBase-fullWidth {
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiOutlinedInput-root {
+                            border-radius: 4 * $mob + vw;
+                            margin-bottom: 37 * $mob + vw;
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiFormLabel-root {
+                            // font-size: 16 * $mob + vw;
+                            color: #000000;
+                        }
+                        .signInWithMobileContainer {
+                            position: absolute;
+                            top: 480 * $mob + vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 174 * $mob + vw;
+                            height: 45 * $mob + vw;
+                            background: #0055ff;
+                            border-radius: 4 * $mob + vw;
+                            cursor: pointer;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 15 * $mob + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer2 {
+                            position: absolute;
+                            top: 480 * $mob + vw;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 174 * $mob + vw;
+                            height: 45 * $mob + vw;
+                            background: #0055ff;
+                            opacity: 0.55;
+                            border-radius: 4 * $mob + vw;
+                            cursor: pointer;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 15 * $mob + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .loader {
+                            position: absolute;
+                            z-index: 1;
+                            bottom: 3vw;
+                            right: 7.5vw;
+                        }
+                        .error409 {
+                            position: absolute;
+                            top: 450 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error404 {
+                            position: absolute;
+                            top: 450 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error203 {
+                            position: absolute;
+                            top: 450 * $mob + vw;
+                            color: rgb(255, 0, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                        .error200 {
+                            position: absolute;
+                            top: 450 * $mob + vw;
+                            color: rgb(4, 109, 0);
+                            font-size: 14 * $mob + vw;
+                            margin-bottom: 1vw;
+                        }
+                    }
+                    .formLeft {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .MuiOutlinedInput-input {
+                            font-family: Roboto-regular;
+                            font-size: 13 * $mob + vw;
+                            background-color: #ffffff;
+                        }
+                        .MuiInputBase-fullWidth {
+                            width: 300 * $mob + vw;
+                        }
+                        .MuiOutlinedInput-root {
+                            border-radius: 4 * $mob + vw;
+                            margin-bottom: 48 * $mob + vw;
+                            width: 300 * $mob + vw;
+                        }
+                        // .MuiFormLabel-root {
+                        //     // font-size: 19 * $mob + vw;
+                        // }
+                        textarea {
+                            height: 132 * $mob + vw !important;
+                        }
+                    }
+                }
+                .termsText {
+                    position: relative;
+                    margin-top: 480 * $mob + vw;
+                    margin-left: 20 * $mob + vw;
+                    width: 375 * $mob + vw;
+                    font-family: Roboto-regular;
+                    font-size: 15 * $mob + vw;
+                    line-height: 27 * $mob + vw;
+                    color: #707070;
+                    a {
+                        color: #0055ff;
+                    }
+                }
+            }
+        }
+    }
+    // .followup {
+    //     display: none;
+    // }
+}
+@media only screen and (min-width: 1025px) {
+    .followup {
+        display: none;
+    }
+}

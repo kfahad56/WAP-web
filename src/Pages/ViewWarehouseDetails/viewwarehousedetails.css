@@ -1,0 +1,2282 @@
+.ViewWarehouseDetailsContainer {
+  position: relative;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 16%;
+  width: 27.13542vw;
+  overflow-y: auto;
+  height: calc(90vh - 0.5rem);
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustleaveUsContainer {
+  height: auto !important;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .contact-inner {
+  margin-top: 0;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .contact-inner textarea {
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  background: #f8f9fa;
+  padding: 15px;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .contact-inner label {
+  background: #f8f9fa;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .contact-inner input {
+  background: #f8f9fa;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25.72917vw;
+  height: 57.13542vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .loginHeadText {
+  width: 21.45833vw;
+  font-family: Roboto-bold;
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+  margin-top: 0.9375vw;
+  margin-bottom: 1.09375vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .checkboxContainer {
+  position: relative;
+  width: 20.05208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4.94792vw;
+  margin-bottom: 1.82292vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .leftFormSection .checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  font-family: Roboto-regular;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  opacity: 0.55;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2 .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustEquireContainer {
+  height: auto !important;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustEquireContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustEquireContainer .leftFormSection .messageContainer textarea {
+  height: 6.40625vw !important;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .equireContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25.72917vw;
+  height: auto;
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .equireContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .equireContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .equireContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustScheduleTourContainer {
+  height: auto !important;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .adjustScheduleTourContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .scheduleTourContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25.72917vw;
+  height: auto;
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .scheduleTourContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .scheduleTourContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .adjustSubStickySection .scheduleTourContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 16px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ViewWarehouseDetailsContainer .redbox {
+  position: absolute;
+  top: 5.20833vw;
+  width: 0.52083vw;
+  height: 0.52083vw;
+  background: white;
+}
+
+.ViewWarehouseDetailsContainer .fixed-headerr {
+  position: fixed !important;
+  top: 25vw;
+  left: -22.39583vw;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: ease-out;
+  transition: ease-out;
+  z-index: 1100;
+}
+
+.ViewWarehouseDetailsContainer .availableAreaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ViewWarehouseDetailsContainer .totalAreaContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ViewWarehouseDetailsContainer .leaveUsSticky {
+  position: fixed;
+  top: 7.8125vw;
+}
+
+.ViewWarehouseDetailsContainer .enquirePropertySticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .scheduleTourSticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .reserveSticky {
+  position: fixed;
+  top: 7.8125vw;
+}
+
+.ViewWarehouseDetailsContainer .enquireSticky {
+  position: fixed;
+  top: 22.39583vw;
+}
+
+.ViewWarehouseDetailsContainer .amenitiesPopupContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56.25vw;
+  background: #f9f9f9;
+  z-index: 1000;
+}
+
+.ViewWarehouseDetailsContainer .amenitiesPopupContainer .crossImage {
+  position: absolute;
+  top: 3.90625vw;
+  right: 5.15625vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .amenitiesPopupContainer .crossImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1.35417vw;
+  margin-top: 0vw;
+  margin-left: 8.17708vw;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-right: 4.11458vw;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer .backArrow {
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer .backText {
+  margin-left: 0.72917vw;
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .searchContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .searchContainer .leftBorder {
+  margin-right: 0.85938vw;
+  margin-left: 0.85938vw;
+  width: 0vw;
+  height: 1.19792vw;
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .searchContainer .searchText {
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  color: #0055ff;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .rightSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 35.3125vw;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 2.86458vw;
+  margin-left: 3.69792vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .imageArea {
+  width: 1.5625vw;
+  height: 1.82292vw;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .imageArea img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .textArea {
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  margin-top: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .backgroundPatch {
+  display: none;
+  position: absolute;
+  top: 101.19792vw;
+  left: -1.5625vw;
+  width: 100vw;
+  height: 56.25vw;
+}
+
+.ViewWarehouseDetailsContainer .backgroundPatch img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .industryTagContainerAdjust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  margin-top: 25px;
+}
+
+.ViewWarehouseDetailsContainer .industryTagContainerAdjust .blogButtonContainer {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  margin-right: 22px;
+  margin-bottom: 22px;
+}
+
+.ViewWarehouseDetailsContainer .industryTagContainerAdjust .blogButtonContainer .tagText {
+  font-size: 16px;
+}
+
+.ViewWarehouseDetailsContainer .cardContainer {
+  position: relative;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection {
+  width: 65.15625vw;
+  height: auto;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection h3 {
+  font-family: Roboto-regular;
+  font-size: 3.28125vw;
+  margin-left: 8.48958vw;
+  margin-bottom: 0.625vw;
+  margin-top: 1.14583vw;
+  font-weight: lighter;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55.41667vw;
+  height: 4.79167vw;
+  margin-left: 8.48958vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .profileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileImage {
+  width: 1.61458vw;
+  height: 1.61458vw;
+  margin-right: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileTextContainer .profileName {
+  font-family: Roboto-bold;
+  font-size: 0.67708vw;
+  line-height: 0.83333vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileTextContainer .profileDesc {
+  font-family: Roboto-regular;
+  font-size: 0.52083vw;
+  line-height: 0.67708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .availableContainer div {
+  font-family: Roboto-medium;
+  font-size: 0.98958vw;
+  line-height: 1.04167vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .availableContainer div span {
+  font-family: Roboto-regular;
+  font-size: 0.98958vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderTopSection .availableContainer .topAdjust {
+  margin-bottom: 0.83333vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection .sliderBottomSection {
+  width: 55.41667vw;
+  height: 28.75vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .bottomBannerContainer .leftsection p {
+  font-family: Roboto-regular;
+  font-size: 1.19792vw;
+  width: 56.25vw;
+  line-height: 1.66667vw;
+  margin-left: 8.48958vw;
+  margin-bottom: 3.54167vw;
+  color: #707070;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer {
+  position: relative;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 1.30208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer .subText {
+  font-family: Roboto-regular;
+  font-size: 1.40625vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 3.38542vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer .mapContainer {
+  margin-left: 8.17708vw;
+  width: 720px;
+  height: 309px;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer .localityContainer {
+  position: relative;
+  margin-left: 8.17708vw;
+  margin-top: 3.38542vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer .localityContainer .localityText {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-bottom: 2.13542vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .locationContainer .localityContainer .descText p {
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  margin-bottom: 1.40625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer {
+  position: relative;
+  margin-top: 2.34375vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 49.01042vw;
+  height: 5.57292vw;
+  margin-left: 8.17708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection .viewAllContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection .viewAllContainer .viewalltText {
+  font-family: Roboto-regular;
+  font-size: 1.30208vw;
+  color: #ffa702;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection .viewAllContainer .arrow {
+  width: 0.88542vw;
+  height: 0.67708vw;
+  margin-left: 0.88542vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .titleSection .viewAllContainer .arrow img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .amenitiesContainer .amenitiesCardSliderSection {
+  position: relative;
+  margin-left: 8.17708vw;
+  width: 54.21875vw;
+  height: auto;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .addOnServiceContainer {
+  position: relative;
+  margin-top: 2.86458vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .addOnServiceContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 1.14583vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .addOnServiceContainer .addOnServiceSliderSection {
+  position: relative;
+  margin-left: 8.17708vw;
+  width: 45.83333vw;
+  height: auto;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer {
+  position: relative;
+  margin-top: 3.90625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 2.23958vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer .certificateTextContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8.17708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer .certificateTextContainer .certificateText {
+  font-family: Roboto-medium;
+  font-size: 1.25vw;
+  color: #0055ff;
+  margin-right: 6.71875vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer .certificateButtonContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2.44792vw;
+  margin-left: 8.17708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .certificateContainer .certificateButtonContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-left: 0;
+  margin-bottom: 2.23958vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .similarPropertiesContainer {
+  position: relative;
+  margin-top: 3.80208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .similarPropertiesContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 2.60417vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 2.34375vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .similarPropertiesContainer .cardContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8.17708vw;
+  margin-bottom: 2.44792vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerLeftAdjust .similarPropertiesContainer .cardContainer .cardViewContainer {
+  margin-left: 0;
+  margin-right: 1.92708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 31.71875vw;
+  height: 54.89583vw;
+  margin-left: 1.77083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .subText {
+  font-family: Roboto-regular;
+  font-size: 1.40625vw;
+  margin-top: 1.40625vw;
+  margin-bottom: 6.35417vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer {
+  position: relative;
+  width: 25.72917vw;
+  height: 13.33333vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.27);
+  border-radius: 0.41667vw;
+  margin-bottom: 0.67708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 1.66667vw;
+  margin-left: 1.5625vw;
+  margin-top: 0.57292vw;
+  line-height: 2.76042vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer p {
+  font-family: Roboto-regular;
+  font-size: 0.9375vw;
+  margin-left: 1.5625vw;
+  margin-top: 0.57292vw;
+  margin-bottom: 1.14583vw;
+  line-height: 1.25vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer .reservePropertyButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.5625vw;
+  width: 22.23958vw;
+  height: 4.11458vw;
+  background: #0055ff;
+  border-radius: 0.3125vw;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer .reservePropertyButton .reservePropertyText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .reservePropertyContainer .reservePropertyButton:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer {
+  position: relative;
+  width: 25.72917vw;
+  height: 22.1875vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.27);
+  border-radius: 0.41667vw;
+  margin-bottom: 0.67708vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 1.66667vw;
+  margin-left: 1.5625vw;
+  margin-top: 0.57292vw;
+  margin-bottom: 1.14583vw;
+  line-height: 2.23958vw;
+  width: 24.0625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer p {
+  font-family: Roboto-regular;
+  font-size: 0.9375vw;
+  margin-left: 1.77083vw;
+  margin-bottom: 1.14583vw;
+  width: 21.19792vw;
+  line-height: 1.25vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .enquirePropertyButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.5625vw;
+  margin-bottom: 1.19792vw;
+  width: 22.23958vw;
+  height: 4.11458vw;
+  background: #0055ff;
+  border-radius: 0.3125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .enquirePropertyButton .enquirePropertyText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .enquirePropertyButton:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .scheduleTourButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.5625vw;
+  width: 22.23958vw;
+  height: 4.11458vw;
+  background: #ffffff;
+  border: 0.05208vw solid #0055ff;
+  border-radius: 0.3125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .scheduleTourButton .enquirePropertyText {
+  font-family: Roboto-medium;
+  font-size: 1.25vw;
+  color: #0055ff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .scheduleTourButton:hover {
+  background: #ccf;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .enquirePropertyContainer .scheduleTourButton:hover .enquirePropertyText {
+  color: #0055ff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection {
+  width: 27.13542vw;
+  overflow-y: auto;
+  height: calc(90vh - 1rem);
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustleaveUsContainer {
+  height: auto !important;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25.72917vw;
+  height: 57.13542vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .loginHeadText {
+  width: 21.45833vw;
+  font-family: Roboto-bold;
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+  margin-top: 0.9375vw;
+  margin-bottom: 1.09375vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .checkboxContainer {
+  position: relative;
+  width: 20.05208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4.94792vw;
+  margin-bottom: 1.82292vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .leftFormSection .checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  font-family: Roboto-regular;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  opacity: 0.55;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2 .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .leaveUsContainer .signInWithMobileContainer2:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustEquireContainer {
+  height: auto !important;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustEquireContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustEquireContainer .leftFormSection .messageContainer textarea {
+  height: 6.40625vw !important;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25.72917vw;
+  height: 51.92708vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .loginHeadText {
+  width: 21.45833vw;
+  font-family: Roboto-bold;
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+  margin-top: 0.9375vw;
+  margin-bottom: 1.09375vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .checkboxContainer {
+  position: relative;
+  width: 20.05208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4.94792vw;
+  margin-bottom: 1.82292vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .leftFormSection .checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  font-family: Roboto-regular;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  opacity: 0.55;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer2 .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .equireContainer .signInWithMobileContainer2:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustScheduleTourContainer {
+  height: auto !important;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .adjustScheduleTourContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25.72917vw;
+  height: 51.92708vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .loginHeadText {
+  width: 16.25vw;
+  font-family: Roboto-bold;
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+  margin-top: 0.9375vw;
+  margin-left: -3.17708vw;
+  margin-bottom: 1.09375vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .dateContainer .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.77083vw;
+  width: 11.45833vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+  background-color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .checkboxContainer {
+  position: relative;
+  width: 20.05208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4.94792vw;
+  margin-bottom: 1.82292vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .leftFormSection .checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  font-family: Roboto-regular;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .errorMessage {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+  margin-top: -0.52083vw;
+  margin-bottom: 0.52083vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  opacity: 0.55;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin-bottom: 1.5625vw;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer2 .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.ViewWarehouseDetailsContainer .mainContainerAdjust .mainContainerRightAdjust .rightSection .adjustSubStickySection .scheduleTourContainer .signInWithMobileContainer2:hover {
+  background: #00c;
+}
+
+@media only screen and (max-width: 800px) {
+  .ViewWarehouseDetailsContainer {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+  }
+  .ViewWarehouseDetailsContainer .availableAreaContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ViewWarehouseDetailsContainer .availableAreaContainer h6 {
+    font-size: 3.62319vw;
+    font-family: Roboto-regular;
+    font-weight: lighter;
+  }
+  .ViewWarehouseDetailsContainer .totalAreaContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ViewWarehouseDetailsContainer .totalAreaContainer h6 {
+    font-size: 3.62319vw;
+    font-family: Roboto-regular;
+    font-weight: lighter;
+  }
+  .ViewWarehouseDetailsContainer .contact-inner {
+    margin-top: 0;
+  }
+  .ViewWarehouseDetailsContainer .contact-inner textarea {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background: #f8f9fa;
+    padding: 15px;
+  }
+  .ViewWarehouseDetailsContainer .contact-inner label {
+    background: #f8f9fa;
+  }
+  .ViewWarehouseDetailsContainer .contact-inner input {
+    background: #f8f9fa;
+  }
+  .ViewWarehouseDetailsContainer .checkboxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 3.38542vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ViewWarehouseDetailsContainer .checkboxContainer input {
+    width: 15%;
+  }
+  .ViewWarehouseDetailsContainer .checkboxContainer .checkboxText {
+    margin-left: 1.04167vw;
+    line-height: 19px;
+    font-size: 14px;
+  }
+  .ViewWarehouseDetailsContainer .leaveUsContainer {
+    position: absolute;
+    margin-top: -32.36715vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+    height: auto;
+    overflow: auto !important;
+    background: #f9f9f9;
+    border: 0.24155vw solid rgba(112, 112, 112, 0.29);
+    z-index: 1000;
+  }
+  .ViewWarehouseDetailsContainer .leaveUsContainer .closeButtonContainer {
+    position: absolute;
+    top: 4.83092vw;
+    right: 2.41546vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .ViewWarehouseDetailsContainer .leaveUsContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .ViewWarehouseDetailsContainer .leaveUsContainer .errorMessage {
+    position: relative;
+    color: red;
+    font-size: 3.62319vw;
+    margin-top: 2.41546vw;
+    margin-bottom: 0vw;
+  }
+  .ViewWarehouseDetailsContainer .adjustEquireContainer {
+    margin-top: -30.19324vw !important;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer {
+    position: fixed;
+    margin-top: -33.81643vw;
+    width: 100vw;
+    height: 100%;
+    border: 0.24155vw solid rgba(112, 112, 112, 0.29);
+    z-index: 1000;
+    overflow-y: scroll;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer .adjustHeight {
+    position: relative;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer .adjustHeight .sec-head {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer .adjustHeight .closeButtonContainer {
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer .adjustHeight .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .ViewWarehouseDetailsContainer .equireContainer .adjustHeight .errorMessage {
+    position: relative;
+    color: red;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .ViewWarehouseDetailsContainer .adjustScheduleTourContainer {
+    margin-top: -30.19324vw !important;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer {
+    margin-top: -33.57488vw;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    border: 0.24155vw solid rgba(112, 112, 112, 0.29);
+    z-index: 1111;
+    overflow-y: scroll;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer .adjustHeight {
+    position: relative;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer .adjustHeight .sec-head {
+    margin: unset;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer .adjustHeight .closeButtonContainer {
+    position: absolute;
+    top: 0vw;
+    right: 0vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer .adjustHeight .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .ViewWarehouseDetailsContainer .scheduleTourContainer .adjustHeight .errorMessage {
+    position: relative;
+    color: red;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .leftsection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 6.28019vw;
+    margin-top: 12.31884vw;
+    margin-left: -8.45411vw;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    margin-right: 19.08213vw;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer .backArrow {
+    font-size: 3.38164vw;
+    color: #ffa702;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .leftsection .backButtonContainer .backText {
+    margin-left: 2.657vw;
+    font-family: Roboto-regular;
+    font-size: 3.38164vw;
+    color: #ffa702;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .rightSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 23.42995vw;
+    top: -2.89855vw;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 4.10628vw;
+    margin-left: 10.62802vw;
+    cursor: pointer;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .imageArea {
+    width: 4.10628vw;
+    height: 4.58937vw;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .imageArea img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .ViewWarehouseDetailsContainer .TopBannerContainer .rightSection .iconContainer .textArea {
+    font-family: Roboto-regular;
+    font-size: 2.89855vw;
+    margin-top: 1.69082vw;
+  }
+  .ViewWarehouseDetailsContainer .backgroundPatch {
+    display: none;
+    position: absolute;
+    top: 10.38647vw;
+    left: 0vw;
+    width: 100vw;
+    height: 434.78261vw;
+  }
+  .ViewWarehouseDetailsContainer .backgroundPatch img {
+    width: 100%;
+    height: 100%;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection {
+    width: 100vw;
+    height: 96.8599vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection h3 {
+    font-family: Roboto-regular;
+    font-size: 7.48792vw;
+    margin-left: 6.76329vw;
+    margin-bottom: 9.90338vw;
+    margin-top: -4.58937vw;
+    font-weight: lighter;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100vw;
+    height: 14.97585vw;
+    margin-top: -11.83575vw;
+    margin-left: 4.58937vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileImage {
+    display: none;
+    top: 44.44444vw;
+    left: 5.55556vw;
+    width: 6.52174vw;
+    height: 6.52174vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileTextContainer {
+    display: none;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileTextContainer .profileName {
+    font-family: Roboto-bold;
+    font-size: 3.1401vw;
+    top: 43.96135vw;
+    margin-left: 1.93237vw;
+    margin-bottom: -1.44928vw;
+    width: 17.8744vw;
+    height: 3.86473vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .profileTextContainer .profileDesc {
+    font-family: Roboto-regular;
+    font-size: 2.41546vw;
+    line-height: 3.1401vw;
+    margin-top: 1.44928vw;
+    width: 35.99034vw;
+    margin-left: 2.41546vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .profileContainer .subText1 {
+    font-family: Roboto-medium;
+    font-size: 3.38164vw;
+    margin-top: 0vw;
+    margin-left: 2.41546vw;
+    width: 75.36232vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderTopSection .availableContainer {
+    display: none;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderBottomSection {
+    width: 100vw;
+    height: 45.65217vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderBottomSection h6 {
+    display: none;
+    font-family: Roboto-regular;
+    line-height: 10.14493vw;
+    margin-left: 66.42512vw;
+    margin-top: 0vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderBottomSection .availableContainer {
+    display: block;
+    width: 94.92754vw;
+    height: 21.25604vw;
+    margin-left: 2.41546vw;
+    background: #f9f9f9;
+    margin-top: 4.83092vw;
+    padding-top: 4.58937vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderBottomSection .availableContainer div {
+    font-family: Roboto-medium;
+    font-size: 3.38164vw;
+    line-height: 6.03865vw;
+    margin-left: 4.34783vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .leftsection .sliderBottomSection .availableContainer .topAdjust {
+    margin-left: 4.34783vw;
+    margin-bottom: 3.86473vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection {
+    position: relative;
+    width: 100vw;
+    height: 254.58937vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .subText {
+    display: none;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .reservePropertyContainer {
+    display: none;
+    width: 119.32367vw;
+    height: 52.17391vw;
+    background: rgba(219, 219, 219, 0.27);
+    border: 0.24155vw solid rgba(112, 112, 112, 0.27);
+    border-radius: 1.93237vw;
+    margin-bottom: 3.1401vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .reservePropertyContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 9.66184vw;
+    margin-left: 7.24638vw;
+    margin-top: 2.657vw;
+    line-height: 12.80193vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .reservePropertyContainer p {
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+    margin-left: 7.24638vw;
+    margin-bottom: 5.31401vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .enquirePropertyContainer {
+    display: none;
+    width: 119.32367vw;
+    height: 106.76329vw;
+    background: rgba(219, 219, 219, 0.27);
+    border: 0.24155vw solid rgba(112, 112, 112, 0.27);
+    border-radius: 1.93237vw;
+    margin-bottom: 3.1401vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .enquirePropertyContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 9.66184vw;
+    margin-left: 7.24638vw;
+    margin-top: 2.657vw;
+    margin-bottom: 5.31401vw;
+    line-height: 12.80193vw;
+    width: 99.51691vw;
+  }
+  .ViewWarehouseDetailsContainer .bottomBannerContainer .rightSection .enquirePropertyContainer p {
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+    margin-left: 8.21256vw;
+    margin-bottom: 2.89855vw;
+    width: 98.30918vw;
+    line-height: 5.7971vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer {
+    position: relative;
+    margin-top: 18.35749vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 12.07729vw;
+    margin-left: 37.92271vw;
+    margin-bottom: 6.03865vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer .subText {
+    font-family: Roboto-regular;
+    font-size: 6.52174vw;
+    margin-left: 37.92271vw;
+    margin-bottom: 15.70048vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer .mapContainer {
+    margin-left: 37.92271vw;
+    width: 227.05314vw;
+    height: 89.13043vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer .localityContainer {
+    position: relative;
+    margin-left: 37.92271vw;
+    margin-top: 15.70048vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer .localityContainer .localityText {
+    font-family: Roboto-regular;
+    font-size: 12.07729vw;
+    margin-bottom: 9.90338vw;
+  }
+  .ViewWarehouseDetailsContainer .locationContainer .localityContainer .descText p {
+    font-family: Roboto-regular;
+    font-size: 4.83092vw;
+    margin-bottom: 6.52174vw;
+  }
+  .ViewWarehouseDetailsContainer .similarPropertiesContainer {
+    position: relative;
+    margin-top: 7.24638vw;
+  }
+  .ViewWarehouseDetailsContainer .similarPropertiesContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 7.24638vw;
+    margin-left: 5.7971vw;
+    margin-bottom: 5.07246vw;
+  }
+  .ViewWarehouseDetailsContainer .similarPropertiesContainer .cardContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5.7971vw;
+    margin-bottom: 7.24638vw;
+  }
+  .ViewWarehouseDetailsContainer .similarPropertiesContainer .cardContainer div {
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+  }
+  .ViewWarehouseDetailsContainer .similarPropertiesContainer .cardContainer .cardViewContainer {
+    margin-left: 0;
+    margin-right: 8.9372vw;
+  }
+  .ViewWarehouseDetailsContainer .cardContainer {
+    display: none;
+  }
+}
+
+.EnquiryButton {
+  width: 100%;
+  margin-top: 5.31401vw;
+}
+
+.EnquiryButton .reservePropertyButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6.52174vw;
+  width: 87.19807vw;
+  height: 13.52657vw;
+  background: #0055ff;
+  margin-top: 5.31401vw;
+  border-radius: 1.44928vw;
+  cursor: pointer;
+}
+
+.EnquiryButton .reservePropertyButton .reservePropertyText {
+  height: 4.83092vw;
+  left: 35.74879vw;
+  font-family: Roboto-regular;
+  font-size: 3.62319vw;
+  color: #ffffff;
+}
+
+.EnquiryButton .enquirePropertyButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5.55556vw;
+  margin-left: 6.52174vw;
+  width: 87.19807vw;
+  height: 13.52657vw;
+  margin-top: 5.31401vw;
+  background: #0055ff;
+  border-radius: 1.44928vw;
+  cursor: pointer;
+}
+
+.EnquiryButton .enquirePropertyButton .enquirePropertyText {
+  width: -0.24155vw;
+  height: 4.83092vw;
+  left: 42.99517vw;
+  font-family: Roboto-regular;
+  font-size: 3.62319vw;
+  color: #ffffff;
+}
+
+.EnquiryButton .scheduleTourButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 6.52174vw;
+  width: 87.19807vw;
+  height: 13.52657vw;
+  background: #ffffff;
+  border: 0.24155vw solid #0055ff;
+  border-radius: 1.44928vw;
+  cursor: pointer;
+}
+
+.EnquiryButton .scheduleTourButton .scheduleTourText {
+  height: 4.83092vw;
+  left: 35.74879vw;
+  font-family: Roboto-regular;
+  font-size: 3.62319vw;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .leaveUsContainer {
+    display: none;
+  }
+  .scheduleTourContainer {
+    display: none;
+  }
+  .equireContainer {
+    display: none;
+  }
+  .TopBannerContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .TopBannerContainer .leftsection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 3.38542vw;
+    margin-top: 5.33854vw;
+  }
+  .TopBannerContainer .leftsection .backButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    margin-right: 10.28646vw;
+  }
+  .TopBannerContainer .leftsection .backButtonContainer .backArrow {
+    font-size: 1.82292vw;
+    color: #ffa702;
+  }
+  .TopBannerContainer .leftsection .backButtonContainer .backText {
+    margin-left: 1.43229vw;
+    font-family: Roboto-regular;
+    font-size: 1.82292vw;
+    color: #ffa702;
+  }
+  .TopBannerContainer .rightSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 4.81771vw !important;
+    top: 5.46875vw;
+  }
+  .TopBannerContainer .rightSection .iconContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 2.21354vw;
+    margin-left: 5.72917vw;
+    cursor: pointer;
+  }
+  .TopBannerContainer .rightSection .iconContainer .imageArea {
+    width: 2.21354vw;
+    height: 2.47396vw;
+  }
+  .TopBannerContainer .rightSection .iconContainer .imageArea img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .TopBannerContainer .rightSection .iconContainer .textArea {
+    font-family: Roboto-regular;
+    font-size: 1.5625vw;
+    margin-top: 0.91146vw;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .subText1 {
+    display: none;
+  }
+  .leaveUsContainer {
+    display: none;
+  }
+  .scheduleTourContainer {
+    display: none;
+  }
+  .equireContainer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=viewwarehousedetails.css.map */

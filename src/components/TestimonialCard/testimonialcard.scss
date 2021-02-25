@@ -1,0 +1,18 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+
+.testimonialCardContainer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+    .testimonialCardContainer {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        width: 414 * $mob + vw;
+        justify-content: center;
+    }
+}

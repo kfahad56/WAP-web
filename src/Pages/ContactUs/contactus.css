@@ -1,0 +1,789 @@
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.error404 {
+  position: relative;
+  color: red;
+  font-size: 16px;
+  margin-top: 0.8vw;
+  margin-bottom: 0.8vw;
+  white-space: nowrap;
+}
+
+.loader {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.8vw;
+}
+
+.btnAdjust {
+  cursor: pointer;
+}
+
+textarea {
+  padding-top: 12px !important;
+  font-size: 14px !important;
+}
+
+.contactUsContainer {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.contactUsContainer .contactDetailsContainer {
+  position: relative;
+  width: 100%;
+  height: 54.58333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection {
+  position: relative;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection h3 {
+  font-family: Roboto-regular;
+  font-size: 2.70833vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 1.19792vw;
+  margin-top: 5.10417vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection p {
+  width: 24.84375vw;
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  margin-left: 8.17708vw;
+  margin-bottom: 3.38542vw;
+  line-height: 1.40625vw;
+  color: #707070;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer {
+  position: relative;
+  margin-left: 8.17708vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 2.29167vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-root {
+  border-radius: 0.20833vw;
+  margin-bottom: 1.92708vw;
+  width: 20.05208vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiFormLabel-root {
+  color: #000000 !important;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-notchedOutline {
+  border-color: #000000;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-notchedOutline:focus {
+  border-color: #0055ff;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  margin-top: 1.35417vw;
+  cursor: pointer;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  opacity: 0.55;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .loader {
+  position: absolute;
+  z-index: 1;
+  bottom: 3vw;
+  right: 7.5vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error409 {
+  position: relative;
+  color: red;
+  font-size: 0.9375vw;
+  margin-bottom: 1vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error404 {
+  position: relative;
+  color: red;
+  font-size: 0.9375vw;
+  margin-top: 0.8vw;
+  margin-bottom: 0.8vw;
+  white-space: nowrap;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error203 {
+  position: relative;
+  color: red;
+  font-size: 0.9375vw;
+  margin-bottom: 1vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error200 {
+  position: relative;
+  color: #046d00;
+  font-size: 0.9375vw;
+  margin-bottom: 1vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+  background-color: #ffffff;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-root {
+  border-radius: 0.20833vw;
+  width: 20.05208vw;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiFormLabel-root {
+  color: #000000 !important;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-notchedOutline {
+  border-color: #000000;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-notchedOutline:focus {
+  border-color: #0055ff !important;
+}
+
+.contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft textarea {
+  height: 17.86458vw !important;
+}
+
+.contactUsContainer .contactDetailsContainer .divideBorder {
+  height: 42.08333vw;
+  margin-top: 5.20833vw;
+  margin-right: 5.20833vw;
+  margin-left: 5.20833vw;
+  border-left: 0.10417vw solid rgba(0, 0, 0, 0.2);
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection {
+  position: relative;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .topSection {
+  position: relative;
+  margin-top: 5.72917vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .topSection .officeText {
+  font-family: Roboto-medium;
+  font-size: 1.66667vw;
+  margin-bottom: 0.88542vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .topSection .addressText {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection {
+  position: relative;
+  margin-top: 2.03125vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight {
+  margin-right: 6.61458vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight .tollfreeNumber {
+  font-family: Roboto-medium;
+  font-size: 1.66667vw;
+  margin-bottom: 0.88542vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight .NumberText {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+  margin-bottom: 0.88542vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomLeft .emailHeadText {
+  font-family: Roboto-medium;
+  font-size: 1.66667vw;
+  margin-bottom: 0.88542vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomLeft .emailText {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+}
+
+.contactUsContainer .contactDetailsContainer .rightSection .bottomSection .contactMap {
+  margin-top: 3.125vw;
+}
+
+.contactUsContainer .footerContainer {
+  background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 800px) {
+  .btn2 {
+    width: 100%;
+  }
+  .contactUsContainer {
+    position: relative;
+  }
+  .contactUsContainer .contactDetailsContainer {
+    position: relative;
+    margin-top: 0vw;
+    height: 325.60386vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection {
+    position: absolute;
+    margin: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection h3 {
+    font-family: Roboto-regular;
+    font-size: 6.76329vw;
+    margin-left: 4.58937vw;
+    margin-bottom: 5.55556vw;
+    margin-top: 0vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection p {
+    width: 89.85507vw;
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    margin-left: 4.58937vw;
+    margin-bottom: 15.70048vw;
+    line-height: 4.83092vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 101.44928vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    background-color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 8.9372vw;
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiFormLabel-root {
+    color: #000000;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer {
+    position: absolute;
+    top: 142.51208vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    cursor: pointer;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 {
+    position: absolute;
+    top: 142.51208vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    opacity: 0.55;
+    border-radius: 0.96618vw;
+    cursor: pointer;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .loader {
+    position: absolute;
+    z-index: 1;
+    bottom: 3vw;
+    right: 7.5vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error409 {
+    position: absolute;
+    top: 135.2657vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error404 {
+    position: absolute;
+    top: 135.2657vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error203 {
+    position: absolute;
+    top: 135.2657vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error200 {
+    position: absolute;
+    top: 135.2657vw;
+    color: #046d00;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    background-color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 11.5942vw;
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft textarea {
+    height: 31.88406vw !important;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .termsText {
+    position: relative;
+    margin-top: 115.94203vw;
+    margin-left: 4.83092vw;
+    width: 90.57971vw;
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    line-height: 6.52174vw;
+    color: #707070;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .termsText a {
+    color: #0055ff;
+  }
+  .contactUsContainer .contactDetailsContainer .divideBorder {
+    display: none;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection {
+    position: relative;
+    margin-left: 4.58937vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .topSection {
+    position: relative;
+    margin-top: 28.98551vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .topSection .officeText {
+    font-family: Roboto-bold;
+    font-size: 4.83092vw;
+    margin-bottom: 2.41546vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .topSection .addressText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    width: 84.78261vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 4.83092vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight {
+    width: 33.57488vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight .tollfreeNumber {
+    font-family: Roboto-bold;
+    font-size: 4.83092vw;
+    margin-bottom: 2.41546vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomRight .NumberText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    margin-bottom: 3.38164vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomLeft {
+    width: 33.57488vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomLeft .emailHeadText {
+    font-family: Roboto-bold;
+    font-size: 4.83092vw;
+    margin-bottom: 2.41546vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .bottomLeft .emailText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+  }
+  .contactUsContainer .contactDetailsContainer .rightSection .bottomSection .contactMap {
+    margin-top: 7.24638vw;
+  }
+  .contactUsContainer .contactDetailsContainer .followup {
+    margin-top: 5.31401vw;
+    left: 5.07246vw;
+    width: 46.8599vw;
+    height: 9.42029vw;
+    text-align: left;
+    font-family: Roboto-bold;
+    font-size: 6.76329vw;
+    letter-spacing: 0vw;
+    color: #000000;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .contactUsContainer .contactDetailsContainer {
+    height: 291.78744vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection {
+    position: absolute;
+    margin: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection h3 {
+    font-family: Roboto-regular;
+    font-size: 6.76329vw;
+    margin-left: 4.58937vw;
+    margin-bottom: 5.55556vw;
+    margin-top: 0vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection p {
+    width: 89.85507vw;
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    margin-left: 4.58937vw;
+    margin-bottom: 15.70048vw;
+    line-height: 4.83092vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 101.44928vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    background-color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 8.9372vw;
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .MuiFormLabel-root {
+    color: #000000;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer {
+    position: absolute;
+    top: 115.94203vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    cursor: pointer;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 {
+    position: absolute;
+    top: 115.94203vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    opacity: 0.55;
+    border-radius: 0.96618vw;
+    cursor: pointer;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .signInWithMobileContainer2 .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .loader {
+    position: absolute;
+    z-index: 1;
+    bottom: 3vw;
+    right: 7.5vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error409 {
+    position: absolute;
+    top: 108.69565vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error404 {
+    position: absolute;
+    top: 108.69565vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error203 {
+    position: absolute;
+    top: 108.69565vw;
+    color: red;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formRight .error200 {
+    position: absolute;
+    top: 108.69565vw;
+    color: #046d00;
+    font-size: 3.38164vw;
+    margin-bottom: 1vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    background-color: #ffffff;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 11.5942vw;
+    width: 72.46377vw;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .contactFormContainer .formLeft textarea {
+    height: 31.88406vw !important;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .termsText {
+    position: relative;
+    margin-top: 115.94203vw;
+    margin-left: 4.83092vw;
+    width: 90.57971vw;
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    line-height: 6.52174vw;
+    color: #707070;
+  }
+  .contactUsContainer .contactDetailsContainer .leftSection .termsText a {
+    color: #0055ff;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .followup {
+    display: none;
+  }
+}
+/*# sourceMappingURL=contactus.css.map */

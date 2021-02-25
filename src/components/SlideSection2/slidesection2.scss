@@ -1,0 +1,69 @@
+$desk: 100 / 1920;
+.owl-stage {
+    display: unset;
+}
+.owl-itemAdjust {
+    width: 340px;
+    height: 500px;
+}
+.rightArrowContainer {
+    position: absolute;
+    width: 93 * $desk + vw;
+    height: 93 * $desk + vw;
+    top: 281 * $desk + vw;
+    right: -132 * $desk + vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    border-radius: 50%;
+    .rightButton {
+        position: absolute;
+        width: 36 * $desk + vw;
+        height: 29 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.leftArrowContainer {
+    z-index: 100;
+    position: absolute;
+    width: 93 * $desk + vw;
+    height: 93 * $desk + vw;
+    top: 281 * $desk + vw;
+    left: -132 * $desk + vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffffff;
+    box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    border-radius: 50%;
+    .rightButton {
+        position: absolute;
+        width: 36 * $desk + vw;
+        height: 29 * $desk + vw;
+        img {
+            transform: rotate(-180deg);
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .owl-stage {
+        display: unset;
+    }
+    .rightArrowContainer {
+        display: none;
+    }
+    .leftArrowContainer {
+        display: none;
+    }
+}

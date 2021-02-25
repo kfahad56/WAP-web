@@ -1,0 +1,164 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+.faqBtn {
+    display: block;
+    position: fixed;
+    z-index: 2;
+    bottom: 10%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    right: 3%;
+}
+@media only screen and (max-width: 800px) {
+    html,
+    body {
+        overflow: unset !important;
+    }
+}
+// .faqPageContainer {
+//     position: relative;
+//     .vacanciesImage {
+//         position: relative;
+//         width: 100%;
+//         height: 495 * $desk + vw;
+//         img {
+//             width: 100%;
+//             height: 100%;
+//             object-fit: cover;
+//             object-position: center;
+//         }
+//     }
+//     .faqContentContainer {
+//         position: relative;
+//         margin: auto;
+//         margin-top: 108 * $desk + vw;
+//         margin-bottom: 108 * $desk + vw;
+//         width: 1000 * $desk + vw;
+//         h3 {
+//             font-family: Roboto-regular;
+//             font-size: 40 * $desk + vw;
+//             margin-top: 60 * $desk + vw;
+//             margin-bottom: 22 * $desk + vw;
+//             text-align: center;
+//         }
+//         .makeStyles-title-13 {
+//             font-family: Roboto-regular !important;
+//             font-size: 22 * $desk + vw !important;
+//             color: #000000 !important;
+//             font-weight: lighter !important;
+//         }
+//         .makeStyles-expansionPanelSummaryExpaned-5 {
+//             color: #000000 !important;
+//             font-family: Roboto-regular !important;
+//             font-size: 32 * $desk + vw !important;
+//         }
+//         .makeStyles-expansionPanelSummaryContent-6 {
+//             font-family: Roboto-regular !important;
+//             font-size: 32 * $desk + vw !important;
+//             color: #000000 !important;
+//         }
+//         .makeStyles-expansionPanelSummary-8 {
+//             // background-color: #fbfbfb;
+//             border-bottom: none;
+//         }
+//         .MuiCollapse-wrapper {
+//             // background-color: #fbfbfb;
+//             img {
+//                 display: none;
+//             }
+//         }
+//         .MuiIconButton-root {
+//             color: #000000;
+//         }
+//         .subText {
+//             font-family: Roboto-medium;
+//             font-size: 30 * $desk + vw;
+//             margin-bottom: 23 * $desk + vw;
+//         }
+//         p {
+//             font-family: Roboto-regular;
+//             font-size: 25 * $desk + vw;
+//             margin-bottom: 23 * $desk + vw;
+//             line-height: 33 * $desk + vw;
+//         }
+//     }
+//     .footerContainer {
+//         background-color: #f9f9f9;
+//     }
+// }
+// @media only screen and (max-width: 800px) {
+//     .faqPageContainer {
+//         position: relative;
+//         .vacanciesImage {
+//             position: relative;
+//             width: 100%;
+//             height: 205 * $mob + vw;
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//                 object-position: center;
+//             }
+//         }
+//         .faqContentContainer {
+//             position: relative;
+//             margin: auto;
+//             margin-top: 20 * $mob + vw;
+//             margin-bottom: 40 * $mob + vw;
+//             width: 375 * $mob + vw;
+//             h3 {
+//                 font-family: Roboto-regular;
+//                 font-size: 28 * $mob + vw;
+//                 margin-top: 22 * $mob + vw;
+//                 margin-bottom: 22 * $mob + vw;
+//                 text-align: center;
+//             }
+//             .makeStyles-title-13 {
+//                 font-family: Roboto-regular !important;
+//                 font-size: 16 * $mob + vw !important;
+//                 color: #000000 !important;
+//                 font-weight: lighter !important;
+//             }
+//             .makeStyles-expansionPanelSummaryExpaned-5 {
+//                 color: #000000 !important;
+//                 font-family: Roboto-regular !important;
+//                 font-size: 20 * $mob + vw !important;
+//             }
+//             .makeStyles-expansionPanelSummaryContent-6 {
+//                 font-family: Roboto-regular !important;
+//                 font-size: 20 * $mob + vw !important;
+//                 color: #000000 !important;
+//             }
+//             .makeStyles-expansionPanelSummary-8 {
+//                 // background-color: #fbfbfb;
+//                 border-bottom: none;
+//             }
+//             .accordianDesc {
+//                 margin-left: 0;
+//                 font-size: 15 * $mob + vw;
+//                 line-height: 27 * $mob + vw;
+//             }
+//             .MuiCollapse-wrapper {
+//                 // background-color: #fbfbfb;
+//                 img {
+//                     display: none;
+//                 }
+//             }
+//             .MuiIconButton-root {
+//                 color: #000000;
+//             }
+//             .subText {
+//                 font-family: Roboto-medium;
+//                 font-size: 30 * $mob + vw;
+//                 margin-bottom: 23 * $mob + vw;
+//             }
+//             p {
+//                 font-family: Roboto-regular;
+//                 font-size: 25 * $mob + vw;
+//                 margin-bottom: 23 * $mob + vw;
+//                 line-height: 33 * $mob + vw;
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Roboto-regular;
+  src: url("../master/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-bold;
+  src: url("../master/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-medium;
+  src: url("../master/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-light;
+  src: url("../master/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-thin;
+  src: url("../master/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: montserrat-regular;
+  src: url("../master/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: montserrat-semibold;
+  src: url("../master/Montserrat-SemiBold.ttf");
+}
+
+.purchaseIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.purchaseIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.leaseIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.leaseIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-disabled {
+  background: #707070 !important;
+}
+
+.mobileImageAdjust {
+  width: 41.66667vw;
+  height: 21.5625vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobileImageAdjust {
+    width: 90.33816vw;
+    height: 51.69082vw;
+  }
+}
+
+.mobileImageAdjust img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media only screen and (max-width: 800px) {
+  .errorTextAdjust {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=master.css.map */

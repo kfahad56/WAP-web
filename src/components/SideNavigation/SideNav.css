@@ -1,0 +1,371 @@
+@media only screen and (max-width: 480px) {
+  .SideNavbar {
+    width: 100%;
+    height: 100%;
+    top: -21;
+    position: fixed;
+    z-index: 123;
+  }
+  .SideNavbar .closeButtonContainer {
+    position: relative;
+    top: 11.11111vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    left: 90.82126vw;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .SideNavbar .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .signInContainer {
+    position: absolute;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 36.23188vw;
+    left: 43.47826vw;
+    cursor: pointer;
+  }
+  .SideNavbar .signInContainer .userImage {
+    width: 3.86473vw;
+    height: 3.86473vw;
+    margin-right: 2.657vw;
+    display: none;
+  }
+  .SideNavbar .signInContainer .userImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .signInContainer .signInText {
+    font-size: 4.58937vw;
+    color: #002366;
+    font-family: Roboto-regular;
+    font-weight: 600;
+  }
+  .SideNavbar .partnerWithUsText {
+    position: absolute;
+    bottom: 12.07729vw;
+    margin-left: 6.15942vw;
+    font-size: 4.58937vw;
+    color: #002366;
+    font-family: Roboto-regular;
+    font-weight: 600;
+  }
+  .SideNavbar .profileButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 24.15459vw;
+    z-index: 100;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 16.90821vw;
+    right: 12.07729vw;
+    padding-top: 2.41546vw;
+    padding-bottom: 2.41546vw;
+    padding-left: 2.41546vw;
+    padding-right: 2.41546vw;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: 0.24155vw solid rgba(0, 0, 0, 0.4);
+    border-radius: 1.20773vw;
+    cursor: pointer;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .userImage {
+    display: none;
+    width: 3.86473vw;
+    height: 3.86473vw;
+    margin-right: 2.657vw;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .userImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .signInText {
+    font-size: 4.10628vw;
+    color: #000000;
+    font-family: Roboto-regular;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter {
+    max-height: 0px;
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+    overflow: hidden;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter.menu-enter-active {
+    height: auto;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave {
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave.menu-leave-active {
+    overflow: hidden;
+    max-height: 0px;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    height: auto;
+    -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1);
+    transition: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer div {
+    cursor: pointer;
+    font-size: 4.10628vw;
+    color: #000000;
+    font-family: Roboto-regular;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 1.69082vw;
+  }
+  .SideNavbar .SideBarItems {
+    position: relative;
+    width: 100vw;
+    height: 243.96135vw;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .SideNavbar .SideBarItems ul {
+    display: inline-block;
+    margin-top: 48.30918vw;
+  }
+  .SideNavbar .SideBarItems ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 7.24638vw;
+    font-size: 6.76329vw;
+    color: #002366;
+    height: 8.9372vw;
+    margin-left: 6.15942vw;
+    margin-right: 6.15942vw;
+    font-family: Roboto-regular;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .SideNavbar {
+    width: 100%;
+    height: 100%;
+    top: -21;
+    position: fixed;
+    z-index: 123;
+  }
+  .SideNavbar .closeButtonContainer {
+    position: relative;
+    top: 5.98958vw;
+    width: 2.21354vw;
+    height: 2.21354vw;
+    left: 91.92708vw;
+    z-index: 1;
+    cursor: pointer;
+  }
+  .SideNavbar .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .signInContainer {
+    position: absolute;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 19.53125vw;
+    left: 52.86458vw;
+    cursor: pointer;
+  }
+  .SideNavbar .signInContainer .userImage {
+    width: 2.08333vw;
+    height: 2.08333vw;
+    margin-right: 1.43229vw;
+    display: none;
+  }
+  .SideNavbar .signInContainer .userImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .signInContainer .signInText {
+    font-size: 2.47396vw;
+    color: #002366;
+    font-family: Roboto-regular;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .SideNavbar .partnerWithUsText {
+    position: absolute;
+    top: 19.92188vw;
+    left: 3.32031vw;
+    font-size: 2.47396vw;
+    color: #002366;
+    font-family: Roboto-regular;
+    font-weight: 600;
+  }
+  .SideNavbar .profileButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 13.02083vw;
+    z-index: 100;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    top: 9.11458vw;
+    right: 6.51042vw;
+    padding-top: 1.30208vw;
+    padding-bottom: 1.30208vw;
+    padding-left: 1.30208vw;
+    padding-right: 1.30208vw;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border: 0.13021vw solid rgba(0, 0, 0, 0.4);
+    border-radius: 0.65104vw;
+    cursor: pointer;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .userImage {
+    display: none;
+    width: 2.08333vw;
+    height: 2.08333vw;
+    margin-right: 1.43229vw;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .userImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .signInText {
+    font-size: 2.21354vw;
+    color: #000000;
+    font-family: Roboto-regular;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter {
+    max-height: 0px;
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+    overflow: hidden;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter.menu-enter-active {
+    height: auto;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave {
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave.menu-leave-active {
+    overflow: hidden;
+    max-height: 0px;
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    height: auto;
+    -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1);
+    transition: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .SideNavbar .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer div {
+    cursor: pointer;
+    font-size: 2.21354vw;
+    color: #000000;
+    font-family: Roboto-regular;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 0.91146vw;
+  }
+  .SideNavbar .SideBarItems {
+    position: relative;
+    width: 100vw;
+    height: 131.51042vw;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .SideNavbar .SideBarItems ul {
+    display: inline-block;
+    margin-top: 26.04167vw;
+  }
+  .SideNavbar .SideBarItems ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 3.90625vw;
+    font-size: 3.64583vw;
+    color: #002366;
+    height: 4.81771vw;
+    margin-left: 3.32031vw;
+    margin-right: 3.32031vw;
+    font-family: Roboto-regular;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .SideNavbar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=SideNav.css.map */

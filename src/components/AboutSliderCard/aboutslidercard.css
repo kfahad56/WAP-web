@@ -1,0 +1,80 @@
+.aboutSliderCardContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75.26042vw;
+  height: 17.1875vw;
+  background: rgba(199, 199, 199, 0.16);
+  -webkit-box-shadow: 0vw 0.15625vw 0.3125vw rgba(0, 0, 0, 0.16);
+          box-shadow: 0vw 0.15625vw 0.3125vw rgba(0, 0, 0, 0.16);
+}
+
+.aboutSliderCardContainer .leftSection .SliderImage {
+  width: 32.65625vw;
+  height: 17.1875vw;
+  margin-right: 2.70833vw;
+}
+
+.aboutSliderCardContainer .leftSection .SliderImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutSliderCardContainer .rightSection h3 {
+  margin-bottom: 1.09375vw;
+  font-family: Roboto-bold;
+  font-size: 2.03125vw;
+}
+
+.aboutSliderCardContainer .rightSection p {
+  width: 37.8125vw;
+  font-family: Roboto-regular;
+  font-size: 0.98958vw;
+  line-height: 2.1875vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .aboutSliderCardContainer {
+    position: relative;
+    display: inline-block;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90.57971vw;
+    height: 121.25604vw;
+    background: rgba(199, 199, 199, 0.16);
+    -webkit-box-shadow: 0vw 0.72464vw 1.44928vw rgba(0, 0, 0, 0.16);
+            box-shadow: 0vw 0.72464vw 1.44928vw rgba(0, 0, 0, 0.16);
+  }
+  .aboutSliderCardContainer .leftSection .SliderImage {
+    width: 90.57971vw;
+    height: 56.28019vw;
+  }
+  .aboutSliderCardContainer .leftSection .SliderImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .aboutSliderCardContainer .rightSection {
+    -webkit-box-shadow: 0px 3px 6px #00000029;
+            box-shadow: 0px 3px 6px #00000029;
+    padding: 2.41546vw;
+    height: 121.25604vw;
+    color: #000000;
+  }
+  .aboutSliderCardContainer .rightSection h3 {
+    margin-bottom: 5.07246vw;
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+  }
+  .aboutSliderCardContainer .rightSection p {
+    width: 85.50725vw;
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    line-height: 4.83092vw;
+  }
+}
+/*# sourceMappingURL=aboutslidercard.css.map */

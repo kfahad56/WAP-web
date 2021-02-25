@@ -1,0 +1,176 @@
+.TermsOfServiceContainer {
+  position: relative;
+}
+
+.TermsOfServiceContainer .TSDataContainer {
+  position: relative;
+  padding-top: 5.20833vw;
+  padding-bottom: 5.20833vw;
+  padding-left: 8.17708vw;
+}
+
+.TermsOfServiceContainer .TSDataContainer a {
+  color: #0055ff;
+}
+
+.TermsOfServiceContainer .TSDataContainer a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.TermsOfServiceContainer .TSDataContainer h1 {
+  font-family: Roboto-regular;
+  font-size: 2.39583vw;
+  margin-bottom: 1.35417vw;
+}
+
+.TermsOfServiceContainer .TSDataContainer h3 {
+  font-family: Roboto-regular;
+  font-size: 1.66667vw;
+  margin-bottom: 1.35417vw;
+  line-height: 2.39583vw;
+  width: 62.5vw;
+}
+
+.TermsOfServiceContainer .TSDataContainer .adjustP {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+  margin-bottom: 1.04167vw;
+  line-height: 2.1875vw;
+  width: 62.5vw;
+  color: #707070 !important;
+}
+
+.TermsOfServiceContainer .TSDataContainer .adjustP span {
+  color: #000000 !important;
+}
+
+.TermsOfServiceContainer .TSDataContainer p {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+  margin-bottom: 1.04167vw;
+  line-height: 2.1875vw;
+  width: 62.5vw;
+}
+
+.TermsOfServiceContainer .TSDataContainer p ul,
+.TermsOfServiceContainer .TSDataContainer p li {
+  margin-left: 0.78125vw;
+}
+
+.TermsOfServiceContainer .TSDataContainer p .listOne {
+  list-style: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .TermsOfServiceContainer {
+    position: relative;
+  }
+  .TermsOfServiceContainer .TSDataContainer {
+    position: relative;
+    padding-top: 12.07729vw;
+    padding-bottom: 12.07729vw;
+    padding-left: 4.83092vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer a {
+    color: #0055ff;
+  }
+  .TermsOfServiceContainer .TSDataContainer a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .TermsOfServiceContainer .TSDataContainer h1 {
+    font-family: Roboto-regular;
+    font-size: 6.28019vw;
+    margin-bottom: 3.86473vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 3.86473vw;
+    margin-bottom: 3.86473vw;
+    line-height: 4.83092vw;
+    width: 90.57971vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer .adjustP {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    margin-bottom: 4.83092vw;
+    line-height: 4.83092vw;
+    width: 90.57971vw;
+    color: #707070 !important;
+  }
+  .TermsOfServiceContainer .TSDataContainer .adjustP span {
+    color: #000000 !important;
+  }
+  .TermsOfServiceContainer .TSDataContainer p {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    margin-bottom: 4.83092vw;
+    line-height: 4.83092vw;
+    width: 90.57971vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer p ul,
+  .TermsOfServiceContainer .TSDataContainer p li {
+    margin-left: 0vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer p .listOne {
+    list-style: none !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .TermsOfServiceContainer {
+    position: relative;
+  }
+  .TermsOfServiceContainer .TSDataContainer {
+    position: relative;
+    padding-top: 6.51042vw;
+    padding-bottom: 6.51042vw;
+    padding-left: 6.51042vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer a {
+    color: #0055ff;
+  }
+  .TermsOfServiceContainer .TSDataContainer a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .TermsOfServiceContainer .TSDataContainer h1 {
+    font-family: Roboto-regular;
+    font-size: 3.38542vw;
+    margin-bottom: 2.08333vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer h3 {
+    font-family: Roboto-regular;
+    font-size: 2.08333vw;
+    margin-bottom: 2.08333vw;
+    line-height: 2.60417vw;
+    width: 88.28125vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer .adjustP {
+    font-family: Roboto-regular;
+    font-size: 1.69271vw;
+    margin-bottom: 2.60417vw;
+    line-height: 2.60417vw;
+    width: 88.28125vw;
+    color: #707070 !important;
+  }
+  .TermsOfServiceContainer .TSDataContainer .adjustP span {
+    color: #000000 !important;
+  }
+  .TermsOfServiceContainer .TSDataContainer p {
+    font-family: Roboto-regular;
+    font-size: 1.69271vw;
+    margin-bottom: 2.60417vw;
+    line-height: 2.60417vw;
+    width: 88.28125vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer p ul,
+  .TermsOfServiceContainer .TSDataContainer p li {
+    margin-left: 0vw;
+  }
+  .TermsOfServiceContainer .TSDataContainer p .listOne {
+    list-style: none !important;
+  }
+}
+/*# sourceMappingURL=termsofservice.css.map */

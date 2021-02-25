@@ -1,0 +1,188 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+$tablet: 100 / 768;
+.adjustDropdownInput {
+  z-index: 3;
+}
+.makeStyles-nakedInput-4:focus {
+  border: 1px solid blue !important;
+}
+.MuiInputBase-input {
+  padding-left: 16 * $desk + vw !important;
+}
+.MenuListContainer {
+  position: absolute;
+  width: 600 * $desk + vw;
+  min-height: 263 * $desk + vw;
+  max-height: 12.1vw;
+  background: white;
+  z-index: 1200;
+  box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3) !important;
+  // border: 1px solid #51a8b1;
+  top: 20 * $desk + vw;
+  left: 0 * $desk + vw;
+  right: 0;
+  overflow: auto;
+  .closeButtonContainer {
+    position: absolute;
+    top: 37 * $desk + vw;
+    right: 15 * $desk + vw;
+    width: 25 * $desk + vw;
+    height: 25 * $desk + vw;
+    z-index: 100 !important;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .suggestionData {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    top: 100 * $desk + vw;
+    z-index: 1300 !important;
+    padding-top: 10 * $desk + vw;
+    padding-bottom: 10 * $desk + vw;
+    padding-left: 55 * $desk + vw;
+    padding-right: 10 * $desk + vw;
+    .otherData {
+      display: flex;
+      .fas {
+        margin-right: 10 * $desk + vw;
+      }
+      .Data {
+        margin-top: 0 * $desk + vw;
+        // padding-left: 10 * $desk + vw;
+        // font-family: Roboto-regular;
+        font-size: 17 * $desk + vw;
+      }
+    }
+  }
+  .suggestionData:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .adjustDropdownInput {
+    z-index: 3;
+  }
+  .MuiInputBase-input {
+    padding-left: 40 * $mob + vw !important;
+    background: #ffffff !important;
+  }
+  .MenuListContainer {
+    position: absolute;
+    width: 328 * $mob + vw !important;
+    min-height: 163 * $mob + vw;
+    max-height: 12.1vw;
+    background: white;
+    z-index: 2 !important;
+    box-shadow: 0 1 * $mob + vw 4 * $mob + vw rgba(0, 0, 0, 0.3);
+    // border: 1px solid #51a8b1;
+    top: 8 * $mob + vw;
+    left: 11 * $mob + vw;
+    right: 0;
+    overflow: scroll !important;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch !important;
+    -webkit-overflow-y: auto !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4 * $mob + vw;
+    .closeButtonContainer {
+      display: none;
+      position: absolute;
+      top: 47 * $mob + vw;
+      right: 15 * $mob + vw;
+      width: 20 * $mob + vw;
+      height: 20 * $mob + vw;
+      z-index: 4 !important;
+      cursor: pointer;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .suggestionData {
+      display: flex;
+      cursor: pointer;
+      position: relative;
+      top: 50 * $mob + vw;
+      height: auto;
+      min-height: auto;
+      z-index: 6;
+      width: 100%;
+      padding-left: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 0;
+      .otherData {
+        display: flex;
+        align-items: center;
+        .fas {
+          margin-right: 10 * $mob + vw;
+        }
+        .Data {
+          margin-top: 0 * $mob + vw;
+          // padding-left: 10 * $mob + vw;
+          // font-family: Roboto-regular;
+          font-size: 15 * $mob + vw;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .MenuListContainer {
+    position: absolute;
+    width: 330 * $tablet + vw !important;
+    min-height: 163 * $tablet + vw;
+    max-height: 12.1vw;
+    background: white;
+    z-index: 2 !important;
+    box-shadow: 0 1 * $tablet + vw 4 * $tablet + vw rgba(0, 0, 0, 0.3);
+    // border: 1px solid #51a8b1;
+    top: 5 * $tablet + vw;
+    left: 15 * $tablet + vw;
+    right: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4 * $tablet + vw;
+    .closeButtonContainer {
+      display: none;
+      position: absolute;
+      top: 47 * $tablet + vw;
+      right: 15 * $tablet + vw;
+      width: 20 * $tablet + vw;
+      height: 20 * $tablet + vw;
+      z-index: 4 !important;
+      cursor: pointer;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .suggestionData {
+      display: flex;
+      cursor: pointer;
+      position: relative;
+      top: 10 * $tablet + vw;
+      z-index: 6;
+      width: 310 * $tablet + vw;
+      .otherData {
+        display: flex;
+        .fas {
+          margin-right: 10 * $tablet + vw;
+        }
+        .Data {
+          margin-top: 0 * $tablet + vw;
+          // padding-left: 10 * $tablet + vw;
+          // font-family: Roboto-regular;
+          font-size: 15 * $tablet + vw;
+        }
+      }
+    }
+  }
+}

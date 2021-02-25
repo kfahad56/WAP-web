@@ -1,0 +1,335 @@
+$mob: 100 / 414;
+$tablet: 100 / 768;
+
+@media only screen and (max-width: 480px) {
+    .SideNavbar {
+        width: 100%;
+        height: 100%;
+        top: -21;
+        position: fixed;
+        z-index: 123;
+        .closeButtonContainer {
+            position: relative;
+            top: 46 * $mob + vw;
+            // right: 43 * $mob + vw;
+            width: 17 * $mob + vw;
+            height: 17 * $mob + vw;
+            left: 376 * $mob + vw;
+            z-index: 1;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .signInContainer {
+            position: absolute;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 150 * $mob + vw;
+            left: 180 * $mob + vw;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $mob + vw;
+                height: 16 * $mob + vw;
+                margin-right: 11 * $mob + vw;
+                display: none;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $mob + vw;
+                color: #002366;
+                font-family: Roboto-regular;
+                font-weight: 600;
+            }
+        }
+        .partnerWithUsText {
+            position: absolute;
+            bottom: 50 * $mob + vw;
+            margin-left: 25.5 * $mob + vw;
+            font-size: 19 * $mob + vw;
+            color: #002366;
+            font-family: Roboto-regular;
+            font-weight: 600;
+        }
+        .profileButtonContainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100 * $mob + vw;
+            z-index: 100;
+            .afterSignInContainer {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                top: 70 * $mob + vw;
+                right: 50 * $mob + vw;
+                padding-top: 10 * $mob + vw;
+                padding-bottom: 10 * $mob + vw;
+                padding-left: 10 * $mob + vw;
+                padding-right: 10 * $mob + vw;
+                width: auto;
+                height: auto;
+                background: transparent;
+                border: 1 * $mob + vw solid rgba(0, 0, 0, 0.4);
+                border-radius: 5 * $mob + vw;
+                cursor: pointer;
+                .userImage {
+                    display: none;
+                    width: 16 * $mob + vw;
+                    height: 16 * $mob + vw;
+                    margin-right: 11 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .signInText {
+                    font-size: 17 * $mob + vw;
+                    color: #000000;
+                    font-family: Roboto-regular;
+                }
+                .dropDownContainer {
+                    .menu-enter {
+                        max-height: 0px;
+                        transition: max-height 1s ease;
+                        -webkit-transition: max-height 1s ease;
+                        overflow: hidden;
+                    }
+
+                    .menu-enter.menu-enter-active {
+                        height: auto;
+                        // max-height: 200 * $mob + vw;
+                    }
+
+                    .menu-leave {
+                        // max-height: 200 * $mob + vw;
+                        transition: max-height 1s ease;
+                        -webkit-transition: max-height 1s ease;
+                    }
+
+                    .menu-leave.menu-leave-active {
+                        overflow: hidden;
+                        max-height: 0px;
+                    }
+                    .dropDownTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        width: auto;
+                        height: auto;
+                        transition: cubic-bezier(0.23, 1, 0.32, 1);
+                        // background: #0055ff;
+                        div {
+                            cursor: pointer;
+                            font-size: 17 * $mob + vw;
+                            color: #000000;
+                            font-family: Roboto-regular;
+                            white-space: nowrap;
+                            text-align: center;
+                            margin-top: 7 * $mob + vw;
+                        }
+                    }
+                }
+            }
+        }
+        .SideBarItems {
+            position: relative;
+            width: 414 * $mob + vw;
+            height: 1010 * $mob + vw;
+            background: #f9f9f9 0% 0% no-repeat padding-box;
+            opacity: 1;
+            ul {
+                display: inline-block;
+                margin-top: 200 * $mob + vw;
+                li {
+                    display: flex;
+                    padding-top: 30 * $mob + vw;
+                    font-size: 28 * $mob + vw;
+                    color: #002366;
+                    height: 37 * $mob + vw;
+                    margin-left: 25.5 * $mob + vw;
+                    margin-right: 25.5 * $mob + vw;
+                    font-family: Roboto-regular;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .SideNavbar {
+        width: 100%;
+        height: 100%;
+        top: -21;
+        position: fixed;
+        z-index: 123;
+        .closeButtonContainer {
+            position: relative;
+            top: 46 * $tablet + vw;
+            // right: 43 * $tablet + vw;
+            width: 17 * $tablet + vw;
+            height: 17 * $tablet + vw;
+            left: 706 * $tablet + vw;
+            z-index: 1;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .signInContainer {
+            position: absolute;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 150 * $tablet + vw;
+            left: 406 * $tablet + vw;
+            cursor: pointer;
+            .userImage {
+                width: 16 * $tablet + vw;
+                height: 16 * $tablet + vw;
+                margin-right: 11 * $tablet + vw;
+                display: none;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .signInText {
+                font-size: 19 * $tablet + vw;
+                color: #002366;
+                font-family: Roboto-regular;
+                font-weight: 600;
+                white-space: nowrap;
+            }
+        }
+        .partnerWithUsText {
+            position: absolute;
+            top: 153 * $tablet + vw;
+            left: 25.5 * $tablet + vw;
+            font-size: 19 * $tablet + vw;
+            color: #002366;
+            font-family: Roboto-regular;
+            font-weight: 600;
+        }
+        .profileButtonContainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100 * $tablet + vw;
+            z-index: 100;
+            .afterSignInContainer {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                top: 70 * $tablet + vw;
+                right: 50 * $tablet + vw;
+                padding-top: 10 * $tablet + vw;
+                padding-bottom: 10 * $tablet + vw;
+                padding-left: 10 * $tablet + vw;
+                padding-right: 10 * $tablet + vw;
+                width: auto;
+                height: auto;
+                background: transparent;
+                border: 1 * $tablet + vw solid rgba(0, 0, 0, 0.4);
+                border-radius: 5 * $tablet + vw;
+                cursor: pointer;
+                .userImage {
+                    display: none;
+                    width: 16 * $tablet + vw;
+                    height: 16 * $tablet + vw;
+                    margin-right: 11 * $tablet + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .signInText {
+                    font-size: 17 * $tablet + vw;
+                    color: #000000;
+                    font-family: Roboto-regular;
+                }
+                .dropDownContainer {
+                    .menu-enter {
+                        max-height: 0px;
+                        transition: max-height 1s ease;
+                        -webkit-transition: max-height 1s ease;
+                        overflow: hidden;
+                    }
+
+                    .menu-enter.menu-enter-active {
+                        height: auto;
+                        // max-height: 200 * $tablet + vw;
+                    }
+
+                    .menu-leave {
+                        // max-height: 200 * $tablet + vw;
+                        transition: max-height 1s ease;
+                        -webkit-transition: max-height 1s ease;
+                    }
+
+                    .menu-leave.menu-leave-active {
+                        overflow: hidden;
+                        max-height: 0px;
+                    }
+                    .dropDownTextContainer {
+                        display: flex;
+                        flex-direction: column;
+                        width: auto;
+                        height: auto;
+                        transition: cubic-bezier(0.23, 1, 0.32, 1);
+                        // background: #0055ff;
+                        div {
+                            cursor: pointer;
+                            font-size: 17 * $tablet + vw;
+                            color: #000000;
+                            font-family: Roboto-regular;
+                            white-space: nowrap;
+                            text-align: center;
+                            margin-top: 7 * $tablet + vw;
+                        }
+                    }
+                }
+            }
+        }
+        .SideBarItems {
+            position: relative;
+            width: 768 * $tablet + vw;
+            height: 1010 * $tablet + vw;
+            background: #f9f9f9 0% 0% no-repeat padding-box;
+            opacity: 1;
+            ul {
+                display: inline-block;
+                margin-top: 200 * $tablet + vw;
+                li {
+                    display: flex;
+                    padding-top: 30 * $tablet + vw;
+                    font-size: 28 * $tablet + vw;
+                    color: #002366;
+                    height: 37 * $tablet + vw;
+                    margin-left: 25.5 * $tablet + vw;
+                    margin-right: 25.5 * $tablet + vw;
+                    font-family: Roboto-regular;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .SideNavbar {
+        display: none;
+    }
+}

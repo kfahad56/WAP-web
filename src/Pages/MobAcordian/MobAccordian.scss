@@ -1,0 +1,164 @@
+$mob: 100 / 414;
+
+@media only screen and (max-width: 800px) {
+    // .mapContainer {
+    //     margin-left: 17 * $mob + vw;
+    //     // width: 940 * $mob + vw;
+    //     width: 50%;
+    //     height: 50%;
+    //     // height: 369 * $mob + vw;
+    //     // img {
+    //     //     width: 100%;
+    //     //     height: 100%;
+    //     // }
+    // }
+    .adjusth4{
+        font-size: 22px !important;
+    }
+    .active :hover {
+        background-color: #666;
+        color: #b9ec20;
+    }
+
+    .dropdown {
+        width: 414 * $mob + vw;
+        margin-left: -17px;
+        .MobDiscription {
+            margin-top: -12 * $mob + vw;
+            width: 369 * $mob + vw;
+            //    height: 280 * $mob + vw;
+            font-size: 17 * $mob + vw;
+            //    overflow: scroll;
+        }
+        .MobAccordionMap {
+            display: inline-block;
+            p {
+                width: 100%;
+                margin-bottom: 21 * $mob + vw;
+            }
+            .MapImage {
+                top: 706 * $mob + vw;
+                left: 26 * $mob + vw;
+                width: 380 * $mob + vw;
+                height: 452 * $mob + vw;
+                .mainMap {
+                    height: 434px;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .localityContainer {
+            position: relative;
+            // margin-left: 157 * $mob + vw;
+            margin-top: -10 * $mob + vw;
+            .descText p {
+                // font-family: Roboto-regular;
+                font-size: 15 * $mob + vw;
+                margin-bottom: 20 * $mob + vw;
+            }
+        }
+        .amenitiesContainer {
+            position: relative;
+            margin-top: -20px;
+            width: 414px;
+            // height: 736px;
+            margin-left: -20px;
+            .viewAllContainer {
+                display: flex;
+                // justify-content: space-between;
+                margin-left: 304px;
+                margin-bottom: 20px;
+                cursor: pointer;
+                .viewalltText {
+                    // font-family: Roboto-regular;
+                    font-size: 16 * $mob + vw;
+                    color: #ffa702;
+                }
+                .arrow {
+                    width: 12 * $mob + vw;
+                    height: 10 * $mob + vw;
+                    margin-left: 12 * $mob + vw;
+                    margin-top: 4 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .amenitiesCardSliderSection {
+                position: relative;
+                // margin-left: 157 * $mob + vw;
+                width: 414 * $mob + vw;
+                height: auto;
+            }
+        }
+        .addOnServiceContainer {
+            margin-top: -20px;
+            width: 414px;
+            // height: 736px;
+            // margin-left: -20px;
+            .addOnServiceSliderSection {
+                flex-wrap: wrap;
+                position: relative;
+                // margin-left: 157 * $mob + vw;
+                width: 414 * $mob + vw;
+                height: auto;
+            }
+        }
+        .certificateContainer {
+            position: relative;
+            display: inline-block;
+            .certificateTextContainer {
+                margin-left: 20 * $mob + vw;
+                .certificateText {
+                    color: unset;
+                    font-size: 14 * $mob + vw;
+                }
+            }
+            .industryTagContainerAdjust {
+                display: flex;
+                flex-wrap: wrap;
+                height: auto;
+                margin-top: 15px;
+                .blogButtonContainer {
+                    width: auto;
+                    height: auto;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 6px;
+                    border: 1px solid #000000;
+                    margin-right: 16px;
+                    margin-bottom: 16px;
+                    .tagText {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .MobSlider {
+                display: none;
+                top: 1533 * $mob + vw;
+                margin-left: 35 * $mob + vw;
+                width: 335 * $mob + vw;
+                height: 3 * $mob + vw;
+                background: #707070 0% 0% no-repeat padding-box;
+                border-radius: 5 * $mob + vw;
+                opacity: 0.38;
+                .MobInnerSlider {
+                    top: 1533 * $mob + vw;
+                    left: 43 * $mob + vw;
+                    width: 126 * $mob + vw;
+                    height: 3 * $mob + vw;
+                    background: #0055ff 0% 0% no-repeat padding-box;
+                    border-radius: 5 * $mob + vw;
+                    opacity: 1;
+                    // color: #0055FF;
+                }
+            }
+        }
+    }
+}

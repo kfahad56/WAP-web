@@ -1,0 +1,1440 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.SearchPageContainer {
+  position: relative;
+  a:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  .capacityCardMainContainer {
+    position: absolute;
+    margin-top: 0 * $desk + vw;
+    left: 700 * $desk + vw;
+    .capacityCardContainer {
+      position: sticky;
+      top: 90 * $desk + vw;
+      width: 450 * $desk + vw;
+      height: 160 * $desk + vw;
+      box-shadow: 0 * $desk + vw 1 * $desk + vw 4 * $desk + vw
+        rgba(0, 0, 0, 0.3);
+      border-radius: 12 * $desk + vw;
+      z-index: 100;
+      background: #ffffff;
+      .closeButtonContainer {
+        position: absolute;
+        top: 15 * $desk + vw;
+        right: 15 * $desk + vw;
+        width: 15 * $desk + vw;
+        height: 15 * $desk + vw;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .squreFitForm {
+        height: 160 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        .mailAdjust {
+          margin-top: 30px !important;
+          width: 240px !important;
+        }
+        .MuiOutlinedInput-input {
+          // font-family: Roboto-regular;
+          font-size: 14 * $desk + vw;
+          color: #000000;
+        }
+        .MuiInputBase-fullWidth {
+          width: 0 * $desk + vw;
+        }
+        .MuiOutlinedInput-root {
+          border-radius: 0;
+          margin-bottom: 0 * $desk + vw;
+          width: 350 * $desk + vw;
+        }
+        .MuiFormLabel-root {
+          color: #000000;
+          font-size: 22 * $desk + vw;
+        }
+        // .MuiOutlinedInput-notchedOutline {
+        //     border-color: #000000;
+        // }
+        .submitButton {
+          margin-top: 0 * $desk + vw;
+          margin-left: 16 * $desk + vw;
+          width: 35 * $desk + vw;
+          height: 35 * $desk + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .disabled {
+          //   background: #5c5c5c;
+          cursor: default;
+        }
+      }
+    }
+  }
+  .squarefitCardMainContainer {
+    position: absolute;
+    margin-top: 0 * $desk + vw;
+    left: 850 * $desk + vw;
+    .squarefitCardContainer {
+      position: sticky;
+      top: 90 * $desk + vw;
+      width: 450 * $desk + vw;
+      height: 160 * $desk + vw;
+      box-shadow: 0 * $desk + vw 1 * $desk + vw 4 * $desk + vw
+        rgba(0, 0, 0, 0.3);
+      border-radius: 12 * $desk + vw;
+      z-index: 100;
+      background: #ffffff;
+      .closeButtonContainer {
+        position: absolute;
+        top: 15 * $desk + vw;
+        right: 15 * $desk + vw;
+        width: 15 * $desk + vw;
+        height: 15 * $desk + vw;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .squreFitForm {
+        height: 160 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 !important;
+        .mailAdjust {
+          margin-top: 30px !important;
+          width: 240px !important;
+        }
+        .MuiOutlinedInput-input {
+          // font-family: Roboto-regular;
+          font-size: 14 * $desk + vw;
+          color: #000000;
+        }
+        .MuiInputBase-fullWidth {
+          width: 0 * $desk + vw;
+        }
+        .MuiOutlinedInput-root {
+          border-radius: 0;
+          margin-bottom: 0 * $desk + vw;
+          width: 350 * $desk + vw;
+        }
+        .MuiFormLabel-root {
+          color: #000000;
+          font-size: 22 * $desk + vw;
+        }
+        // .MuiOutlinedInput-notchedOutline {
+        //     border-color: #000000;
+        // }
+        .submitButton {
+          margin-top: 0 * $desk + vw;
+          margin-left: 16 * $desk + vw;
+          width: 35 * $desk + vw;
+          height: 35 * $desk + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+  .mainSearchBoxContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    .leftSection {
+      position: relative;
+      width: 1470 * $desk + vw;
+      height: auto;
+      // overflow-y: scroll;
+      .topHeaderSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 186 * $desk + vw;
+        // margin: auto;
+        width: 750 * $desk + vw;
+        height: 81 * $desk + vw;
+        .showingText {
+          // font-family: Roboto-regular;
+          font-size: 17 * $desk + vw;
+          color: #000;
+        }
+        .filterContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 116 * $desk + vw;
+          height: 37 * $desk + vw;
+          background-color: #0055ff;
+          border-radius: 34 * $desk + vw;
+          cursor: pointer;
+          .filterImage {
+            width: 17 * $desk + vw;
+            height: 17 * $desk + vw;
+            margin-right: 8 * $desk + vw;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .filterText {
+            // font-family: Roboto-regular;
+            font-size: 16 * $desk + vw;
+            color: #ffffff;
+          }
+        }
+      }
+      .notAnyContainer {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vw;
+        .notAnyImage {
+          width: 400 * $desk + vw;
+          height: 400 * $desk + vw;
+          margin-top: 76 * $desk + vw;
+          margin: auto;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .notAny {
+          display: flex;
+          justify-content: center;
+          // font-family: Roboto-regular;
+          font-size: 30 * $desk + vw;
+          margin-top: 26 * $desk + vw;
+          letter-spacing: 10 * $desk + vw;
+        }
+      }
+      .bottomSection {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        // margin-left: 186 * $desk + vw;
+      }
+      .part2Container {
+        position: relative;
+        width: 100%;
+        .narrowSearchText {
+          // font-family: Roboto-bold;
+          font-size: 28 * $desk + vw;
+          margin-top: 76 * $desk + vw;
+          margin-left: 178 * $desk + vw;
+          margin-bottom: 40 * $desk + vw;
+        }
+        .closeButtonContainer {
+          position: absolute;
+          top: -33 * $desk + vw;
+          right: 43 * $desk + vw;
+          width: 20 * $desk + vw;
+          height: 20 * $desk + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .searchTypeContainer {
+          position: relative;
+          display: flex;
+          margin-top: 41 * $desk + vw;
+          margin-left: 178 * $desk + vw;
+          .blogButtonContainer {
+            width: 140 * $desk + vw;
+            height: 33 * $desk + vw;
+            border: 1 * $desk + vw solid #ffa702;
+            margin-right: 18 * $desk + vw;
+            .tagText {
+              font-size: 13px;
+            }
+          }
+          .activeTab {
+            background-color: #ffa702;
+            .tagText {
+              color: #ffffff;
+            }
+          }
+        }
+        .borderBottom {
+          width: 611 * $desk + vw;
+          height: 0 * $desk + vw;
+          border: 1 * $desk + vw solid #c7c7c7;
+          margin-top: 29.5 * $desk + vw;
+          margin-bottom: 27.5 * $desk + vw;
+          margin-left: 176 * $desk + vw;
+        }
+        .searchTypeSection1 {
+          position: relative;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          width: 860 * $desk + vw;
+          margin-left: 178 * $desk + vw;
+          .blogButtonContainer {
+            width: auto;
+            height: auto;
+            border: 1 * $desk + vw solid #ffa702;
+            margin-right: 18 * $desk + vw;
+            margin-bottom: 18 * $desk + vw;
+            .tagText {
+              font-size: 14px;
+              padding-top: 3px;
+              padding-bottom: 3px;
+              padding-left: 5px;
+              padding-right: 5px;
+            }
+          }
+          .activeToggleTab {
+            background-color: #ffa702;
+            .tagText {
+              color: #ffffff;
+            }
+          }
+        }
+        .adjustSearchTypeSection1 {
+          margin-top: 21 * $desk + vw;
+        }
+        .applyButton {
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
+          width: 206 * $desk + vw;
+          // height: 53 * $desk + vw;
+          // background: #0055ff;
+          // border-radius: 3 * $desk + vw;
+          margin-top: 91 * $desk + vw;
+          margin-left: 176 * $desk + vw;
+          cursor: pointer;
+          .applyText {
+            // font-family: Roboto-regular;
+            // font-size: 19 * $desk + vw;
+            // color: #ffffff;
+          }
+        }
+        .applyButton:hover {
+          background: #00c;
+        }
+      }
+      .part3Container {
+        position: relative;
+        .narrowSearchText {
+          // font-family: Roboto-bold;
+          font-size: 30 * $desk + vw;
+          margin-top: 76 * $desk + vw;
+          margin-left: 275 * $desk + vw;
+          width: 541 * $desk + vw;
+          line-height: 38 * $desk + vw;
+        }
+        .closeButtonContainer {
+          position: absolute;
+          top: -33 * $desk + vw;
+          right: 43 * $desk + vw;
+          width: 20 * $desk + vw;
+          height: 20 * $desk + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .leaveUSContainer {
+          display: flex;
+          flex-direction: column;
+          // align-items: center;
+          margin-top: 38 * $desk + vw;
+          margin-left: 275 * $desk + vw;
+          .MuiOutlinedInput-input {
+            // font-family: Roboto-regular;
+            font-size: 13 * $desk + vw;
+          }
+          .MuiInputBase-fullWidth {
+            width: 384 * $desk + vw;
+          }
+          .MuiOutlinedInput-root {
+            border-radius: 0;
+            margin-bottom: 26 * $desk + vw;
+            width: 384 * $desk + vw;
+          }
+          .MuiFormLabel-root {
+            color: #000000;
+            font-size: 22 * $desk + vw;
+          }
+          .textArea {
+            height: 114 * $desk + vw;
+            // .MuiOutlinedInput-root {
+            //     border-radius: 0;
+            //     margin-bottom: 6 * $desk + vw;
+            //     width: 384 * $desk + vw;
+            //     padding-bottom: 114 * $desk + vw;
+            // }
+          }
+          .proceedButton {
+            margin-top: 20 * $desk + vw;
+            width: 385 * $desk + vw;
+            height: 74 * $desk + vw;
+            background: #0055ff;
+            border-radius: 4 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .btnText {
+              font-size: 20 * $desk + vw;
+              // font-family: Roboto-regular;
+              color: #ffffff;
+            }
+          }
+          .numberFieldContainer {
+            // display: flex;
+            display: none;
+            .countryCode {
+              display: none;
+              .MuiOutlinedInput-root {
+                width: 67 * $desk + vw !important;
+                font-size: 21 * $desk + vw;
+              }
+            }
+          }
+        }
+      }
+      .otpContainer {
+        position: relative;
+        .narrowSearchText {
+          position: relative;
+          // font-family: Roboto-bold;
+          font-size: 30 * $desk + vw;
+          margin-top: 127 * $desk + vw;
+          margin-left: 299 * $desk + vw;
+          margin-bottom: 25 * $desk + vw;
+          width: 191 * $desk + vw;
+          line-height: 38 * $desk + vw;
+        }
+        p {
+          // font-family: Roboto-regular;
+          font-size: 17 * $desk + vw;
+          margin-left: 299 * $desk + vw;
+          width: 407 * $desk + vw;
+        }
+        .closeButtonContainer {
+          position: absolute;
+          top: -83 * $desk + vw;
+          right: 43 * $desk + vw;
+          width: 20 * $desk + vw;
+          height: 20 * $desk + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .otpAdjustContainer {
+          display: flex;
+          align-items: center;
+          margin-left: 299 * $desk + vw;
+          margin-top: 38 * $desk + vw;
+          margin-bottom: 15 * $desk + vw;
+          input {
+            outline: 0;
+            width: 59 * $desk + vw;
+            height: 58 * $desk + vw;
+            margin-right: 3.5 * $desk + vw;
+            margin-left: 3.5 * $desk + vw;
+            color: #000000;
+            text-align: center;
+            font-size: 20 * $desk + vw;
+            border: 1 * $desk + vw solid rgba(112, 112, 112, 0.3);
+          }
+          .divideBorder {
+            width: 14 * $desk + vw;
+            height: 0 * $desk + vw;
+            border: 1 * $desk + vw solid #707070;
+            opacity: 0.3;
+          }
+        }
+        .resendText {
+          // font-family: Roboto-medium;
+          font-size: 14 * $desk + vw;
+          margin-left: 625 * $desk + vw;
+          margin-bottom: 39 * $desk + vw;
+          cursor: pointer;
+          color: #0055ff;
+        }
+        .submitButton {
+          margin-top: 20 * $desk + vw;
+          margin-left: 310 * $desk + vw;
+          width: 385 * $desk + vw;
+          height: 74 * $desk + vw;
+          background: #0055ff;
+          border-radius: 4 * $desk + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          .btnText {
+            font-size: 20 * $desk + vw;
+            // font-family: Roboto-regular;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .rightSection {
+      position: sticky !important;
+      position: -webkit-sticky;
+      right: 0;
+      top: 0 * $desk + vw;
+      width: 850 * $desk + vw;
+      min-height: 85.5vh;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .SearchPageContainer {
+    position: relative;
+    .part3ContainerMob {
+      overflow: scroll;
+      position: absolute;
+      width: 414 * $mob + vw;
+      height: 1100 * $mob + vw;
+      background: #f9f9f9 0% 0% no-repeat padding-box;
+      opacity: 1;
+      z-index: 11;
+      .narrowSearchText {
+        // font-family: Roboto-bold;
+        font-size: 29 * $mob + vw;
+        margin-top: 76 * $mob + vw;
+        margin-left: 47 * $mob + vw;
+        width: 343 * $mob + vw;
+        height: 89 * $mob + vw;
+        line-height: 38 * $mob + vw;
+      }
+      .closeButtonContainer {
+        position: absolute;
+        top: 25 * $mob + vw;
+        right: 33 * $mob + vw;
+        width: 17 * $mob + vw;
+        height: 17 * $mob + vw;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .leaveUSContainer {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        margin-top: 38 * $mob + vw;
+        margin-left: 56 * $mob + vw;
+        .MuiOutlinedInput-input {
+          // font-family: Roboto-regular;
+          font-size: 13 * $mob + vw;
+        }
+        .MuiInputBase-fullWidth {
+          width: 300 * $mob + vw;
+        }
+        .MuiOutlinedInput-root {
+          border-radius: 0;
+          margin-bottom: 6 * $mob + vw;
+          width: 300 * $mob + vw;
+        }
+        .MuiFormLabel-root {
+          color: #000000;
+          font-size: 18 * $mob + vw;
+        }
+        .textArea {
+          .MuiOutlinedInput-root {
+            border-radius: 0;
+            margin-bottom: 6 * $mob + vw;
+            width: 300 * $mob + vw;
+            height: 122 * $mob + vw;
+            // padding-bottom: 114 * $mob + vw;
+          }
+        }
+        .proceedButton {
+          margin-top: 20 * $mob + vw;
+          margin-bottom: 65 * $mob + vw;
+          margin-left: 55 * $mob + vw;
+          width: 174 * $mob + vw;
+          height: 45 * $mob + vw;
+          background: #0055ff;
+          border-radius: 4 * $mob + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          .btnText {
+            font-size: 15 * $mob + vw;
+            // font-family: Roboto-regular;
+            color: #ffffff;
+          }
+        }
+        .numberFieldContainer {
+          // display: flex;
+          display: none;
+          .countryCode {
+            display: none;
+            .MuiOutlinedInput-root {
+              width: 67 * $mob + vw !important;
+              font-size: 21 * $mob + vw;
+            }
+          }
+        }
+      }
+    }
+    .otpContainer1 {
+      position: fixed;
+      width: 414 * $mob + vw;
+      background: #f9f9f9 0% 0% no-repeat padding-box;
+      z-index: 11;
+      height: 736 * $mob + vw;
+
+      .narrowSearchText {
+        position: relative;
+        font-family: Roboto-bold;
+        font-size: 30 * $mob + vw;
+        margin-top: 100 * $mob + vw;
+        margin-left: 120 * $mob + vw;
+        margin-bottom: 15 * $mob + vw;
+        width: 220 * $mob + vw;
+        line-height: 47 * $mob + vw;
+      }
+      p {
+        font-family: Roboto-regular;
+        top: 144 * $mob + vw;
+        font-size: 15 * $mob + vw;
+        margin-left: 89 * $mob + vw;
+        width: 320 * $mob + vw;
+      }
+      .closeButtonContainer {
+        position: absolute;
+        top: 25 * $mob + vw;
+        left: 368 * $mob + vw;
+        right: 43 * $mob + vw;
+        width: 17 * $mob + vw;
+        height: 17 * $mob + vw;
+        cursor: pointer;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .otpAdjustContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 27 * $mob + vw;
+        margin-top: 55 * $mob + vw;
+        margin-bottom: 15 * $mob + vw;
+
+        input {
+          outline: 0;
+          width: 50 * $mob + vw;
+          height: 49 * $mob + vw;
+          margin-right: 3.5 * $mob + vw;
+          margin-left: 3.5 * $mob + vw;
+          color: #000000;
+          text-align: center;
+          font-size: 20 * $mob + vw;
+          // border: 1 * $mob + vw solid rgba(112, 112, 112, 0.3);
+          border: 1px solid #707070;
+        }
+        .divideBorder {
+          width: 14 * $mob + vw;
+          height: 0 * $mob + vw;
+          border: 1 * $mob + vw solid #707070;
+          opacity: 0.6;
+        }
+      }
+      .resendText {
+        // font-family: Roboto-medium;
+        font-size: 14 * $mob + vw;
+        margin-left: 299 * $mob + vw;
+        margin-top: 15 * $mob + vw;
+        margin-bottom: 39 * $mob + vw;
+        cursor: pointer;
+        color: #0055ff;
+      }
+      .submitButton {
+        margin-top: 80 * $mob + vw;
+        margin-left: 110 * $mob + vw;
+        width: 174 * $mob + vw;
+        height: 45 * $mob + vw;
+        background: #0055ff;
+        border-radius: 4 * $mob + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        .btnText {
+          font-size: 15 * $mob + vw;
+          // font-family: Roboto-regular;
+          color: #ffffff;
+        }
+      }
+    }
+    .capacityCardMainContainer {
+      position: absolute;
+      // margin-top: 200 * $mob + vw;
+      left: 12 * $mob + vw;
+      .capacityCardContainer {
+        position: fixed;
+        top: 150 * $mob + vw;
+        width: 390 * $mob + vw;
+        height: 120 * $mob + vw;
+        box-shadow: 0 * $mob + vw 1 * $mob + vw 4 * $mob + vw rgba(0, 0, 0, 0.3);
+        border-radius: 12 * $mob + vw;
+        z-index: 100;
+        background: #ffffff;
+        .closeButtonContainer {
+          position: absolute;
+          top: 15 * $mob + vw;
+          right: 15 * $mob + vw;
+          width: 15 * $mob + vw;
+          height: 15 * $mob + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .squreFitForm {
+          height: 120 * $mob + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 0 !important;
+          .mailAdjust {
+            margin-top: 30px !important;
+            width: 240px !important;
+          }
+          .MuiOutlinedInput-input {
+            // font-family: Roboto-regular;
+            font-size: 13 * $mob + vw;
+            color: #000000;
+          }
+          .MuiInputBase-fullWidth {
+            width: 0 * $mob + vw;
+          }
+          .MuiOutlinedInput-root {
+            border-radius: 4 * $mob + vw;
+            margin-bottom: 0 * $mob + vw;
+            width: 300 * $mob + vw;
+          }
+          .MuiFormLabel-root {
+            color: #000000;
+            font-size: 18 * $mob + vw;
+          }
+          // .MuiOutlinedInput-notchedOutline {
+          //     border-color: #000000;
+          // }
+          .submitButton {
+            margin-top: 0 * $mob + vw;
+            margin-left: 16 * $mob + vw;
+            width: 25 * $mob + vw;
+            height: 25 * $mob + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    .squarefitCardMainContainer {
+      position: absolute;
+      // margin-top: 200 * $mob + vw;
+      left: 12 * $mob + vw;
+      .squarefitCardContainer {
+        position: fixed;
+        top: 150 * $mob + vw;
+        width: 390 * $mob + vw;
+        height: 120 * $mob + vw;
+        box-shadow: 0 * $mob + vw 1 * $mob + vw 4 * $mob + vw rgba(0, 0, 0, 0.3);
+        border-radius: 12 * $mob + vw;
+        z-index: 100;
+        background: #ffffff;
+        .closeButtonContainer {
+          position: absolute;
+          top: 15 * $mob + vw;
+          right: 15 * $mob + vw;
+          width: 15 * $mob + vw;
+          height: 15 * $mob + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .squreFitForm {
+          height: 120 * $mob + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 0 !important;
+          .mailAdjust {
+            margin-top: 30px !important;
+            width: 240px !important;
+          }
+          .MuiOutlinedInput-input {
+            // font-family: Roboto-regular;
+            font-size: 13 * $mob + vw;
+            color: #000000;
+          }
+          .MuiInputBase-fullWidth {
+            width: 0 * $mob + vw;
+          }
+          .MuiOutlinedInput-root {
+            border-radius: 4 * $mob + vw;
+            margin-bottom: 0 * $mob + vw;
+            width: 300 * $mob + vw;
+          }
+          .MuiFormLabel-root {
+            color: #000000;
+            font-size: 18 * $mob + vw;
+          }
+          // .MuiOutlinedInput-notchedOutline {
+          //     border-color: #000000;
+          // }
+          .submitButton {
+            margin-top: 0 * $mob + vw;
+            margin-left: 16 * $mob + vw;
+            width: 25 * $mob + vw;
+            height: 25 * $mob + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    .mainSearchBoxContainer {
+      position: relative;
+      display: inline-block;
+      width: 414 * $mob + vw;
+      height: auto;
+      .leftSection {
+        position: relative;
+        width: 414 * $mob + vw;
+        margin-top: 60 * $mob + vw;
+        height: auto;
+        // overflow-y: scroll;
+        .topHeaderSection {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          left: 24 * $mob + vw;
+          // margin: auto;
+          width: 360 * $mob + vw;
+          height: 45 * $mob + vw;
+          margin-top: 35 * $mob + vw;
+          .showingText {
+            // font-family: Roboto-regular;
+            font-size: 14 * $mob + vw;
+            color: #c4c4c4;
+          }
+          .filterContainer {
+            display: none;
+            position: fixed;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            right: 20 * $mob + vw;
+            margin-top: -100 * $mob + vw;
+            z-index: 10;
+            .filterImage {
+              width: 19 * $mob + vw;
+              height: 20 * $mob + vw;
+              margin-right: 8 * $mob + vw;
+              z-index: 111;
+              // transform: translate(-35px, -4px);
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .filterText {
+              display: none;
+            }
+          }
+        }
+        .notAnyContainer {
+          position: relative;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 4vw;
+          .notAnyImage {
+            width: 280 * $mob + vw;
+            height: 280 * $mob + vw;
+            margin-top: 76 * $mob + vw;
+            margin: auto;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .notAny {
+            display: flex;
+            justify-content: center;
+            // font-family: Roboto-regular;
+            font-size: 17 * $mob + vw;
+            margin-top: 26 * $mob + vw;
+            letter-spacing: 4 * $mob + vw;
+          }
+        }
+        .bottomSection {
+          position: relative;
+          width: 342 * $mob + vw;
+          height: auto;
+          display: flex;
+          // align-items: center;
+          flex-direction: column;
+          margin-left: 36 * $mob + vw;
+          // margin-bottom: 36 * $mob + vw;
+        }
+        .part2Container {
+          position: relative;
+          width: 414 * $mob + vw;
+          // height: auto;
+          top: -300 * $mob + vw;
+          background: white;
+          z-index: 8888;
+          .narrowSearchText {
+            // font-family: Roboto-medium;
+            font-size: 25 * $mob + vw;
+            margin-top: 76 * $mob + vw;
+            margin-bottom: 26 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+          }
+          .closeButtonContainer {
+            position: relative;
+            top: 25 * $mob + vw;
+            left: 368 * $mob + vw;
+            right: 43 * $mob + vw;
+            width: 17 * $mob + vw;
+            height: 17 * $mob + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .searchTypeContainer {
+            position: relative;
+            display: flex;
+            margin-top: 41 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+            .blogButtonContainer {
+              width: 140 * $mob + vw;
+              height: 33 * $mob + vw;
+              border: 1 * $mob + vw solid #ffa702;
+              margin-right: 18 * $mob + vw;
+              .tagText {
+                // margin-left: 14 * $mob + vw;
+                // font-size: 17 * $mob + vw;
+              }
+            }
+            .activeTab {
+              background-color: #ffa702;
+              .tagText {
+                color: #ffffff;
+              }
+            }
+          }
+          .borderBottom {
+            width: 611 * $mob + vw;
+            height: 0 * $mob + vw;
+            border: 1 * $mob + vw solid #c7c7c7;
+            margin-top: 29.5 * $mob + vw;
+            margin-bottom: 27.5 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+          }
+          .searchTypeSection1 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+            margin: auto;
+            flex-wrap: wrap;
+            width: 414 * $mob + vw;
+            .blogButtonContainer {
+              width: 166 * $mob + vw;
+              height: auto;
+              border: 1 * $mob + vw solid #ffa702;
+              margin-left: 9 * $mob + vw;
+              margin-right: 9 * $mob + vw;
+              margin-bottom: 18 * $mob + vw;
+              // white-space: pre-line;
+              .tagText {
+                // padding: 6 * $mob + vw;
+                // margin-left: 14 * $mob + vw;
+                // font-size: 13 * $mob + vw;
+                // line-height: 22 * $mob + vw;
+              }
+            }
+            .activeToggleTab {
+              background-color: #ffa702;
+              .tagText {
+                color: #ffffff;
+              }
+            }
+          }
+          .adjustSearchTypeSection1 {
+            margin-top: 21 * $mob + vw;
+          }
+          .applyButton {
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            width: 206 * $mob + vw;
+            // height: 53 * $mob + vw;
+            // background: #0055ff;
+            // border-radius: 3 * $mob + vw;
+            // margin-top: 26 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+            cursor: pointer;
+            .applyText {
+              // font-family:
+            }
+          }
+        }
+        .part3Container {
+          display: none;
+        }
+        .otpContainer {
+          display: none;
+        }
+      }
+      .rightSection1 {
+        display: block;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1200;
+        background: #f9f9f9;
+        .closeButtonContainer {
+          position: absolute;
+          top: 10 * $mob + vw;
+          left: 364 * $mob + vw;
+          width: 42 * $mob + vw;
+          height: 40 * $mob + vw;
+          background: white;
+          cursor: pointer;
+          z-index: 350;
+          border: 0.2px solid #000000;
+          border-radius: 1px;
+          opacity: 1;
+          display: flex;
+          justify-content: center;
+          justify-content: center;
+          img {
+            width: 50%;
+            height: 50%;
+            margin-top: 8px;
+            // padding: 11px;
+          }
+        }
+      }
+      .rightSection {
+        // width: 414 * $mob + vw;
+        display: none;
+        // z-index: 11;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .SearchPageContainer {
+    position: relative;
+    .capacityCardMainContainer {
+      position: absolute;
+      // margin-top: 200 * $mob + vw;
+      left: 180 * $tablet + vw;
+      .capacityCardContainer {
+        position: fixed;
+        top: 146 * $tablet + vw;
+        width: 390 * $tablet + vw;
+        height: 120 * $tablet + vw;
+        box-shadow: 0 * $tablet + vw 1 * $tablet + vw 4 * $tablet + vw
+          rgba(0, 0, 0, 0.3);
+        border-radius: 12 * $tablet + vw;
+        z-index: 100;
+        background: #ffffff;
+        .closeButtonContainer {
+          position: absolute;
+          top: 15 * $tablet + vw;
+          right: 15 * $tablet + vw;
+          width: 15 * $tablet + vw;
+          height: 15 * $tablet + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .squreFitForm {
+          height: 120 * $tablet + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .MuiOutlinedInput-input {
+            // font-family: Roboto-regular;
+            font-size: 13 * $tablet + vw;
+            color: #000000;
+          }
+          .MuiInputBase-fullWidth {
+            width: 0 * $tablet + vw;
+          }
+          .MuiOutlinedInput-root {
+            border-radius: 4 * $tablet + vw;
+            margin-bottom: 0 * $tablet + vw;
+            width: 300 * $tablet + vw;
+          }
+          .MuiFormLabel-root {
+            color: #000000;
+            font-size: 18 * $tablet + vw;
+          }
+          // .MuiOutlinedInput-notchedOutline {
+          //     border-color: #000000;
+          // }
+          .submitButton {
+            margin-top: 0 * $tablet + vw;
+            margin-left: 16 * $tablet + vw;
+            width: 25 * $tablet + vw;
+            height: 25 * $tablet + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    .squarefitCardMainContainer {
+      position: absolute;
+      // margin-top: 200 * $tablet + vw;
+      left: 180 * $tablet + vw;
+      .squarefitCardContainer {
+        position: fixed;
+        top: 146 * $tablet + vw;
+        width: 390 * $tablet + vw;
+        height: 120 * $tablet + vw;
+        box-shadow: 0 * $tablet + vw 1 * $tablet + vw 4 * $tablet + vw
+          rgba(0, 0, 0, 0.3);
+        border-radius: 12 * $tablet + vw;
+        z-index: 100;
+        background: #ffffff;
+        .closeButtonContainer {
+          position: absolute;
+          top: 15 * $tablet + vw;
+          right: 15 * $tablet + vw;
+          width: 15 * $tablet + vw;
+          height: 15 * $tablet + vw;
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .squreFitForm {
+          height: 120 * $tablet + vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .MuiOutlinedInput-input {
+            // font-family: Roboto-regular;
+            font-size: 13 * $tablet + vw;
+            color: #000000;
+          }
+          .MuiInputBase-fullWidth {
+            width: 0 * $tablet + vw;
+          }
+          .MuiOutlinedInput-root {
+            border-radius: 4 * $tablet + vw;
+            margin-bottom: 0 * $tablet + vw;
+            width: 300 * $tablet + vw;
+          }
+          .MuiFormLabel-root {
+            color: #000000;
+            font-size: 18 * $tablet + vw;
+          }
+          // .MuiOutlinedInput-notchedOutline {
+          //     border-color: #000000;
+          // }
+          .submitButton {
+            margin-top: 0 * $tablet + vw;
+            margin-left: 16 * $tablet + vw;
+            width: 25 * $tablet + vw;
+            height: 25 * $tablet + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+    .mainSearchBoxContainer {
+      .leftSection {
+        margin-top: 0 * $tablet + vw;
+        .topHeaderSection {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          left: 24 * $mob + vw;
+          // margin: auto;
+          width: 360 * $mob + vw;
+          height: 45 * $mob + vw;
+          margin-top: 5 * $tablet + vw;
+          .showingText {
+            // font-family: Roboto-regular;
+            font-size: 18 * $tablet + vw;
+            color: #c4c4c4;
+          }
+          .filterContainer {
+            display: none;
+            position: fixed;
+            // display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            right: 20 * $mob + vw;
+            margin-top: -100 * $mob + vw;
+            z-index: 10;
+            .filterImage {
+              width: 19 * $mob + vw;
+              height: 20 * $mob + vw;
+              margin-right: 8 * $mob + vw;
+              z-index: 111;
+              // transform: translate(-35px, -4px);
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .filterText {
+              display: none;
+            }
+          }
+        }
+        .part2Container {
+          position: relative;
+          width: 414 * $mob + vw;
+          height: auto;
+          top: -140 * $tablet + vw;
+          background: white;
+          z-index: 8888;
+          .narrowSearchText {
+            // font-family: Roboto-medium;
+            font-size: 25 * $mob + vw;
+            margin-top: 76 * $mob + vw;
+            margin-bottom: 26 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+          }
+          .closeButtonContainer {
+            position: relative;
+            top: 25 * $mob + vw;
+            left: 368 * $mob + vw;
+            right: 43 * $mob + vw;
+            width: 17 * $mob + vw;
+            height: 17 * $mob + vw;
+            cursor: pointer;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .searchTypeContainer {
+            position: relative;
+            display: flex;
+            margin-top: 41 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+            .blogButtonContainer {
+              width: 140 * $mob + vw;
+              height: 33 * $mob + vw;
+              border: 1 * $mob + vw solid #ffa702;
+              margin-right: 18 * $mob + vw;
+              .tagText {
+                margin-left: 14 * $mob + vw;
+                font-size: 17 * $mob + vw;
+              }
+            }
+            .activeTab {
+              background-color: #ffa702;
+              .tagText {
+                color: #ffffff;
+              }
+            }
+          }
+          .borderBottom {
+            width: 611 * $mob + vw;
+            height: 0 * $mob + vw;
+            border: 1 * $mob + vw solid #c7c7c7;
+            margin-top: 29.5 * $mob + vw;
+            margin-bottom: 27.5 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+          }
+          .searchTypeSection1 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+            margin: auto;
+            flex-wrap: wrap;
+            width: 414 * $mob + vw;
+            .blogButtonContainer {
+              width: 166 * $mob + vw;
+              height: auto;
+              border: 1 * $mob + vw solid #ffa702;
+              margin-left: 9 * $mob + vw;
+              margin-right: 9 * $mob + vw;
+              margin-bottom: 18 * $mob + vw;
+              // white-space: pre-line;
+              .tagText {
+                padding: 6 * $mob + vw;
+                // margin-left: 14 * $mob + vw;
+                font-size: 13 * $mob + vw;
+                line-height: 22 * $mob + vw;
+              }
+            }
+            .activeToggleTab {
+              background-color: #ffa702;
+              .tagText {
+                color: #ffffff;
+              }
+            }
+          }
+          .adjustSearchTypeSection1 {
+            margin-top: 21 * $mob + vw;
+          }
+          .applyButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 206 * $mob + vw;
+            height: 53 * $mob + vw;
+            background: #0055ff;
+            border-radius: 3 * $mob + vw;
+            margin-top: 26 * $mob + vw;
+            margin-left: 26 * $mob + vw;
+            cursor: pointer;
+            .applyText {
+              font-family: Roboto-regular;
+              font-size: 19 * $mob + vw;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .rightSection1 {
+        display: block;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 148vh !important;
+        z-index: 1200;
+        background: #f9f9f9;
+        .closeButtonContainer {
+          position: absolute;
+          top: 290 * $tablet + vw !important;
+          left: 706 * $tablet + vw !important;
+          width: 42 * $tablet + vw;
+          height: 40 * $tablet + vw;
+          background: white;
+          cursor: pointer;
+          z-index: 350;
+          border: 0.2px solid #000000;
+          border-radius: 1px;
+          opacity: 1;
+
+          img {
+            width: 50%;
+            height: 50%;
+            padding: 11px;
+          }
+        }
+      }
+      .rightSection {
+        // width: 414 * $mob + vw;
+        display: none;
+        // z-index: 11;
+      }
+    }
+  }
+  .part3ContainerMob {
+    display: none;
+  }
+  .otpContainer1 {
+    display: none;
+  }
+  .rightSection1 {
+    // width: 414 * $mob + vw;
+    display: block;
+    .closeButtonContainer {
+      position: absolute;
+      top: 10 * $tablet + vw;
+      left: 364 * $tablet + vw;
+      width: 42 * $tablet + vw;
+      height: 40 * $tablet + vw;
+      background: white;
+      cursor: pointer;
+      z-index: 350;
+      border: 0.2px solid #000000;
+      border-radius: 1px;
+      opacity: 1;
+
+      img {
+        width: 50%;
+        height: 50%;
+        padding: 11px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .part3ContainerMob {
+    display: none;
+  }
+  .otpContainer1 {
+    display: none;
+  }
+  .rightSection1 {
+    // width: 414 * $tablet + vw;
+    display: none;
+    // z-index: 11;
+  }
+}
+
+.mapboxgl-canvas {
+  left: 0;
+}

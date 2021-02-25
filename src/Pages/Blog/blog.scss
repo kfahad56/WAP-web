@@ -1,0 +1,18 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+.blogContainer {
+    position: relative;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .sec-head {
+        margin: auto;
+    }
+}

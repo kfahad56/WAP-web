@@ -1,0 +1,40 @@
+{
+  "seo": {
+    "title": "About Us - About our team and values | WAP",
+    "description": "Know more about the team @WAP, along with the leadership team and the values that shepherd the vision and strategy of the organization.",
+    "keywords": "WAP team"
+  },
+  "desc1": "At WAP, we’re looking at creating a new ‘normal’ in the arena of warehousing & logistics, and disrupting the current, highly traditional, ways and means of business. Our agile, lean and efficient model enables businesses, both big and small, to move their goods in a faster, nimbler and hassle-free manner. The end result – Happy customers for our satisfied clients.",
+  "aboutContent": {
+    "desc1": "At WAP , we’re looking at creating a new ‘normal’ in the arena of warehousing & logistics, and disrupting the current, highly traditional, ways and means of business. Our agile, lean and efficient model enables businesses, both big and small, to move their goods in a faster, nimbler and hassle-free manner. The end result – Happy customers for our satisfied clients.",
+    "desc2": "WAP core team comprises of experts from Manufacturing, Supply Chain, Logistics, Technology, and Quality & Compliance backgrounds. With extensive hands-on experience in their chosen fields, our founders have harnessed their vast and intensive knowledge and skillset to address the pressing needs of the Warehousing industry. The future is here, and we’re proud to be driving the change!",
+    "aboutImage": "/images/aboutus.0f83e2bd.svg"
+  },
+  "extra_below_about_us": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "values": [
+    {
+      "title": "Customer First",
+      "description": "WAP puts its customer first, always! Keeping our customers’ needs at the core of our model has helped us create a highly agile, dependable and adaptable business. We are always on the lookout for ways to keep improving, using the feedback given to us by our loyal customer base that runs into the thousands. We’re here for the long haul, both literally and figuratively, and the trust bestowed in us by our customers and our ability to achieve customer delight every single time is what keeps us going.",
+      "icon": "/images/download.png"
+    },
+    {
+      "icon": "/images/download-1-.png",
+      "title": "Technology",
+      "description": "Technology lies at the heart of all our processes. WAP leverages cutting-edge technological tools to ensure a seamless and convenient experience for our customers from start to finish. Be it data Analytics, Lean Modelling or our attempt to go paperless, we strive to leverage technology to help you increase revenue and optimize costs."
+    },
+    {
+      "icon": "/images/download-2-.png",
+      "title": "Simplicity",
+      "description": "At WAP, we believe in the beauty of simplicity. While our technology is complex and we crunch numbers and data constantly to ensure efficiency, we keep things simple for our customers. After all, you entrust us with your supply chain and logistics requirements to ease your workload. The magic of WAP solutions lies in its high efficiency, easy scalability and adaptability, and clarity at every stage."
+    },
+    {
+      "icon": "/images/download-3-.png",
+      "title": "Passion",
+      "description": "Team WAP is on a mission to build something big with large-scale impact and we’re equipped with the passion tools to achieve the same. Our drive and commitment is infectious and we’re known for our tendency to engage, energies and inspire those we collaborate with. We see the future, and we’re moving in leaps and bounds towards it. Come join us and let’s take your business to new heights together!"
+    }
+  ],
+  "extra_below_our_values": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "team": {
+    "desc": "WAP is at the forefront of disrupting the logistics & supply chain industry in India. Passionate about working for a new-age fast-growing technology-oriented logistics & supply chain solutions provider? Come join this modern revolution and be a part of something big. Please send us your resume at careers@WAP.in and we’ll get in touch with you."
+  }
+}

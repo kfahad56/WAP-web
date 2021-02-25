@@ -1,0 +1,1836 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.ViewWarehouseDetailsContainer {
+    position: relative;
+    // background-color: #FBFBFB1
+
+    .adjustSubStickySection {
+        position: sticky !important;
+        top: 16%;
+        width: 521 * $desk + vw;
+        overflow-y: auto;
+        height: calc(90vh - 0.5rem);
+        //Leave Us Form Container
+        .adjustleaveUsContainer {
+            height: auto !important;
+            margin-bottom: 30 * $desk + vw;
+        }
+        .contact-inner {
+            margin-top: 0;
+        }
+        .contact-inner textarea {
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            background: #f8f9fa;
+            padding: 15px;
+        }
+        .contact-inner label {
+            background: #f8f9fa;
+        }
+        .contact-inner input {
+            background: #f8f9fa;
+        }
+        .leaveUsContainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 494 * $desk + vw;
+            height: 1097 * $desk + vw;
+            background: rgba(219, 219, 219, 0.27);
+            border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+            border-radius: 8 * $desk + vw;
+            .closeButtonContainer {
+                position: absolute;
+                top: 15.4 * $desk + vw;
+                right: 15.4 * $desk + vw;
+                width: 15 * $desk + vw;
+                height: 15 * $desk + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .loginHeadText {
+                width: 412 * $desk + vw;
+                font-family: Roboto-bold;
+                font-size: 29 * $desk + vw;
+                line-height: 38 * $desk + vw;
+                margin-top: 18 * $desk + vw;
+                // margin-left: 31 * $desk + vw;
+                margin-bottom: 21 * $desk + vw;
+            }
+            .leftFormSection {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .MuiOutlinedInput-input {
+                    font-family: Roboto-regular;
+                    font-size: 16 * $desk + vw;
+                    background-color: #ffffff;
+                }
+                .MuiInputBase-fullWidth {
+                    width: 385 * $desk + vw;
+                }
+                .MuiOutlinedInput-root {
+                    border-radius: 0;
+                    margin-bottom: 34 * $desk + vw;
+                    width: 385 * $desk + vw;
+                }
+                .MuiFormLabel-root {
+                    font-size: 22 * $desk + vw;
+                }
+                .checkboxContainer {
+                    position: relative;
+                    width: 385 * $desk + vw;
+                    display: flex;
+                    align-items: center;
+                    height: 95 * $desk + vw;
+                    margin-bottom: 35 * $desk + vw;
+                    .checkboxText {
+                        margin-left: 20 * $desk + vw;
+                        font-family: Roboto-regular;
+                        line-height: 27 * $desk + vw;
+                        font-size: 20 * $desk + vw;
+                    }
+                }
+            }
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 21 * $desk + vw;
+                margin-top: -10 * $desk + vw;
+                margin-bottom: 10 * $desk + vw;
+            }
+            .signInWithMobileContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 385 * $desk + vw;
+                height: 74 * $desk + vw;
+                background: #0055ff;
+                border-radius: 4 * $desk + vw;
+                cursor: pointer;
+                margin-bottom: 30 * $desk + vw;
+                .btnText {
+                    font-family: Roboto-regular;
+                    font-size: 24 * $desk + vw;
+                    color: #ffffff;
+                }
+            }
+            .signInWithMobileContainer:hover {
+                background: #00c;
+            }
+            .signInWithMobileContainer2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 385 * $desk + vw;
+                height: 74 * $desk + vw;
+                background: #0055ff;
+                opacity: 0.55;
+                border-radius: 4 * $desk + vw;
+                cursor: pointer;
+                margin-bottom: 30 * $desk + vw;
+                .btnText {
+                    font-family: Roboto-regular;
+                    font-size: 24 * $desk + vw;
+                    color: #ffffff;
+                }
+            }
+            .signInWithMobileContainer2:hover {
+                background: #00c;
+            }
+        }
+        // Enquire Form Container
+        .adjustEquireContainer {
+            height: auto !important;
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 21 * $desk + vw;
+                margin-top: -10 * $desk + vw;
+                margin-bottom: 10 * $desk + vw;
+            }
+            .leftFormSection .messageContainer textarea {
+                height: 123 * $desk + vw !important;
+            }
+        }
+        .equireContainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            width: 494 * $desk + vw;
+            height: auto;
+            border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+            border-radius: 8 * $desk + vw;
+            .closeButtonContainer {
+                position: absolute;
+                top: 15.4 * $desk + vw;
+                right: 15.4 * $desk + vw;
+                width: 15 * $desk + vw;
+                height: 15 * $desk + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 16px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+        // Schedule A Tour Form Container
+        .adjustScheduleTourContainer {
+            height: auto !important;
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 21 * $desk + vw;
+                margin-top: -10 * $desk + vw;
+                margin-bottom: 10 * $desk + vw;
+            }
+        }
+        .scheduleTourContainer {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 494 * $desk + vw;
+            height: auto;
+            border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+            border-radius: 8 * $desk + vw;
+            .closeButtonContainer {
+                position: absolute;
+                top: 15.4 * $desk + vw;
+                right: 15.4 * $desk + vw;
+                width: 15 * $desk + vw;
+                height: 15 * $desk + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 16px;
+                margin: auto;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .redbox {
+        position: absolute;
+        top: 100 * $desk + vw;
+        width: 10 * $desk + vw;
+        height: 10 * $desk + vw;
+        background: white;
+    }
+    .fixed-headerr {
+        position: fixed !important;
+        top: 480 * $desk + vw;
+        left: -430 * $desk + vw;
+        transform: rotate(-90deg);
+        transition: ease-out;
+        z-index: 1100;
+    }
+    .availableAreaContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .totalAreaContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .leaveUsSticky {
+        position: fixed;
+        top: 150 * $desk + vw;
+    }
+    .enquirePropertySticky {
+        position: sticky;
+        top: 200 * $desk + vw;
+    }
+    .scheduleTourSticky {
+        position: sticky;
+        top: 200 * $desk + vw;
+    }
+    .reserveSticky {
+        position: fixed;
+        top: 150 * $desk + vw;
+    }
+    .enquireSticky {
+        position: fixed;
+        top: 430 * $desk + vw;
+    }
+    .amenitiesPopupContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1080 * $desk + vw;
+        background: #f9f9f9;
+        z-index: 1000;
+        .crossImage {
+            position: absolute;
+            top: 75 * $desk + vw;
+            right: 99 * $desk + vw;
+            width: 15 * $desk + vw;
+            height: 15 * $desk + vw;
+            cursor: pointer;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .TopBannerContainer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        // height: 90 * $desk + vw;
+        .leftsection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 26 * $desk + vw;
+            margin-top: 0 * $desk + vw;
+            margin-left: 157 * $desk + vw;
+            .backButtonContainer {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-right: 79 * $desk + vw;
+                .backArrow {
+                    font-size: 20 * $desk + vw;
+                    color: #ffa702;
+                }
+                .backText {
+                    margin-left: 14 * $desk + vw;
+                    font-family: Roboto-regular;
+                    font-size: 20 * $desk + vw;
+                    color: #ffa702;
+                }
+            }
+            .searchContainer {
+                position: relative;
+                display: flex;
+                align-items: center;
+                .leftBorder {
+                    margin-right: 16.5 * $desk + vw;
+                    margin-left: 16.5 * $desk + vw;
+                    width: 0 * $desk + vw;
+                    height: 23 * $desk + vw;
+                    border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+                }
+                .searchText {
+                    font-family: Roboto-regular;
+                    font-size: 20 * $desk + vw;
+                    color: #0055ff;
+                    cursor: pointer;
+                }
+            }
+        }
+        .rightSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-left: 678 * $desk + vw;
+            .iconContainer {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 55 * $desk + vw;
+                margin-left: 71 * $desk + vw;
+                cursor: pointer;
+                .imageArea {
+                    width: 30 * $desk + vw;
+                    height: 35 * $desk + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .textArea {
+                    font-family: Roboto-regular;
+                    font-size: 20 * $desk + vw;
+                    margin-top: 10 * $desk + vw;
+                }
+            }
+        }
+    }
+    .backgroundPatch {
+        display: none;
+        position: absolute;
+        top: 1943 * $desk + vw;
+        left: -30 * $desk + vw;
+        width: 1920 * $desk + vw;
+        height: 1080 * $desk + vw;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .industryTagContainerAdjust {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 25px;
+        .blogButtonContainer {
+            width: auto;
+            height: auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 6px;
+            border: 1px solid #000000;
+            margin-right: 22px;
+            margin-bottom: 22px;
+            .tagText {
+                // font-family: Roboto-medium;
+                font-size: 16px;
+                // color: #ffffff;
+            }
+        }
+    }
+    .cardContainer {
+        position: relative;
+    }
+    .mainContainerAdjust {
+        display: flex;
+        .mainContainerLeftAdjust {
+            .bottomBannerContainer {
+                position: relative;
+                display: flex;
+                width: 100%;
+                .leftsection {
+                    width: 1251 * $desk + vw;
+                    height: auto;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 63 * $desk + vw;
+                        margin-left: 163 * $desk + vw;
+                        margin-bottom: 12 * $desk + vw;
+                        margin-top: 22 * $desk + vw;
+                        font-weight: lighter;
+                    }
+                    .sliderTopSection {
+                        position: relative;
+                        display: flex;
+                        // justify-content: space-between;
+                        width: 1064 * $desk + vw;
+                        height: 92 * $desk + vw;
+                        margin-left: 163 * $desk + vw;
+                        .profileContainer {
+                            display: flex;
+                            align-items: center;
+                            .profileImage {
+                                width: 31 * $desk + vw;
+                                height: 31 * $desk + vw;
+                                margin-right: 10 * $desk + vw;
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .profileTextContainer {
+                                .profileName {
+                                    font-family: Roboto-bold;
+                                    font-size: 13 * $desk + vw;
+                                    line-height: 16 * $desk + vw;
+                                }
+                                .profileDesc {
+                                    font-family: Roboto-regular;
+                                    font-size: 10 * $desk + vw;
+                                    line-height: 13 * $desk + vw;
+                                }
+                            }
+                        }
+                        .availableContainer {
+                            div {
+                                font-family: Roboto-medium;
+                                font-size: 19 * $desk + vw;
+                                line-height: 20 * $desk + vw;
+                                span {
+                                    font-family: Roboto-regular;
+                                    font-size: 19 * $desk + vw;
+                                }
+                            }
+                            .topAdjust {
+                                // margin-left: 50 * $desk + vw;
+                                margin-bottom: 16 * $desk + vw;
+                            }
+                        }
+                    }
+                    .sliderBottomSection {
+                        width: 1064 * $desk + vw;
+                        height: 552 * $desk + vw;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 23 * $desk + vw;
+                        width: 1080 * $desk + vw;
+                        line-height: 32 * $desk + vw;
+                        margin-left: 163 * $desk + vw;
+                        margin-bottom: 68 * $desk + vw;
+                        color: #707070;
+                    }
+                }
+            }
+            .locationContainer {
+                position: relative;
+                // margin-top: 76 * $desk + vw;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 50 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 25 * $desk + vw;
+                }
+                .subText {
+                    font-family: Roboto-regular;
+                    font-size: 27 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 65 * $desk + vw;
+                }
+                .mapContainer {
+                    margin-left: 157 * $desk + vw;
+                    width: 720px;
+                    height: 309px;
+                    // img {
+                    //     width: 100%;
+                    //     height: 100%;
+                    // }
+                }
+                .localityContainer {
+                    position: relative;
+                    margin-left: 157 * $desk + vw;
+                    margin-top: 65 * $desk + vw;
+                    .localityText {
+                        font-family: Roboto-regular;
+                        font-size: 50 * $desk + vw;
+                        margin-bottom: 41 * $desk + vw;
+                    }
+                    .descText p {
+                        font-family: Roboto-regular;
+                        font-size: 20 * $desk + vw;
+                        margin-bottom: 27 * $desk + vw;
+                    }
+                }
+            }
+            .amenitiesContainer {
+                position: relative;
+                margin-top: 45 * $desk + vw;
+                .titleSection {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 941 * $desk + vw;
+                    height: 107 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 50 * $desk + vw;
+                    }
+                    .viewAllContainer {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        .viewalltText {
+                            font-family: Roboto-regular;
+                            font-size: 25 * $desk + vw;
+                            color: #ffa702;
+                        }
+                        .arrow {
+                            width: 17 * $desk + vw;
+                            height: 13 * $desk + vw;
+                            margin-left: 17 * $desk + vw;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                    }
+                }
+                .amenitiesCardSliderSection {
+                    position: relative;
+                    margin-left: 157 * $desk + vw;
+                    width: 1041 * $desk + vw;
+                    height: auto;
+                }
+            }
+            .addOnServiceContainer {
+                position: relative;
+                margin-top: 55 * $desk + vw;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 50 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 22 * $desk + vw;
+                }
+                .addOnServiceSliderSection {
+                    position: relative;
+                    margin-left: 157 * $desk + vw;
+                    width: 880 * $desk + vw;
+                    height: auto;
+                }
+            }
+            .certificateContainer {
+                position: relative;
+                margin-top: 75 * $desk + vw;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 50 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 43 * $desk + vw;
+                }
+                .certificateTextContainer {
+                    position: relative;
+                    display: flex;
+                    margin-left: 157 * $desk + vw;
+                    .certificateText {
+                        font-family: Roboto-medium;
+                        font-size: 24 * $desk + vw;
+                        color: #0055ff;
+                        margin-right: 129 * $desk + vw;
+                    }
+                }
+                .certificateButtonContainer {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 47 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 50 * $desk + vw;
+                        margin-left: 0;
+                        margin-bottom: 43 * $desk + vw;
+                    }
+                }
+            }
+            .similarPropertiesContainer {
+                position: relative;
+                margin-top: 73 * $desk + vw;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 50 * $desk + vw;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 45 * $desk + vw;
+                }
+                .cardContainer {
+                    position: relative;
+                    display: flex;
+                    margin-left: 157 * $desk + vw;
+                    margin-bottom: 47 * $desk + vw;
+                    .cardViewContainer {
+                        margin-left: 0;
+                        margin-right: 37 * $desk + vw;
+                    }
+                }
+            }
+        }
+        .mainContainerRightAdjust {
+            .rightSection {
+                position: sticky;
+                top: 0;
+                width: 609 * $desk + vw;
+                height: 1054 * $desk + vw;
+                margin-left: 34 * $desk + vw;
+                .subText {
+                    font-family: Roboto-regular;
+                    font-size: 27 * $desk + vw;
+                    margin-top: 27 * $desk + vw;
+                    margin-bottom: 122 * $desk + vw;
+                }
+                .reservePropertyContainer {
+                    position: relative;
+                    width: 494 * $desk + vw;
+                    height: 256 * $desk + vw;
+                    background: rgba(219, 219, 219, 0.27);
+                    border: 1 * $desk + vw solid rgba(112, 112, 112, 0.27);
+                    border-radius: 8 * $desk + vw;
+                    margin-bottom: 13 * $desk + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 32 * $desk + vw;
+                        margin-left: 30 * $desk + vw;
+                        margin-top: 11 * $desk + vw;
+                        line-height: 53 * $desk + vw;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 18 * $desk + vw;
+                        margin-left: 30 * $desk + vw;
+                        margin-top: 11 * $desk + vw;
+                        margin-bottom: 22 * $desk + vw;
+                        line-height: 24 * $desk + vw;
+                    }
+                    .reservePropertyButton {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 30 * $desk + vw;
+                        width: 427 * $desk + vw;
+                        height: 79 * $desk + vw;
+                        background: #0055ff;
+                        border-radius: 6 * $desk + vw;
+                        cursor: pointer;
+                        z-index: 2;
+                        .reservePropertyText {
+                            font-family: Roboto-regular;
+                            font-size: 24 * $desk + vw;
+                            color: #ffffff;
+                        }
+                    }
+                    .reservePropertyButton:hover {
+                        background: #00c;
+                    }
+                }
+                .enquirePropertyContainer {
+                    position: relative;
+                    width: 494 * $desk + vw;
+                    height: 426 * $desk + vw;
+                    background: rgba(219, 219, 219, 0.27);
+                    border: 1 * $desk + vw solid rgba(112, 112, 112, 0.27);
+                    border-radius: 8 * $desk + vw;
+                    margin-bottom: 13 * $desk + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 32 * $desk + vw;
+                        margin-left: 30 * $desk + vw;
+                        margin-top: 11 * $desk + vw;
+                        margin-bottom: 22 * $desk + vw;
+                        line-height: 43 * $desk + vw;
+                        width: 462 * $desk + vw;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 18 * $desk + vw;
+                        margin-left: 34 * $desk + vw;
+                        margin-bottom: 22 * $desk + vw;
+                        width: 407 * $desk + vw;
+                        line-height: 24 * $desk + vw;
+                    }
+                    .enquirePropertyButton {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 30 * $desk + vw;
+                        margin-bottom: 23 * $desk + vw;
+                        width: 427 * $desk + vw;
+                        height: 79 * $desk + vw;
+                        background: #0055ff;
+                        border-radius: 6 * $desk + vw;
+                        cursor: pointer;
+                        .enquirePropertyText {
+                            font-family: Roboto-regular;
+                            font-size: 24 * $desk + vw;
+                            color: #ffffff;
+                        }
+                    }
+                    .enquirePropertyButton:hover {
+                        background: #00c;
+                    }
+                    .scheduleTourButton {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 30 * $desk + vw;
+                        width: 427 * $desk + vw;
+                        height: 79 * $desk + vw;
+                        background: #ffffff;
+                        border: 1 * $desk + vw solid #0055ff;
+                        border-radius: 6 * $desk + vw;
+                        cursor: pointer;
+                        .enquirePropertyText {
+                            font-family: Roboto-medium;
+                            font-size: 24 * $desk + vw;
+                            color: #0055ff;
+                        }
+                    }
+                    .scheduleTourButton:hover {
+                        background: #ccf;
+                        .enquirePropertyText {
+                            color: #0055ff;
+                        }
+                    }
+                }
+                .adjustSubStickySection {
+                    width: 521 * $desk + vw;
+                    overflow-y: auto;
+                    height: calc(90vh - 1rem);
+                    //Leave Us Form Container
+                    .adjustleaveUsContainer {
+                        height: auto !important;
+                        margin-bottom: 30 * $desk + vw;
+                    }
+                    .leaveUsContainer {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 494 * $desk + vw;
+                        height: 1097 * $desk + vw;
+                        background: rgba(219, 219, 219, 0.27);
+                        border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+                        border-radius: 8 * $desk + vw;
+                        .closeButtonContainer {
+                            position: absolute;
+                            top: 15.4 * $desk + vw;
+                            right: 15.4 * $desk + vw;
+                            width: 15 * $desk + vw;
+                            height: 15 * $desk + vw;
+                            cursor: pointer;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .loginHeadText {
+                            width: 412 * $desk + vw;
+                            font-family: Roboto-bold;
+                            font-size: 29 * $desk + vw;
+                            line-height: 38 * $desk + vw;
+                            margin-top: 18 * $desk + vw;
+                            // margin-left: 31 * $desk + vw;
+                            margin-bottom: 21 * $desk + vw;
+                        }
+                        .leftFormSection {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .MuiOutlinedInput-input {
+                                font-family: Roboto-regular;
+                                font-size: 16 * $desk + vw;
+                                background-color: #ffffff;
+                            }
+                            .MuiInputBase-fullWidth {
+                                width: 385 * $desk + vw;
+                            }
+                            .MuiOutlinedInput-root {
+                                border-radius: 0;
+                                margin-bottom: 34 * $desk + vw;
+                                width: 385 * $desk + vw;
+                            }
+                            .MuiFormLabel-root {
+                                font-size: 22 * $desk + vw;
+                            }
+                            .checkboxContainer {
+                                position: relative;
+                                width: 385 * $desk + vw;
+                                display: flex;
+                                align-items: center;
+                                height: 95 * $desk + vw;
+                                margin-bottom: 35 * $desk + vw;
+                                .checkboxText {
+                                    margin-left: 20 * $desk + vw;
+                                    font-family: Roboto-regular;
+                                    line-height: 27 * $desk + vw;
+                                    font-size: 20 * $desk + vw;
+                                }
+                            }
+                        }
+                        .errorMessage {
+                            position: relative;
+                            color: red;
+                            font-size: 21 * $desk + vw;
+                            margin-top: -10 * $desk + vw;
+                            margin-bottom: 10 * $desk + vw;
+                        }
+                        .signInWithMobileContainer {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer:hover {
+                            background: #00c;
+                        }
+                        .signInWithMobileContainer2 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            opacity: 0.55;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer2:hover {
+                            background: #00c;
+                        }
+                    }
+                    // Enquire Form Container
+                    .adjustEquireContainer {
+                        height: auto !important;
+                        .errorMessage {
+                            position: relative;
+                            color: red;
+                            font-size: 21 * $desk + vw;
+                            margin-top: -10 * $desk + vw;
+                            margin-bottom: 10 * $desk + vw;
+                        }
+                        .leftFormSection .messageContainer textarea {
+                            height: 123 * $desk + vw !important;
+                        }
+                    }
+                    .equireContainer {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 494 * $desk + vw;
+                        height: 997 * $desk + vw;
+                        background: rgba(219, 219, 219, 0.27);
+                        border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+                        border-radius: 8 * $desk + vw;
+                        .closeButtonContainer {
+                            position: absolute;
+                            top: 15.4 * $desk + vw;
+                            right: 15.4 * $desk + vw;
+                            width: 15 * $desk + vw;
+                            height: 15 * $desk + vw;
+                            cursor: pointer;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .loginHeadText {
+                            width: 412 * $desk + vw;
+                            font-family: Roboto-bold;
+                            font-size: 29 * $desk + vw;
+                            line-height: 38 * $desk + vw;
+                            margin-top: 18 * $desk + vw;
+                            // margin-left: 31 * $desk + vw;
+                            margin-bottom: 21 * $desk + vw;
+                        }
+                        .leftFormSection {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .MuiOutlinedInput-input {
+                                font-family: Roboto-regular;
+                                font-size: 16 * $desk + vw;
+                                background-color: #ffffff;
+                            }
+                            .MuiInputBase-fullWidth {
+                                width: 385 * $desk + vw;
+                            }
+                            .MuiOutlinedInput-root {
+                                border-radius: 0;
+                                margin-bottom: 34 * $desk + vw;
+                                width: 385 * $desk + vw;
+                                background-color: #ffffff;
+                            }
+                            .MuiFormLabel-root {
+                                font-size: 22 * $desk + vw;
+                            }
+                            .checkboxContainer {
+                                position: relative;
+                                width: 385 * $desk + vw;
+                                display: flex;
+                                align-items: center;
+                                height: 95 * $desk + vw;
+                                margin-bottom: 35 * $desk + vw;
+                                .checkboxText {
+                                    margin-left: 20 * $desk + vw;
+                                    font-family: Roboto-regular;
+                                    line-height: 27 * $desk + vw;
+                                    font-size: 20 * $desk + vw;
+                                }
+                            }
+                        }
+                        .errorMessage {
+                            position: relative;
+                            color: red;
+                            font-size: 21 * $desk + vw;
+                            margin-top: -10 * $desk + vw;
+                            margin-bottom: 10 * $desk + vw;
+                        }
+                        .signInWithMobileContainer {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer:hover {
+                            background: #00c;
+                        }
+                        .signInWithMobileContainer2 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            opacity: 0.55;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer2:hover {
+                            background: #00c;
+                        }
+                    }
+                    // Schedule A Tour Form Container
+                    .adjustScheduleTourContainer {
+                        height: auto !important;
+                        .errorMessage {
+                            position: relative;
+                            color: red;
+                            font-size: 21 * $desk + vw;
+                            margin-top: -10 * $desk + vw;
+                            margin-bottom: 10 * $desk + vw;
+                        }
+                    }
+                    .scheduleTourContainer {
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 494 * $desk + vw;
+                        height: 997 * $desk + vw;
+                        background: rgba(219, 219, 219, 0.27);
+                        border: 1 * $desk + vw solid rgba(112, 112, 112, 0.29);
+                        border-radius: 8 * $desk + vw;
+                        .closeButtonContainer {
+                            position: absolute;
+                            top: 15.4 * $desk + vw;
+                            right: 15.4 * $desk + vw;
+                            width: 15 * $desk + vw;
+                            height: 15 * $desk + vw;
+                            cursor: pointer;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .loginHeadText {
+                            width: 312 * $desk + vw;
+                            font-family: Roboto-bold;
+                            font-size: 29 * $desk + vw;
+                            line-height: 38 * $desk + vw;
+                            margin-top: 18 * $desk + vw;
+                            margin-left: -61 * $desk + vw;
+                            margin-bottom: 21 * $desk + vw;
+                        }
+                        .leftFormSection {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .dateContainer {
+                                .MuiOutlinedInput-root {
+                                    border-radius: 0;
+                                    margin-bottom: 34 * $desk + vw;
+                                    width: 220 * $desk + vw;
+                                    background-color: #ffffff;
+                                }
+                            }
+                            .MuiOutlinedInput-input {
+                                font-family: Roboto-regular;
+                                font-size: 16 * $desk + vw;
+                                background-color: #ffffff;
+                            }
+                            .MuiInputBase-fullWidth {
+                                width: 385 * $desk + vw;
+                            }
+                            .MuiOutlinedInput-root {
+                                border-radius: 0;
+                                margin-bottom: 34 * $desk + vw;
+                                width: 385 * $desk + vw;
+                                background-color: #ffffff;
+                            }
+                            .MuiFormLabel-root {
+                                font-size: 22 * $desk + vw;
+                            }
+                            .checkboxContainer {
+                                position: relative;
+                                width: 385 * $desk + vw;
+                                display: flex;
+                                align-items: center;
+                                height: 95 * $desk + vw;
+                                margin-bottom: 35 * $desk + vw;
+                                .checkboxText {
+                                    margin-left: 20 * $desk + vw;
+                                    font-family: Roboto-regular;
+                                    line-height: 27 * $desk + vw;
+                                    font-size: 20 * $desk + vw;
+                                }
+                            }
+                        }
+                        .errorMessage {
+                            position: relative;
+                            color: red;
+                            font-size: 21 * $desk + vw;
+                            margin-top: -10 * $desk + vw;
+                            margin-bottom: 10 * $desk + vw;
+                        }
+                        .signInWithMobileContainer {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer:hover {
+                            background: #00c;
+                        }
+                        .signInWithMobileContainer2 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 385 * $desk + vw;
+                            height: 74 * $desk + vw;
+                            background: #0055ff;
+                            opacity: 0.55;
+                            border-radius: 4 * $desk + vw;
+                            cursor: pointer;
+                            margin-bottom: 30 * $desk + vw;
+                            .btnText {
+                                font-family: Roboto-regular;
+                                font-size: 24 * $desk + vw;
+                                color: #ffffff;
+                            }
+                        }
+                        .signInWithMobileContainer2:hover {
+                            background: #00c;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .ViewWarehouseDetailsContainer {
+        position: relative;
+        background-color: #ffffff;
+        width: 100%;
+        overflow: hidden;
+        .availableAreaContainer {
+            display: flex;
+            justify-content: space-between;
+            h6 {
+                font-size: 15 * $mob + vw;
+                font-family: Roboto-regular;
+                font-weight: lighter;
+            }
+        }
+        .totalAreaContainer {
+            display: flex;
+            justify-content: space-between;
+            h6 {
+                font-size: 15 * $mob + vw;
+                font-family: Roboto-regular;
+                font-weight: lighter;
+            }
+        }
+        .contact-inner {
+            margin-top: 0;
+        }
+        .contact-inner textarea {
+            width: 100%;
+            height: 100px;
+            margin: auto;
+            background: #f8f9fa;
+            padding: 15px;
+        }
+        .contact-inner label {
+            background: #f8f9fa;
+        }
+        .contact-inner input {
+            background: #f8f9fa;
+        }
+        .checkboxContainer {
+            display: flex;
+            align-items: center;
+            height: 65 * $desk + vw;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            input {
+                width: 15%;
+            }
+            .checkboxText {
+                margin-left: 20 * $desk + vw;
+                // font-family: Roboto-regular;
+                line-height: 19px;
+                font-size: 14px;
+            }
+        }
+        .leaveUsContainer {
+            position: absolute;
+            margin-top: -134 * $mob + vw;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            width: 414 * $mob + vw;
+            height: auto;
+            overflow: auto !important;
+            background: #f9f9f9;
+            border: 1 * $mob + vw solid rgba(112, 112, 112, 0.29);
+            // border-radius: 8 * $mob + vw;
+            z-index: 1000;
+            .closeButtonContainer {
+                position: absolute;
+                top: 20 * $mob + vw;
+                right: 10 * $mob + vw;
+                width: 15 * $mob + vw;
+                height: 15 * $mob + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .errorMessage {
+                position: relative;
+                color: red;
+                font-size: 15 * $mob + vw;
+                margin-top: 10 * $mob + vw;
+                margin-bottom: 0 * $mob + vw;
+            }
+        }
+        .adjustEquireContainer {
+            margin-top: -125 * $mob + vw !important;
+        }
+        .equireContainer {
+            position: fixed;
+            margin-top: -140 * $mob + vw;
+            // align-items: center;
+            width: 414 * $mob + vw;
+            height: 100%;
+            // background: #f9f9f9;
+            border: 1 * $mob + vw solid rgba(112, 112, 112, 0.29);
+            // border-radius: 8 * $mob + vw;
+            z-index: 1000;
+            overflow-y: scroll;
+            .adjustHeight {
+                position: relative;
+                // width: 414 * $mob + vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                .sec-head {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                .closeButtonContainer {
+                    position: absolute;
+                    top: 0 * $mob + vw;
+                    right: 0 * $mob + vw;
+                    width: 15 * $mob + vw;
+                    height: 15 * $mob + vw;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .errorMessage {
+                    position: relative;
+                    color: red;
+                    font-size: 16px;
+                    margin: auto;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        // Schedule A Tour Form Container
+        .adjustScheduleTourContainer {
+            margin-top: -125 * $mob + vw !important;
+        }
+        .scheduleTourContainer {
+            margin-top: -139 * $mob + vw;
+            position: fixed;
+            // align-items: center;
+            width: 414 * $mob + vw;
+            height: 100%;
+            // background: #f9f9f9;
+            border: 1 * $mob + vw solid rgba(112, 112, 112, 0.29);
+            // border-radius: 8 * $mob + vw;
+            z-index: 1111;
+            overflow-y: scroll;
+            .adjustHeight {
+                position: relative;
+                // width: 414 * $mob + vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                .sec-head {
+                    margin: unset;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+                .closeButtonContainer {
+                    position: absolute;
+                    top: 0 * $mob + vw;
+                    right: 0 * $mob + vw;
+                    width: 15 * $mob + vw;
+                    height: 15 * $mob + vw;
+                    cursor: pointer;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .errorMessage {
+                    position: relative;
+                    color: red;
+                    font-size: 16px;
+                    margin: auto;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .TopBannerContainer {
+            position: relative;
+            display: flex;
+            align-items: center;
+            // margin-top: 100 * $mob + vw;
+            // height: 90 * $mob + vw;
+            .leftsection {
+                position: relative;
+                display: flex;
+                align-items: center;
+                height: 26 * $mob + vw;
+                margin-top: 51 * $mob + vw;
+                margin-left: -35 * $mob + vw;
+                .backButtonContainer {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    margin-right: 79 * $mob + vw;
+                    .backArrow {
+                        font-size: 14 * $mob + vw;
+                        color: #ffa702;
+                    }
+                    .backText {
+                        margin-left: 11 * $mob + vw;
+                        font-family: Roboto-regular;
+                        // margin-top: -79 * $mob + vw;
+
+                        font-size: 14 * $mob + vw;
+                        color: #ffa702;
+                    }
+                }
+                // .searchContainer {
+                //     position: relative;
+                //     display: none;
+                //     align-items: center;
+                //     .leftBorder {
+                //         margin-right: 16.5 * $mob + vw;
+                //         margin-left: 16.5 * $mob + vw;
+                //         width: 0 * $mob + vw;
+                //         height: 23 * $mob + vw;
+                //         border: 1 * $mob + vw solid rgba(112, 112, 112, 0.29);
+                //     }
+                //     .searchText {
+                //         font-family: Roboto-regular;
+                //         font-size: 20 * $mob + vw;
+                //         color: #0055ff;
+                //         cursor: pointer;
+                //     }
+                // }
+            }
+            .rightSection {
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-left: 97 * $mob + vw;
+                top: -12 * $mob + vw;
+                .iconContainer {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 17 * $mob + vw;
+                    margin-left: 44 * $mob + vw;
+                    cursor: pointer;
+                    .imageArea {
+                        width: 17 * $mob + vw;
+                        height: 19 * $mob + vw;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                    .textArea {
+                        font-family: Roboto-regular;
+                        font-size: 12 * $mob + vw;
+                        margin-top: 7 * $mob + vw;
+                    }
+                }
+            }
+        }
+        .backgroundPatch {
+            display: none;
+            position: absolute;
+            top: 43 * $mob + vw;
+            left: 0 * $mob + vw;
+            width: 414 * $mob + vw;
+            height: 1800 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .bottomBannerContainer {
+            position: relative;
+            display: flex;
+            width: 100%;
+            .leftsection {
+                width: 414 * $mob + vw;
+                height: 401 * $mob + vw;
+                h3 {
+                    font-family: Roboto-regular;
+                    font-size: 31 * $mob + vw;
+                    margin-left: 28 * $mob + vw;
+                    margin-bottom: 41 * $mob + vw;
+                    margin-top: -19 * $mob + vw;
+                    font-weight: lighter;
+                }
+                .sliderTopSection {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 414 * $mob + vw;
+                    height: 62 * $mob + vw;
+                    margin-top: -49 * $mob + vw;
+                    margin-left: 19 * $mob + vw;
+                    .profileContainer {
+                        display: flex;
+                        align-items: center;
+                        .profileImage {
+                            display: none;
+                            top: 184 * $mob + vw;
+                            left: 23 * $mob + vw;
+                            width: 27 * $mob + vw;
+                            height: 27 * $mob + vw;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .profileTextContainer {
+                            display: none;
+                            .profileName {
+                                font-family: Roboto-bold;
+                                font-size: 13 * $mob + vw;
+                                top: 182 * $mob + vw;
+                                margin-left: 8 * $mob + vw;
+                                margin-bottom: -6 * $mob + vw;
+                                width: 74 * $mob + vw;
+                                height: 16 * $mob + vw;
+                            }
+                            .profileDesc {
+                                font-family: Roboto-regular;
+                                font-size: 10 * $mob + vw;
+                                line-height: 13 * $mob + vw;
+                                margin-top: 6 * $mob + vw;
+                                width: 149 * $mob + vw;
+                                // height: 10 * $mob + vw;
+                                margin-left: 10 * $mob + vw;
+                            }
+                        }
+                        .subText1 {
+                            font-family: Roboto-medium;
+                            font-size: 14 * $mob + vw;
+                            margin-top: 0 * $mob + vw;
+                            // margin-bottom: 122 * $mob + vw;
+                            // top: 184px;
+                            margin-left: 10 * $mob + vw;
+                            width: 312 * $mob + vw;
+                        }
+                    }
+                    .availableContainer {
+                        display: none;
+                    }
+                }
+                .sliderBottomSection {
+                    width: 414 * $mob + vw;
+                    height: 189 * $mob + vw;
+                    // margin-left: -209 * $mob + vw;
+
+                    h6 {
+                        display: none;
+                        font-family: Roboto-regular;
+                        line-height: 42 * $mob + vw;
+                        margin-left: 275 * $mob + vw;
+                        margin-top: 0 * $mob + vw;
+                    }
+                    .availableContainer {
+                        display: block;
+                        width: 393 * $mob + vw;
+                        height: 88 * $mob + vw;
+                        margin-left: 10 * $mob + vw;
+                        background: #f9f9f9;
+                        margin-top: 20 * $mob + vw;
+                        padding-top: 19 * $mob + vw;
+
+                        div {
+                            font-family: Roboto-medium;
+                            font-size: 14 * $mob + vw;
+                            line-height: 25 * $mob + vw;
+                            margin-left: 18 * $mob + vw;
+                        }
+                        .topAdjust {
+                            margin-left: 18 * $mob + vw;
+                            margin-bottom: 16 * $mob + vw;
+                        }
+                    }
+                }
+            }
+
+            .rightSection {
+                position: relative;
+                width: 414 * $mob + vw;
+                height: 1054 * $mob + vw;
+                // margin-left: -94 * $mob + vw;
+                .subText {
+                    display: none;
+                }
+                .reservePropertyContainer {
+                    display: none;
+                    width: 494 * $mob + vw;
+                    height: 216 * $mob + vw;
+                    background: rgba(219, 219, 219, 0.27);
+                    border: 1 * $mob + vw solid rgba(112, 112, 112, 0.27);
+                    border-radius: 8 * $mob + vw;
+                    margin-bottom: 13 * $mob + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 40 * $mob + vw;
+                        margin-left: 30 * $mob + vw;
+                        margin-top: 11 * $mob + vw;
+                        line-height: 53 * $mob + vw;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 18 * $mob + vw;
+                        margin-left: 30 * $mob + vw;
+                        margin-bottom: 22 * $mob + vw;
+                    }
+                }
+                .enquirePropertyContainer {
+                    display: none;
+                    width: 494 * $mob + vw;
+                    height: 442 * $mob + vw;
+                    background: rgba(219, 219, 219, 0.27);
+                    border: 1 * $mob + vw solid rgba(112, 112, 112, 0.27);
+                    border-radius: 8 * $mob + vw;
+                    margin-bottom: 13 * $mob + vw;
+                    h3 {
+                        font-family: Roboto-regular;
+                        font-size: 40 * $mob + vw;
+                        margin-left: 30 * $mob + vw;
+                        margin-top: 11 * $mob + vw;
+                        margin-bottom: 22 * $mob + vw;
+                        line-height: 53 * $mob + vw;
+                        width: 412 * $mob + vw;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 18 * $mob + vw;
+                        margin-left: 34 * $mob + vw;
+                        margin-bottom: 12 * $mob + vw;
+                        width: 407 * $mob + vw;
+                        line-height: 24 * $mob + vw;
+                    }
+                }
+                //Leave Us Form Container
+
+                // Enquire Form Container
+            }
+        }
+        .locationContainer {
+            position: relative;
+            margin-top: 76 * $mob + vw;
+            h3 {
+                font-family: Roboto-regular;
+                font-size: 50 * $mob + vw;
+                margin-left: 157 * $mob + vw;
+                margin-bottom: 25 * $mob + vw;
+            }
+            .subText {
+                font-family: Roboto-regular;
+                font-size: 27 * $mob + vw;
+                margin-left: 157 * $mob + vw;
+                margin-bottom: 65 * $mob + vw;
+            }
+            .mapContainer {
+                margin-left: 157 * $mob + vw;
+                width: 940 * $mob + vw;
+                height: 369 * $mob + vw;
+                // img {
+                //     width: 100%;
+                //     height: 100%;
+                // }
+            }
+            .localityContainer {
+                position: relative;
+                margin-left: 157 * $mob + vw;
+                margin-top: 65 * $mob + vw;
+                .localityText {
+                    font-family: Roboto-regular;
+                    font-size: 50 * $mob + vw;
+                    margin-bottom: 41 * $mob + vw;
+                }
+                .descText p {
+                    font-family: Roboto-regular;
+                    font-size: 20 * $mob + vw;
+                    margin-bottom: 27 * $mob + vw;
+                }
+            }
+        }
+        .similarPropertiesContainer {
+            position: relative;
+            margin-top: 30 * $mob + vw;
+            h3 {
+                font-family: Roboto-regular;
+                font-size: 30 * $mob + vw;
+                margin-left: 24 * $mob + vw;
+                margin-bottom: 21 * $mob + vw;
+            }
+            .cardContainer {
+                position: relative;
+                display: flex;
+                margin-left: 24 * $mob + vw;
+                margin-bottom: 30 * $mob + vw;
+                div {
+                    font-family: Roboto-regular;
+                    font-size: 18 * $mob + vw;
+                }
+                .cardViewContainer {
+                    margin-left: 0;
+                    margin-right: 37 * $mob + vw;
+                }
+            }
+        }
+        .cardContainer {
+            display: none;
+        }
+    }
+}
+
+.EnquiryButton {
+    width: 100%;
+    margin-top: 22 * $mob + vw;
+    .reservePropertyButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 27 * $mob + vw;
+        width: 361 * $mob + vw;
+        height: 56 * $mob + vw;
+        background: #0055ff;
+        margin-top: 22 * $mob + vw;
+        border-radius: 6 * $mob + vw;
+        cursor: pointer;
+        .reservePropertyText {
+            // width: 115 * $mob + vw;
+            height: 20 * $mob + vw;
+            left: 148 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 15 * $mob + vw;
+            color: #ffffff;
+        }
+    }
+    .enquirePropertyButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 23 * $mob + vw;
+        margin-left: 27 * $mob + vw;
+        width: 361 * $mob + vw;
+        height: 56 * $mob + vw;
+        margin-top: 22 * $mob + vw;
+        background: #0055ff;
+        border-radius: 6 * $mob + vw;
+        cursor: pointer;
+        .enquirePropertyText {
+            width: -1 * $mob + vw;
+            height: 20 * $mob + vw;
+            left: 178 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 15 * $mob + vw;
+            color: #ffffff;
+        }
+    }
+    .scheduleTourButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 27 * $mob + vw;
+        width: 361 * $mob + vw;
+        height: 56 * $mob + vw;
+        background: #ffffff;
+        border: 1 * $mob + vw solid #0055ff;
+        border-radius: 6 * $mob + vw;
+        cursor: pointer;
+        .scheduleTourText {
+            // width: 115 * $mob + vw;
+            height: 20 * $mob + vw;
+            left: 148 * $mob + vw;
+            font-family: Roboto-regular;
+            font-size: 15 * $mob + vw;
+        }
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .leaveUsContainer {
+        display: none;
+    }
+    .scheduleTourContainer {
+        display: none;
+    }
+    .equireContainer {
+        display: none;
+    }
+    .TopBannerContainer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        // margin-top: 100 * $mob + vw;
+        // height: 90 * $mob + vw;
+        .leftsection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            height: 26 * $tablet + vw;
+            margin-top: 41 * $tablet + vw;
+            // margin-left: -35 * $tablet + vw;
+            .backButtonContainer {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                margin-right: 79 * $tablet + vw;
+                .backArrow {
+                    font-size: 14 * $tablet + vw;
+                    color: #ffa702;
+                }
+                .backText {
+                    margin-left: 11 * $tablet + vw;
+                    font-family: Roboto-regular;
+                    // margin-top: -79 * $tablet + vw;
+
+                    font-size: 14 * $tablet + vw;
+                    color: #ffa702;
+                }
+            }
+        }
+        .rightSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-left: 37 * $tablet + vw !important;
+            top: 42 * $tablet + vw;
+            .iconContainer {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 17 * $tablet + vw;
+                margin-left: 44 * $tablet + vw;
+                cursor: pointer;
+                .imageArea {
+                    width: 17 * $tablet + vw;
+                    height: 19 * $tablet + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+                .textArea {
+                    font-family: Roboto-regular;
+                    font-size: 12 * $tablet + vw;
+                    margin-top: 7 * $tablet + vw;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .subText1 {
+        display: none;
+    }
+    .leaveUsContainer {
+        display: none;
+    }
+    .scheduleTourContainer {
+        display: none;
+    }
+    .equireContainer {
+        display: none;
+    }
+}

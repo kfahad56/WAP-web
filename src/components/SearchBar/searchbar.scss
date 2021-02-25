@@ -1,0 +1,471 @@
+$desk: 100 / 1920;
+$tablet: 100 / 768;
+$mob: 100 / 414;
+.searchBtn {
+    margin-top: 0 !important;
+    margin-left: 2px;
+    margin-right: 2px;
+    @media only screen and (max-width: 800px) { 
+       font-size: 9px !important;
+    }
+}
+.SearchBarContainer {
+    position: sticky;
+    display: flex;
+    top: 113 * $desk + vw;
+    width: 100%;
+    height: 65 * $desk + vw;
+    border-top: 0.800000011920929 * $desk + vw solid #c7c7c7;
+    border-bottom: 0.800000011920929 * $desk + vw solid #c7c7c7;
+    background-color: #ffffff;
+    z-index: 10;
+    .leftSection {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 720 * $desk + vw;
+        border-right: 0.800000011920929 * $desk + vw solid #c7c7c7;
+        height: 64 * $desk + vw;
+        .searchCardAdjust {
+            position: absolute;
+            left: 185 * $desk + vw;
+            display: flex;
+            align-items: center;
+            width: 518 * $desk + vw;
+            // border: 1 * $desk + vw solid #0055ff;
+            z-index: 30;
+            .searchImage {
+                position: absolute;
+                left: 10 * $desk + vw;
+                width: 23 * $desk + vw;
+                height: 23 * $desk + vw;
+                margin-right: 27 * $desk + vw;
+                z-index: 100;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .searchBoxContainer {
+            display: flex;
+            align-items: center;
+            margin-left: 186 * $desk + vw;
+
+            .stateSuggestionContainer {
+                .inputBox {
+                    position: relative;
+                    z-index: 10 !important;
+                    input {
+                        outline: 0;
+                        border: 0;
+                        background: transparent;
+                        font-family: Roboto-regular;
+                        font-size: 17 * $desk + vw;
+                        z-index: 2;
+                    }
+                    ::placeholder {
+                        color: #000000;
+                        z-index: 2;
+                    }
+                }
+                .suggestions {
+                    position: absolute;
+                    width: 500 * $desk + vw;
+                    min-height: 263 * $desk + vw;
+                    max-height: 12.1vw;
+                    background: white;
+                    z-index: 1;
+                    box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+                    // border: 1px solid #51a8b1;
+                    top: -15 * $desk + vw;
+                    left: 160 * $desk + vw;
+                    right: 0;
+                    overflow: auto;
+                    .closeButtonContainer {
+                        position: absolute;
+                        top: 33 * $desk + vw;
+                        right: 15 * $desk + vw;
+                        width: 25 * $desk + vw;
+                        height: 25 * $desk + vw;
+                        cursor: pointer;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .suggestionData {
+                        display: flex;
+                        cursor: pointer;
+                        flex-direction: column;
+                        padding: 16 * $desk + vw 7 * $desk + vw 7 * $desk + vw 12 * $desk + vw;
+                        .otherData {
+                            display: flex;
+                            p {
+                                margin-top: 70 * $desk + vw;
+                                padding-left: 10 * $desk + vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .rightSection {
+        position: relative;
+        width: 1200 * $desk + vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .roundbutton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            padding-left: 10 * $desk + vw;
+            padding-right: 10 * $desk + vw;
+            height: 37 * $desk + vw;
+            border-radius: 33 * $desk + vw;
+            background: #ffffff;
+            margin-left: 34 * $desk + vw;
+            border: 1 * $desk + vw solid rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            div {
+                // font-family: Roboto-regular;
+                font-size: 17 * $desk + vw;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+        .roundbutton:hover {
+            background: #e4e4e4;
+        }
+        // .industryTag {
+        //     width: 123 * $desk + vw;
+        // }
+        .active {
+            background: #e4e4e4;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .SearchBarContainer {
+        position: sticky;
+        display: inline-block;
+        top: 0 * $mob + vw;
+        width: 100%;
+        height: 105 * $mob + vw;
+        border-top: 1 * $mob + vw solid #c7c7c7;
+        border-bottom: 1 * $mob + vw solid #c7c7c7;
+        background-color: #ffffff;
+        z-index: 10;
+        .leftSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            border-right: 1 * $mob + vw solid #c7c7c7;
+            height: 55 * $mob + vw;
+            .searchCardAdjust {
+                position: absolute;
+                left: 4 * $mob + vw;
+                display: flex;
+                align-items: center;
+                width: 410 * $mob + vw;
+                // border: 1 * $desk + vw solid #0055ff;
+                z-index: 30;
+                .searchImage {
+                    position: absolute;
+                    left: 15 * $mob + vw;
+                    width: 23 * $mob + vw;
+                    height: 23 * $mob + vw;
+                    // margin-right: 27 * $desk + vw;
+                    z-index: 100;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .searchBoxContainer {
+                display: none;
+                // display: flex;
+                width: 359 * $mob + vw;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: 30 * $mob + vw;
+                .searchImage {
+                    width: 25 * $mob + vw;
+                    height: 25 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                input {
+                    outline: 0;
+                    border: 0;
+                    background: transparent;
+                    font-family: Roboto-regular;
+                    font-size: 12 * $mob + vw !important;
+                }
+                ::placeholder {
+                    color: #000000;
+                }
+                .mobMap {
+                    width: 20 * $mob + vw;
+                    height: 20 * $mob + vw;
+                    margin-left: 153 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .closeButtonContainerMap {
+                position: absolute;
+                top: 33 * $mob + vw;
+                right: 43 * $mob + vw;
+                width: 20 * $mob + vw;
+                height: 20 * $mob + vw;
+                cursor: pointer;
+                z-index: 111;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .mobMap {
+                position: absolute;
+                right: 20 * $mob + vw;
+                z-index: 31;
+                cursor: pointer;
+                .fas {
+                    font-size: 25 * $mob + vw;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+        .rightSection {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            height: 95 * $mob + vw;
+            border-right: 1 * $mob + vw solid #c7c7c7;
+            border-top: 1 * $mob + vw solid #c7c7c7;
+            border-bottom: 1 * $mob + vw solid #c7c7c7;
+            background-color: #ffffff;
+            .roundbutton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                height: 24 * $mob + vw;
+                padding-left: 5 * $mob + vw;
+                padding-right: 5 * $mob + vw;
+                border-radius: 33 * $mob + vw;
+                background: #ffffff;
+                margin-right: 10 * $mob + vw;
+                margin-left: 10 * $mob + vw;
+                border: 1 * $mob + vw solid rgba(0, 0, 0, 0.5);
+                div {
+                    font-family: Roboto-regular;
+                    font-size: 11 * $mob + vw;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+            .mobFilter {
+                display: none;
+                margin-left: 142 * $mob + vw;
+                margin-top: 5 * $mob + vw;
+                width: 23 * $mob + vw;
+                height: 25 * $mob + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .SearchBarContainer {
+        position: sticky;
+        display: flex;
+        top: 86 * $tablet + vw;
+        width: 100%;
+        height: 58 * $tablet + vw;
+        border-top: 0.800000011920929 * $tablet + vw solid #c7c7c7;
+        border-bottom: 0.800000011920929 * $tablet + vw solid #c7c7c7;
+        background-color: #ffffff;
+        z-index: 10;
+        .leftSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 256 * $tablet + vw;
+            border-right: 0.800000011920929 * $tablet + vw solid #c7c7c7;
+            height: 58 * $tablet + vw;
+            .searchCardAdjust {
+                position: absolute;
+                left: 15 * $tablet + vw;
+                display: flex;
+                align-items: center;
+                width: 256 * $tablet + vw;
+                // border: 1 * $tablet + vw solid #0055ff;
+                z-index: 30;
+                .searchImage {
+                    position: absolute;
+                    left: -10 * $tablet + vw;
+                    width: 23 * $tablet + vw;
+                    height: 23 * $tablet + vw;
+                    margin-right: 27 * $tablet + vw;
+                    z-index: 100;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .searchBoxContainer {
+                display: flex;
+                align-items: center;
+                margin-left: 186 * $tablet + vw;
+
+                .stateSuggestionContainer {
+                    .inputBox {
+                        position: relative;
+                        z-index: 10 !important;
+                        input {
+                            outline: 0;
+                            border: 0;
+                            background: transparent;
+                            // font-family: Roboto-regular;
+                            font-size: 17 * $tablet + vw;
+                            z-index: 2;
+                        }
+                        ::placeholder {
+                            color: #000000;
+                            z-index: 2;
+                        }
+                    }
+                    .suggestions {
+                        position: absolute;
+                        width: 500 * $tablet + vw;
+                        min-height: 263 * $tablet + vw;
+                        max-height: 12.1vw;
+                        background: white;
+                        z-index: 1;
+                        box-shadow: 0 1 * $tablet + vw 4 * $tablet + vw rgba(0, 0, 0, 0.3);
+                        // border: 1px solid #51a8b1;
+                        top: -15 * $tablet + vw;
+                        left: 160 * $tablet + vw;
+                        right: 0;
+                        overflow: auto;
+                        .closeButtonContainer {
+                            position: absolute;
+                            top: 33 * $tablet + vw;
+                            right: 15 * $tablet + vw;
+                            width: 25 * $tablet + vw;
+                            height: 25 * $tablet + vw;
+                            cursor: pointer;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        .suggestionData {
+                            display: flex;
+                            cursor: pointer;
+                            flex-direction: column;
+                            padding: 16 * $tablet + vw 7 * $tablet + vw 7 * $tablet + vw 12 * $tablet + vw;
+                            .otherData {
+                                display: flex;
+                                p {
+                                    margin-top: 70 * $tablet + vw;
+                                    padding-left: 10 * $tablet + vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .closeButtonContainerMap {
+                position: absolute;
+                top: 33 * $mob + vw;
+                right: 43 * $mob + vw;
+                width: 20 * $mob + vw;
+                height: 20 * $mob + vw;
+                cursor: pointer;
+                z-index: 111;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .mobMap {
+                position: absolute;
+                left: 720 * $tablet + vw;
+                z-index: 31;
+                cursor: pointer;
+                .fas {
+                    font-size: 25 * $tablet + vw;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+        .rightSection {
+            position: relative;
+            width: 512 * $tablet + vw;
+            display: flex;
+            align-items: center;
+            .roundbutton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: auto;
+                height: 27 * $tablet + vw;
+                padding-left: 7 * $tablet + vw;
+                padding-right: 7 * $tablet + vw;
+                border-radius: 33 * $tablet + vw;
+                background: #ffffff;
+                margin-left: 14 * $tablet + vw;
+                border: 1 * $tablet + vw solid rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                div {
+                    // font-family: Roboto-regular;
+                    font-size: 13 * $tablet + vw;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+            .roundbutton:hover {
+                background: #e4e4e4;
+            }
+            .active {
+                background: #e4e4e4;
+            }
+        }
+    }
+    // .mobMap {
+    //     display: block;
+    // }
+    // .closeButtonContainerMap {
+    //     display: none;
+    // }
+    .mobFilter {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .mobMap {
+        display: none;
+    }
+    .closeButtonContainerMap {
+        display: none;
+    }
+    .mobFilter {
+        display: none;
+    }
+}

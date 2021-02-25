@@ -1,0 +1,528 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+$tablet: 100 / 768;
+
+.vendorLogin {
+    position: relative;
+    .signInContainer {
+        display: none;
+    }
+    .profileButtonContainer {
+        display: none;
+    }
+    .registerUserContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: fit-content;
+        .backButtonContainer {
+            width: 70 * $desk + vw;
+            margin-top: 75 * $desk + vw;
+        }
+        .optBoxContainer {
+            margin-top: 70 * $desk + vw;
+            .closeButtonContainer {
+                display: none;
+            }
+        }
+        .welcomeContainer {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 36 * $desk + vw;
+            margin-bottom: 23 * $desk + vw;
+            .loginHeadText {
+                width: 167 * $desk + vw;
+                font-family: Roboto-bold;
+                font-size: 29 * $desk + vw;
+                line-height: 38 * $desk + vw;
+            }
+            .hubshubImage {
+                width: 166 * $desk + vw;
+                height: 41 * $desk + vw;
+                margin-left: 11 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .subText {
+            display: flex;
+            justify-content: center;
+            font-family: Roboto-regular;
+            font-size: 26 * $desk + vw;
+            margin-bottom: 44 * $desk + vw;
+        }
+        .error {
+            position: relative;
+            color: rgb(255, 0, 0);
+            font-size: 21 * $desk + vw;
+        }
+        .registerFormContainer {
+            position: relative;
+            display: flex;
+            width: 830 * $desk + vw;
+            .leftFormSection {
+                margin-right: 30 * $desk + vw;
+                .MuiOutlinedInput-input {
+                    font-family: Roboto-regular;
+                    font-size: 16 * $desk + vw;
+                }
+                .MuiInputBase-fullWidth {
+                    width: 385 * $desk + vw;
+                }
+                .MuiOutlinedInput-root {
+                    border-radius: 4 * $desk + vw;
+                    margin-bottom: 34 * $desk + vw;
+                    width: 385 * $desk + vw;
+                }
+                .MuiFormLabel-root {
+                    font-size: 22 * $desk + vw;
+                    font-weight: 500;
+                    color: #000;
+                }
+            }
+            .rightFormSection {
+                margin-left: 30 * $desk + vw;
+                .MuiOutlinedInput-input {
+                    font-family: Roboto-regular;
+                    font-size: 16 * $desk + vw;
+                }
+                .MuiInputBase-fullWidth {
+                    width: 385 * $desk + vw;
+                }
+                .MuiOutlinedInput-root {
+                    border-radius: 4 * $desk + vw;
+                    margin-bottom: 34 * $desk + vw;
+                    width: 385 * $desk + vw;
+                }
+                .MuiFormLabel-root {
+                    font-size: 22 * $desk + vw;
+                    font-weight: 500;
+                    color: #000;
+                }
+                .checkboxContainer {
+                    display: flex;
+                    align-items: center;
+                    height: 65 * $desk + vw;
+                    .checkboxText {
+                        margin-left: 20 * $desk + vw;
+                        font-family: Roboto-regular;
+                        line-height: 27 * $desk + vw;
+                        font-size: 20 * $desk + vw;
+                    }
+                }
+            }
+        }
+        .signInWithMobileContainer {
+            margin: auto;
+            margin-top: 36 * $desk + vw;
+            margin-bottom: 36 * $desk + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 385 * $desk + vw;
+            height: 74 * $desk + vw;
+            background: #0055ff;
+            border-radius: 4 * $desk + vw;
+            cursor: pointer;
+            .btnText {
+                font-family: Roboto-regular;
+                font-size: 24 * $desk + vw;
+                color: #ffffff;
+            }
+        }
+        .signInWithMobileContainer:hover {
+            background: #00c;
+        }
+        .vendorLoader {
+            position: relative;
+            z-index: 1;
+            margin-left: 19.5vw;
+        }
+        .error409 {
+            position: relative;
+            color: rgb(255, 0, 0);
+            font-size: 21 * $desk + vw;
+            // margin-top: 1vw;
+        }
+        .error404 {
+            position: relative;
+            color: rgb(255, 0, 0);
+            font-size: 21 * $desk + vw;
+            // margin-top: 1vw;
+        }
+        .error203 {
+            position: relative;
+            color: rgb(255, 0, 0);
+            font-size: 21 * $desk + vw;
+            // margin-top: 1vw;
+        }
+        .error200 {
+            position: relative;
+            color: rgb(4, 109, 0);
+            font-size: 21 * $desk + vw;
+            // margin-top: 1vw;
+        }
+    }
+}
+@media only screen and (max-width: 480px) {
+    .vendorLogin {
+        position: relative;
+        .registerUserContainer {
+            position: relative;
+            display: inline-block;
+            flex-direction: column;
+            margin: auto;
+            width: 414 * $mob + vw;
+            .closeButtonContainer {
+                position: absolute;
+                top: 27 * $mob + vw;
+                right: 51 * $mob + vw;
+                width: 17 * $mob + vw;
+                height: 17 * $mob + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .backButtonContainer {
+                display: none;
+                width: 70 * $mob + vw;
+                margin-top: 75 * $mob + vw;
+            }
+
+            .welcomeContainer {
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-top: 66 * $mob + vw;
+                margin-bottom: 33 * $mob + vw;
+                margin-left: 0 * $mob + vw;
+                .loginHeadText {
+                    width: 140 * $mob + vw;
+                    font-family: Roboto-bold;
+                    font-size: 25 * $mob + vw;
+                    line-height: 38 * $mob + vw;
+                }
+                .hubshubImage {
+                    width: 135 * $mob + vw;
+                    height: 33 * $mob + vw;
+                    margin-left: 9 * $mob + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .subText {
+                display: flex;
+                justify-content: center;
+                font-family: Roboto-regular;
+                font-size: 17 * $mob + vw;
+                margin-bottom: 34 * $mob + vw;
+            }
+            .error {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(255, 0, 0);
+                font-size: 15 * $mob + vw;
+            }
+            .registerFormContainer {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                // width: 414 * $mob + vw;
+                .leftFormSection {
+                    // margin-right: 30 * $mob + vw;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 13 * $mob + vw;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 300 * $mob + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        // border-radius: 0;
+                        border: 0.5 solid #707070;
+
+                        margin-bottom: 34 * $mob + vw;
+                        width: 300 * $mob + vw;
+                    }
+                    .MuiFormLabel-root {
+                        font-size: 16 * $mob + vw;
+                        color: black;
+                    }
+                }
+                .rightFormSection {
+                    margin-left: 0 * $mob + vw;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 13 * $mob + vw;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 300 * $mob + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        // border-radius: 0;
+                        border: 0.5 solid #707070;
+
+                        margin-bottom: 34 * $mob + vw;
+                        width: 300 * $mob + vw;
+                    }
+                    .MuiFormLabel-root {
+                        font-size: 16 * $mob + vw;
+                        color: black;
+                    }
+                    .checkboxContainer {
+                        display: flex;
+                        align-items: center;
+                        height: 65 * $mob + vw;
+                        margin-bottom: 20px;
+                        input {
+                            width: 12%;
+                        }
+                        .checkboxText {
+                            margin-left: 10 * $mob + vw;
+                            // font-family: Roboto-regular;
+                            line-height: 24 * $mob + vw;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            .signInWithMobileContainer {
+                margin: auto;
+                margin-top: 17 * $mob + vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 174 * $mob + vw;
+                height: 45 * $mob + vw;
+                background: #0055ff;
+                border-radius: 2 * $mob + vw;
+                margin-top: 30 * $mob + vw;
+                margin-bottom: 30 * $mob + vw;
+                cursor: pointer;
+                .btnText {
+                    font-family: Roboto-regular;
+                    font-size: 15 * $mob + vw;
+                    color: #ffffff;
+                }
+            }
+            .vendorLoader {
+                position: relative;
+                z-index: 1;
+                bottom: -5vw;
+                margin-left: 42vw;
+            }
+            .error409 {
+                position: relative;
+                color: rgb(255, 0, 0);
+                font-size: 21 * $mob + vw;
+                // margin-top: 1vw;
+            }
+            .error404 {
+                position: relative;
+                color: rgb(255, 0, 0);
+                font-size: 21 * $mob + vw;
+                // margin-top: 1vw;
+            }
+            .error203 {
+                position: relative;
+                color: rgb(255, 0, 0);
+                font-size: 21 * $mob + vw;
+                // margin-top: 1vw;
+            }
+            .error200 {
+                position: relative;
+                color: rgb(4, 109, 0);
+                font-size: 21 * $mob + vw;
+                // margin-top: 1vw;
+            }
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    .vendorLogin {
+        .registerUserContainer {
+            position: relative;
+            // display: inline-block;
+            flex-direction: column;
+            margin: auto;
+            width: 768 * $tablet + vw;
+            .backButtonContainer {
+                width: 70 * $tablet + vw;
+                margin-top: 90 * $tablet + vw;
+            }
+            .partnerText {
+                position: absolute;
+                top: 40 * $tablet + vw;
+                right: 60 * $tablet + vw;
+                font-family: Roboto-medium;
+                font-size: 15 * $tablet + vw;
+                cursor: pointer;
+                z-index: 1;
+                color: #0055ff;
+            }
+            .welcomeContainer {
+                position: relative;
+                display: flex;
+                align-items: center;
+                margin-top: 36 * $tablet + vw;
+                margin-bottom: 33 * $tablet + vw;
+                margin-left: 65 * $tablet + vw;
+                .loginHeadText {
+                    width: 199 * $tablet + vw;
+                    font-family: Roboto-bold;
+                    font-size: 29 * $tablet + vw;
+                    line-height: 38 * $tablet + vw;
+                }
+                .hubshubImage {
+                    width: 135 * $tablet + vw;
+                    height: 33 * $tablet + vw;
+                    margin-right: 60 * $tablet + vw;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            .subText {
+                display: flex;
+                justify-content: center;
+                font-family: Roboto-regular;
+                font-size: 17 * $tablet + vw;
+                margin-bottom: 34 * $tablet + vw;
+            }
+            .error {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(255, 0, 0);
+                font-size: 15 * $tablet + vw;
+            }
+            .registerFormContainer {
+                position: relative;
+                display: flex;
+                width: 768 * $tablet + vw;
+                .leftFormSection {
+                    margin-left: 55 * $tablet + vw;
+                    margin-right: 5 * $tablet + vw;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 13 * $tablet + vw;
+                        color: #000;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 300 * $tablet + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        border-radius: 0;
+                        margin-bottom: 34 * $tablet + vw;
+                        width: 300 * $tablet + vw;
+                    }
+                    .MuiFormLabel-root {
+                        font-size: 19 * $tablet + vw;
+                        color: #000;
+                    }
+                }
+                .rightFormSection {
+                    margin-left: 5 * $tablet + vw;
+                    margin-right: 55 * $tablet + vw;
+                    .MuiOutlinedInput-input {
+                        font-family: Roboto-regular;
+                        font-size: 13 * $tablet + vw;
+                        color: #000;
+                    }
+                    .MuiInputBase-fullWidth {
+                        width: 300 * $tablet + vw;
+                    }
+                    .MuiOutlinedInput-root {
+                        border-radius: 0;
+                        margin-bottom: 34 * $tablet + vw;
+                        width: 300 * $tablet + vw;
+                    }
+                    .MuiFormLabel-root {
+                        font-size: 19 * $tablet + vw;
+                        color: #000;
+                    }
+                    .checkboxContainer {
+                        display: flex;
+                        align-items: center;
+                        height: 45 * $tablet + vw;
+                        .checkboxText {
+                            margin-left: 10 * $mob + vw;
+                            // font-family: Roboto-regular;
+                            line-height: 24 * $mob + vw;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            .signInWithMobileContainer {
+                margin: auto;
+                margin-top: 6 * $tablet + vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 174 * $tablet + vw;
+                height: 45 * $tablet + vw;
+                background: #0055ff;
+                border-radius: 4 * $tablet + vw;
+                cursor: pointer;
+                margin-bottom: 27 * $tablet + vw;
+                .btnText {
+                    font-family: Roboto-regular;
+                    font-size: 20 * $tablet + vw;
+                    color: #ffffff;
+                }
+            }
+            .vendorLoader {
+                position: relative;
+                z-index: 1;
+                margin-left: 19.5vw;
+            }
+            .error409 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(255, 0, 0);
+                font-size: 15 * $tablet + vw;
+                // margin-top: 1vw;
+            }
+            .error404 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(255, 0, 0);
+                font-size: 15 * $tablet + vw;
+                // margin-top: 1vw;
+            }
+            .error203 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(255, 0, 0);
+                font-size: 15 * $tablet + vw;
+                // margin-top: 1vw;
+            }
+            .error200 {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                color: rgb(4, 109, 0);
+                font-size: 15 * $tablet + vw;
+                // margin-top: 1vw;
+            }
+        }
+    }
+}

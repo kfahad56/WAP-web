@@ -1,0 +1,39 @@
+.blogButtonContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10.3125vw;
+  height: 2.5vw;
+  border-radius: 0.3125vw;
+  border: 0.05208vw solid #000000;
+  cursor: pointer;
+}
+
+.blogButtonContainer .tagText {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 800px) {
+  .blogButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 37.43961vw;
+    height: 8.9372vw;
+    border-radius: 1.44928vw;
+    border: 0.48309vw solid #000000;
+    cursor: pointer;
+  }
+  .blogButtonContainer .tagText {
+    font-size: 4.10628vw;
+  }
+}
+/*# sourceMappingURL=blogbutton.css.map */

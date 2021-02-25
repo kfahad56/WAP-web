@@ -1,0 +1,44 @@
+.btnAdjust {
+  width: 100%;
+}
+
+.error {
+  font-size: 16px;
+  margin-top: 0.78125vw;
+  color: #ff0000;
+}
+
+.sec-head2 h2::before {
+  left: 0 !important;
+}
+
+.sec-head2 h2::after {
+  left: 14% !important;
+}
+
+.sec-head2::before {
+  display: none;
+}
+
+.sec-head2::after {
+  display: none;
+}
+
+.blogMailAdjust input {
+  background-color: #f8f9fa;
+}
+
+.blogMailAdjust label {
+  background-color: #f8f9fa;
+}
+
+p {
+  font-family: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+  .sec-head2 {
+    margin-left: 17px;
+  }
+}
+/*# sourceMappingURL=blogcontent.css.map */

@@ -1,0 +1,25 @@
+{
+  "seo": {
+    "title": "Career | Hubshub",
+    "description": "-",
+    "keywords": "hubshub team"
+  },
+  "opportunities_at_hubshub": {
+    "description": "Hubshub is an equal opportunities employer. We are a technology-oriented company looking to disrupt the warehousing and logistics solutions space in India. Explore the vacancies below to join us on this enriching journey!",
+    "image": {
+      "image": "/images/careerimage.png",
+      "alt": "-"
+    }
+  },
+  "vacancies": [
+    {
+      "type": "Key Account Manager"
+    },
+    {
+      "type": "Accountant"
+    },
+    {
+      "type": "Content Editor"
+    }
+  ]
+}

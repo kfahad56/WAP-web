@@ -1,0 +1,160 @@
+.MainSliderContainer {
+  position: relative;
+  width: 100%;
+  left: 0vw;
+  overflow: hidden;
+}
+
+.MainSliderContainer .adjustSlider {
+  width: 120.3125vw;
+}
+
+.MainSliderContainer .slick-slider {
+  position: relative;
+}
+
+.MainSliderContainer *:focus {
+  outline: 0;
+  outline: none;
+}
+
+.MainSliderContainer .imageContainer {
+  width: 100% !important;
+  height: 600px;
+}
+
+.MainSliderContainer .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.MainSliderContainer .rightArrowContainer {
+  position: absolute;
+  width: 5.67708vw;
+  height: 5.46875vw;
+  top: 19.32292vw;
+  left: 90.625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.MainSliderContainer .rightArrowContainer .rightButton {
+  position: absolute;
+  width: 1.97917vw;
+  height: 1.51042vw;
+}
+
+.MainSliderContainer .rightArrowContainer .rightButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.MainSliderContainer .rightArrowContainer:hover {
+  background: #e4e4e4;
+}
+
+.MainSliderContainer .leftArrowContainer {
+  position: absolute;
+  width: 5.67708vw;
+  height: 5.46875vw;
+  top: 19.32292vw;
+  left: 2.08333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.MainSliderContainer .leftArrowContainer .leftButton {
+  position: absolute;
+  width: 1.97917vw;
+  height: 1.51042vw;
+}
+
+.MainSliderContainer .leftArrowContainer .leftButton img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.MainSliderContainer .leftArrowContainer:hover {
+  background: #e4e4e4;
+}
+
+@media only screen and (max-width: 800px) {
+  .MainSliderContainer {
+    position: relative;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+  }
+  .MainSliderContainer .slick-slider {
+    position: relative;
+  }
+  .MainSliderContainer *:focus {
+    outline: 0;
+    outline: none;
+  }
+  .MainSliderContainer .imageContainer {
+    width: 100% !important;
+    height: 569px;
+  }
+  .MainSliderContainer .imageContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .MainSliderContainer .rightArrowContainer {
+    display: none;
+    position: absolute;
+    width: 26.3285vw;
+    height: 25.36232vw;
+    top: 65.45894vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .MainSliderContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 9.17874vw;
+    height: 7.00483vw;
+  }
+  .MainSliderContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .MainSliderContainer .leftArrowContainer {
+    display: none;
+  }
+}
+/*# sourceMappingURL=mainslider.css.map */

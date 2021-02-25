@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAC;EACJ,QAAQ,EAAE,mBAAmB;CAChC;;AACD,AAAA,MAAM,CAAC;EACH,IAAI,EAAE,CAAC;CACV;;AACD,AAAA,sBAAsB,CAAC;EACnB,QAAQ,EAAE,gBAAgB;CAC7B;;AACD,AAAA,sBAAsB,CAAC;EACnB,eAAe,EAAE,iBAAiB;CACrC",
+    "sources": [
+        "termspopup2.scss"
+    ],
+    "names": [],
+    "file": "termspopup2.css"
+}

@@ -1,0 +1,286 @@
+.optBoxContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25.72917vw;
+  height: 24.47917vw;
+  background: rgba(219, 219, 219, 0.27);
+  border: 0.05208vw solid rgba(112, 112, 112, 0.29);
+  border-radius: 0.41667vw;
+  margin: auto;
+  margin-top: 2.60417vw;
+}
+
+.optBoxContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.80208vw;
+  right: 0.80208vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.optBoxContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.optBoxContainer .loginHeadText {
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+  margin-top: 1.66667vw;
+  margin-left: 2.29167vw;
+  margin-bottom: 1.30208vw;
+}
+
+.optBoxContainer p {
+  width: 21.19792vw;
+  font-family: inherit;
+  font-size: 0.88542vw;
+  line-height: 1.19792vw;
+  margin-left: 2.29167vw;
+  margin-bottom: 1.97917vw;
+}
+
+.optBoxContainer .otpAdjustContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2.29167vw;
+  margin-bottom: 0.78125vw;
+}
+
+.optBoxContainer .otpAdjustContainer input {
+  outline: 0;
+  width: 3.07292vw;
+  height: 3.02083vw;
+  margin-right: 0.18229vw;
+  margin-left: 0.18229vw;
+  color: #000000;
+  text-align: center;
+  font-size: 1.04167vw;
+  border: 0.05208vw solid rgba(112, 112, 112, 0.3);
+}
+
+.optBoxContainer .otpAdjustContainer .divideBorder {
+  width: 0.72917vw;
+  height: 0vw;
+  border: 0.05208vw solid #707070;
+  opacity: 0.3;
+}
+
+.optBoxContainer .resendText {
+  font-size: 0.72917vw;
+  margin-left: 19.27083vw;
+  cursor: pointer;
+  color: #0055ff;
+}
+
+.optBoxContainer .error {
+  font-size: 16px;
+  margin-left: 2.29167vw;
+  color: #ff0000;
+}
+
+.optBoxContainer .success {
+  font-size: 16px;
+  margin-left: 2.29167vw;
+  color: green;
+}
+
+.optBoxContainer .loader {
+  position: relative !important;
+  width: 5.20833vw;
+  height: 5.20833vw;
+  bottom: unset !important;
+  left: unset !important;
+  margin: auto;
+}
+
+.optBoxContainer .otpBtn {
+  margin: auto;
+  width: 60%;
+}
+
+.optBoxContainer .proceedButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1vw;
+}
+
+.optBoxContainer .proceedButton .btnText {
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.optBoxContainer .proceedButton:hover {
+  background: #00c;
+}
+
+@media only screen and (max-width: 480px) {
+  .optBoxContainer {
+    position: fixed;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    z-index: 1000;
+    top: -10px;
+    left: 0;
+  }
+  .optBoxContainer .closeButtonContainer {
+    position: absolute;
+    top: 3.71981vw;
+    right: 6.13527vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .optBoxContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .optBoxContainer .loginHeadText {
+    width: 53.1401vw;
+    font-size: 7.00483vw;
+    line-height: 9.17874vw;
+    margin-top: 21.49758vw;
+    margin-left: 25.12077vw;
+    margin-bottom: 11.35266vw;
+  }
+  .optBoxContainer p {
+    margin-top: 1.93237vw;
+    width: unset;
+    padding: 10px;
+    text-align: left;
+    margin-left: 9%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .optBoxContainer .otpAdjustContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3.62319vw;
+    margin-top: 11.35266vw;
+  }
+  .optBoxContainer .otpAdjustContainer input {
+    outline: 0;
+    width: 12.07729vw;
+    height: 12.07729vw;
+    margin: auto;
+    color: #000000;
+    text-align: center;
+    font-size: 4.58937vw;
+    border: 0.24155vw solid rgba(112, 112, 112, 0.3);
+  }
+  .optBoxContainer .otpAdjustContainer .divideBorder {
+    width: 3.38164vw;
+    height: 0vw;
+    border: 0.24155vw solid #707070;
+    opacity: 0.3;
+  }
+  .optBoxContainer .resendText {
+    font-size: 3.38164vw;
+    width: 21.49758vw;
+    margin-left: 74.87923vw;
+    margin-bottom: 12.07729vw;
+    height: 4.58937vw;
+    cursor: pointer;
+    color: #0055ff;
+  }
+  .optBoxContainer .resendText {
+    font-size: 14px;
+    margin-left: 250px;
+    width: unset;
+    cursor: pointer;
+    color: #0055ff;
+  }
+  .optBoxContainer .error {
+    font-size: 16px;
+    margin-left: 21px;
+    color: #ff0000;
+  }
+  .optBoxContainer .success {
+    font-size: 16px;
+    margin-left: 21px;
+    color: green;
+  }
+  .optBoxContainer .loader {
+    position: relative !important;
+    width: 5.20833vw;
+    height: 5.20833vw;
+    margin-bottom: 40px !important;
+    left: -6% !important;
+    margin: auto;
+  }
+  .optBoxContainer .otpBtn {
+    margin-left: 21%;
+    width: 60%;
+    margin-top: 10px;
+  }
+  .optBoxContainer .proceedButton {
+    margin: auto;
+    margin-top: 1.44928vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    cursor: pointer;
+    margin-bottom: 6.52174vw;
+  }
+  .optBoxContainer .proceedButton .btnText {
+    font-size: 4.83092vw;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .optBoxContainer1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .optBoxContainer1 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=otpbox.css.map */

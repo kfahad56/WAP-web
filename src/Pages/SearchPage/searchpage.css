@@ -1,0 +1,1578 @@
+.SearchPageContainer {
+  position: relative;
+}
+
+.SearchPageContainer a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.SearchPageContainer .capacityCardMainContainer {
+  position: absolute;
+  margin-top: 0vw;
+  left: 36.45833vw;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4.6875vw;
+  width: 23.4375vw;
+  height: 8.33333vw;
+  -webkit-box-shadow: 0vw 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+          box-shadow: 0vw 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+  border-radius: 0.625vw;
+  z-index: 100;
+  background: #ffffff;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.78125vw;
+  right: 0.78125vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm {
+  height: 8.33333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .mailAdjust {
+  margin-top: 30px !important;
+  width: 240px !important;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-input {
+  font-size: 0.72917vw;
+  color: #000000;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiInputBase-fullWidth {
+  width: 0vw;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 0vw;
+  width: 18.22917vw;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiFormLabel-root {
+  color: #000000;
+  font-size: 1.14583vw;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton {
+  margin-top: 0vw;
+  margin-left: 0.83333vw;
+  width: 1.82292vw;
+  height: 1.82292vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .disabled {
+  cursor: default;
+}
+
+.SearchPageContainer .squarefitCardMainContainer {
+  position: absolute;
+  margin-top: 0vw;
+  left: 44.27083vw;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4.6875vw;
+  width: 23.4375vw;
+  height: 8.33333vw;
+  -webkit-box-shadow: 0vw 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+          box-shadow: 0vw 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+  border-radius: 0.625vw;
+  z-index: 100;
+  background: #ffffff;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer {
+  position: absolute;
+  top: 0.78125vw;
+  right: 0.78125vw;
+  width: 0.78125vw;
+  height: 0.78125vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm {
+  height: 8.33333vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0 !important;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .mailAdjust {
+  margin-top: 30px !important;
+  width: 240px !important;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-input {
+  font-size: 0.72917vw;
+  color: #000000;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiInputBase-fullWidth {
+  width: 0vw;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 0vw;
+  width: 18.22917vw;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiFormLabel-root {
+  color: #000000;
+  font-size: 1.14583vw;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton {
+  margin-top: 0vw;
+  margin-left: 0.83333vw;
+  width: 1.82292vw;
+  height: 1.82292vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection {
+  position: relative;
+  width: 76.5625vw;
+  height: auto;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 9.6875vw;
+  width: 39.0625vw;
+  height: 4.21875vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .showingText {
+  font-size: 0.88542vw;
+  color: #000;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 6.04167vw;
+  height: 1.92708vw;
+  background-color: #0055ff;
+  border-radius: 1.77083vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage {
+  width: 0.88542vw;
+  height: 0.88542vw;
+  margin-right: 0.41667vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterText {
+  font-size: 0.83333vw;
+  color: #ffffff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAnyImage {
+  width: 20.83333vw;
+  height: 20.83333vw;
+  margin-top: 3.95833vw;
+  margin: auto;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAnyImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAny {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5625vw;
+  margin-top: 1.35417vw;
+  letter-spacing: 0.52083vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .bottomSection {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container {
+  position: relative;
+  width: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .narrowSearchText {
+  font-size: 1.45833vw;
+  margin-top: 3.95833vw;
+  margin-left: 9.27083vw;
+  margin-bottom: 2.08333vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer {
+  position: absolute;
+  top: -1.71875vw;
+  right: 2.23958vw;
+  width: 1.04167vw;
+  height: 1.04167vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.13542vw;
+  margin-left: 9.27083vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .blogButtonContainer {
+  width: 7.29167vw;
+  height: 1.71875vw;
+  border: 0.05208vw solid #ffa702;
+  margin-right: 0.9375vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .blogButtonContainer .tagText {
+  font-size: 13px;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab {
+  background-color: #ffa702;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab .tagText {
+  color: #ffffff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .borderBottom {
+  width: 31.82292vw;
+  height: 0vw;
+  border: 0.05208vw solid #c7c7c7;
+  margin-top: 1.53646vw;
+  margin-bottom: 1.43229vw;
+  margin-left: 9.16667vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 44.79167vw;
+  margin-left: 9.27083vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .blogButtonContainer {
+  width: auto;
+  height: auto;
+  border: 0.05208vw solid #ffa702;
+  margin-right: 0.9375vw;
+  margin-bottom: 0.9375vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .blogButtonContainer .tagText {
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab {
+  background-color: #ffa702;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab .tagText {
+  color: #ffffff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .adjustSearchTypeSection1 {
+  margin-top: 1.09375vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .applyButton {
+  width: 10.72917vw;
+  margin-top: 4.73958vw;
+  margin-left: 9.16667vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .applyButton:hover {
+  background: #00c;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container {
+  position: relative;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .narrowSearchText {
+  font-size: 1.5625vw;
+  margin-top: 3.95833vw;
+  margin-left: 14.32292vw;
+  width: 28.17708vw;
+  line-height: 1.97917vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .closeButtonContainer {
+  position: absolute;
+  top: -1.71875vw;
+  right: 2.23958vw;
+  width: 1.04167vw;
+  height: 1.04167vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.97917vw;
+  margin-left: 14.32292vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .MuiOutlinedInput-input {
+  font-size: 0.67708vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .MuiInputBase-fullWidth {
+  width: 20vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 1.35417vw;
+  width: 20vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .MuiFormLabel-root {
+  color: #000000;
+  font-size: 1.14583vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .textArea {
+  height: 5.9375vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .proceedButton {
+  margin-top: 1.04167vw;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .proceedButton .btnText {
+  font-size: 1.04167vw;
+  color: #ffffff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .numberFieldContainer {
+  display: none;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .numberFieldContainer .countryCode {
+  display: none;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container .leaveUSContainer .numberFieldContainer .countryCode .MuiOutlinedInput-root {
+  width: 3.48958vw !important;
+  font-size: 1.09375vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer {
+  position: relative;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .narrowSearchText {
+  position: relative;
+  font-size: 1.5625vw;
+  margin-top: 6.61458vw;
+  margin-left: 15.57292vw;
+  margin-bottom: 1.30208vw;
+  width: 9.94792vw;
+  line-height: 1.97917vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer p {
+  font-size: 0.88542vw;
+  margin-left: 15.57292vw;
+  width: 21.19792vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .closeButtonContainer {
+  position: absolute;
+  top: -4.32292vw;
+  right: 2.23958vw;
+  width: 1.04167vw;
+  height: 1.04167vw;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .closeButtonContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .otpAdjustContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15.57292vw;
+  margin-top: 1.97917vw;
+  margin-bottom: 0.78125vw;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .otpAdjustContainer input {
+  outline: 0;
+  width: 3.07292vw;
+  height: 3.02083vw;
+  margin-right: 0.18229vw;
+  margin-left: 0.18229vw;
+  color: #000000;
+  text-align: center;
+  font-size: 1.04167vw;
+  border: 0.05208vw solid rgba(112, 112, 112, 0.3);
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .otpAdjustContainer .divideBorder {
+  width: 0.72917vw;
+  height: 0vw;
+  border: 0.05208vw solid #707070;
+  opacity: 0.3;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .resendText {
+  font-size: 0.72917vw;
+  margin-left: 32.55208vw;
+  margin-bottom: 2.03125vw;
+  cursor: pointer;
+  color: #0055ff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .submitButton {
+  margin-top: 1.04167vw;
+  margin-left: 16.14583vw;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer .submitButton .btnText {
+  font-size: 1.04167vw;
+  color: #ffffff;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .rightSection {
+  position: sticky !important;
+  position: -webkit-sticky;
+  right: 0;
+  top: 0vw;
+  width: 44.27083vw;
+  min-height: 85.5vh;
+}
+
+.SearchPageContainer .mainSearchBoxContainer .rightSection img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .SearchPageContainer {
+    position: relative;
+  }
+  .SearchPageContainer .part3ContainerMob {
+    overflow: scroll;
+    position: absolute;
+    width: 100vw;
+    height: 265.70048vw;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    z-index: 11;
+  }
+  .SearchPageContainer .part3ContainerMob .narrowSearchText {
+    font-size: 7.00483vw;
+    margin-top: 18.35749vw;
+    margin-left: 11.35266vw;
+    width: 82.85024vw;
+    height: 21.49758vw;
+    line-height: 9.17874vw;
+  }
+  .SearchPageContainer .part3ContainerMob .closeButtonContainer {
+    position: absolute;
+    top: 6.03865vw;
+    right: 7.97101vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .part3ContainerMob .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 9.17874vw;
+    margin-left: 13.52657vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .MuiOutlinedInput-input {
+    font-size: 3.1401vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .MuiOutlinedInput-root {
+    border-radius: 0;
+    margin-bottom: 1.44928vw;
+    width: 72.46377vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .MuiFormLabel-root {
+    color: #000000;
+    font-size: 4.34783vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .textArea .MuiOutlinedInput-root {
+    border-radius: 0;
+    margin-bottom: 1.44928vw;
+    width: 72.46377vw;
+    height: 29.4686vw;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .proceedButton {
+    margin-top: 4.83092vw;
+    margin-bottom: 15.70048vw;
+    margin-left: 13.28502vw;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .proceedButton .btnText {
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .numberFieldContainer {
+    display: none;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .numberFieldContainer .countryCode {
+    display: none;
+  }
+  .SearchPageContainer .part3ContainerMob .leaveUSContainer .numberFieldContainer .countryCode .MuiOutlinedInput-root {
+    width: 16.18357vw !important;
+    font-size: 5.07246vw;
+  }
+  .SearchPageContainer .otpContainer1 {
+    position: fixed;
+    width: 100vw;
+    background: #f9f9f9 0% 0% no-repeat padding-box;
+    z-index: 11;
+    height: 177.77778vw;
+  }
+  .SearchPageContainer .otpContainer1 .narrowSearchText {
+    position: relative;
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-top: 24.15459vw;
+    margin-left: 28.98551vw;
+    margin-bottom: 3.62319vw;
+    width: 53.1401vw;
+    line-height: 11.35266vw;
+  }
+  .SearchPageContainer .otpContainer1 p {
+    font-family: Roboto-regular;
+    top: 34.78261vw;
+    font-size: 3.62319vw;
+    margin-left: 21.49758vw;
+    width: 77.29469vw;
+  }
+  .SearchPageContainer .otpContainer1 .closeButtonContainer {
+    position: absolute;
+    top: 6.03865vw;
+    left: 88.88889vw;
+    right: 10.38647vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .otpContainer1 .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .otpContainer1 .otpAdjustContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 6.52174vw;
+    margin-top: 13.28502vw;
+    margin-bottom: 3.62319vw;
+  }
+  .SearchPageContainer .otpContainer1 .otpAdjustContainer input {
+    outline: 0;
+    width: 12.07729vw;
+    height: 11.83575vw;
+    margin-right: 0.84541vw;
+    margin-left: 0.84541vw;
+    color: #000000;
+    text-align: center;
+    font-size: 4.83092vw;
+    border: 1px solid #707070;
+  }
+  .SearchPageContainer .otpContainer1 .otpAdjustContainer .divideBorder {
+    width: 3.38164vw;
+    height: 0vw;
+    border: 0.24155vw solid #707070;
+    opacity: 0.6;
+  }
+  .SearchPageContainer .otpContainer1 .resendText {
+    font-size: 3.38164vw;
+    margin-left: 72.22222vw;
+    margin-top: 3.62319vw;
+    margin-bottom: 9.42029vw;
+    cursor: pointer;
+    color: #0055ff;
+  }
+  .SearchPageContainer .otpContainer1 .submitButton {
+    margin-top: 19.32367vw;
+    margin-left: 26.57005vw;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  .SearchPageContainer .otpContainer1 .submitButton .btnText {
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .SearchPageContainer .capacityCardMainContainer {
+    position: absolute;
+    left: 2.89855vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer {
+    position: fixed;
+    top: 36.23188vw;
+    width: 94.2029vw;
+    height: 28.98551vw;
+    -webkit-box-shadow: 0vw 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0vw 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+    border-radius: 2.89855vw;
+    z-index: 100;
+    background: #ffffff;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer {
+    position: absolute;
+    top: 3.62319vw;
+    right: 3.62319vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm {
+    height: 28.98551vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0 !important;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .mailAdjust {
+    margin-top: 30px !important;
+    width: 240px !important;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-input {
+    font-size: 3.1401vw;
+    color: #000000;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiInputBase-fullWidth {
+    width: 0vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 0vw;
+    width: 72.46377vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiFormLabel-root {
+    color: #000000;
+    font-size: 4.34783vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton {
+    margin-top: 0vw;
+    margin-left: 3.86473vw;
+    width: 6.03865vw;
+    height: 6.03865vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .squarefitCardMainContainer {
+    position: absolute;
+    left: 2.89855vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer {
+    position: fixed;
+    top: 36.23188vw;
+    width: 94.2029vw;
+    height: 28.98551vw;
+    -webkit-box-shadow: 0vw 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0vw 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+    border-radius: 2.89855vw;
+    z-index: 100;
+    background: #ffffff;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer {
+    position: absolute;
+    top: 3.62319vw;
+    right: 3.62319vw;
+    width: 3.62319vw;
+    height: 3.62319vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm {
+    height: 28.98551vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 0 !important;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .mailAdjust {
+    margin-top: 30px !important;
+    width: 240px !important;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-input {
+    font-size: 3.1401vw;
+    color: #000000;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiInputBase-fullWidth {
+    width: 0vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 0vw;
+    width: 72.46377vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiFormLabel-root {
+    color: #000000;
+    font-size: 4.34783vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton {
+    margin-top: 0vw;
+    margin-left: 3.86473vw;
+    width: 6.03865vw;
+    height: 6.03865vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer {
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection {
+    position: relative;
+    width: 100vw;
+    margin-top: 14.49275vw;
+    height: auto;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    left: 5.7971vw;
+    width: 86.95652vw;
+    height: 10.86957vw;
+    margin-top: 8.45411vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .showingText {
+    font-size: 3.38164vw;
+    color: #c4c4c4;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer {
+    display: none;
+    position: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    right: 4.83092vw;
+    margin-top: -24.15459vw;
+    z-index: 10;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage {
+    width: 4.58937vw;
+    height: 4.83092vw;
+    margin-right: 1.93237vw;
+    z-index: 111;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterText {
+    display: none;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 4vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAnyImage {
+    width: 67.63285vw;
+    height: 67.63285vw;
+    margin-top: 18.35749vw;
+    margin: auto;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAnyImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .notAnyContainer .notAny {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 4.10628vw;
+    margin-top: 6.28019vw;
+    letter-spacing: 0.96618vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .bottomSection {
+    position: relative;
+    width: 82.6087vw;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 8.69565vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container {
+    position: relative;
+    width: 100vw;
+    top: -72.46377vw;
+    background: white;
+    z-index: 8888;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .narrowSearchText {
+    font-size: 6.03865vw;
+    margin-top: 18.35749vw;
+    margin-bottom: 6.28019vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer {
+    position: relative;
+    top: 6.03865vw;
+    left: 88.88889vw;
+    right: 10.38647vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 9.90338vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .blogButtonContainer {
+    width: 33.81643vw;
+    height: 7.97101vw;
+    border: 0.24155vw solid #ffa702;
+    margin-right: 4.34783vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab {
+    background-color: #ffa702;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab .tagText {
+    color: #ffffff;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .borderBottom {
+    width: 147.58454vw;
+    height: 0vw;
+    border: 0.24155vw solid #c7c7c7;
+    margin-top: 7.1256vw;
+    margin-bottom: 6.64251vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+    margin: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .blogButtonContainer {
+    width: 40.09662vw;
+    height: auto;
+    border: 0.24155vw solid #ffa702;
+    margin-left: 2.17391vw;
+    margin-right: 2.17391vw;
+    margin-bottom: 4.34783vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab {
+    background-color: #ffa702;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab .tagText {
+    color: #ffffff;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .adjustSearchTypeSection1 {
+    margin-top: 5.07246vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .applyButton {
+    width: 49.75845vw;
+    margin-left: 6.28019vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part3Container {
+    display: none;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .otpContainer {
+    display: none;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1200;
+    background: #f9f9f9;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 .closeButtonContainer {
+    position: absolute;
+    top: 2.41546vw;
+    left: 87.92271vw;
+    width: 10.14493vw;
+    height: 9.66184vw;
+    background: white;
+    cursor: pointer;
+    z-index: 350;
+    border: 0.2px solid #000000;
+    border-radius: 1px;
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-content: center;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 .closeButtonContainer img {
+    width: 50%;
+    height: 50%;
+    margin-top: 8px;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .SearchPageContainer {
+    position: relative;
+  }
+  .SearchPageContainer .capacityCardMainContainer {
+    position: absolute;
+    left: 23.4375vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer {
+    position: fixed;
+    top: 19.01042vw;
+    width: 50.78125vw;
+    height: 15.625vw;
+    -webkit-box-shadow: 0vw 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0vw 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+    border-radius: 1.5625vw;
+    z-index: 100;
+    background: #ffffff;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer {
+    position: absolute;
+    top: 1.95313vw;
+    right: 1.95313vw;
+    width: 1.95313vw;
+    height: 1.95313vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm {
+    height: 15.625vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-input {
+    font-size: 1.69271vw;
+    color: #000000;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiInputBase-fullWidth {
+    width: 0vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiOutlinedInput-root {
+    border-radius: 0.52083vw;
+    margin-bottom: 0vw;
+    width: 39.0625vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .MuiFormLabel-root {
+    color: #000000;
+    font-size: 2.34375vw;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton {
+    margin-top: 0vw;
+    margin-left: 2.08333vw;
+    width: 3.25521vw;
+    height: 3.25521vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .capacityCardMainContainer .capacityCardContainer .squreFitForm .submitButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .squarefitCardMainContainer {
+    position: absolute;
+    left: 23.4375vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer {
+    position: fixed;
+    top: 19.01042vw;
+    width: 50.78125vw;
+    height: 15.625vw;
+    -webkit-box-shadow: 0vw 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0vw 0.13021vw 0.52083vw rgba(0, 0, 0, 0.3);
+    border-radius: 1.5625vw;
+    z-index: 100;
+    background: #ffffff;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer {
+    position: absolute;
+    top: 1.95313vw;
+    right: 1.95313vw;
+    width: 1.95313vw;
+    height: 1.95313vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm {
+    height: 15.625vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-input {
+    font-size: 1.69271vw;
+    color: #000000;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiInputBase-fullWidth {
+    width: 0vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiOutlinedInput-root {
+    border-radius: 0.52083vw;
+    margin-bottom: 0vw;
+    width: 39.0625vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .MuiFormLabel-root {
+    color: #000000;
+    font-size: 2.34375vw;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton {
+    margin-top: 0vw;
+    margin-left: 2.08333vw;
+    width: 3.25521vw;
+    height: 3.25521vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .squarefitCardMainContainer .squarefitCardContainer .squreFitForm .submitButton img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection {
+    margin-top: 0vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    left: 5.7971vw;
+    width: 86.95652vw;
+    height: 10.86957vw;
+    margin-top: 0.65104vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .showingText {
+    font-size: 2.34375vw;
+    color: #c4c4c4;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer {
+    display: none;
+    position: fixed;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    right: 4.83092vw;
+    margin-top: -24.15459vw;
+    z-index: 10;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage {
+    width: 4.58937vw;
+    height: 4.83092vw;
+    margin-right: 1.93237vw;
+    z-index: 111;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .topHeaderSection .filterContainer .filterText {
+    display: none;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    top: -18.22917vw;
+    background: white;
+    z-index: 8888;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .narrowSearchText {
+    font-size: 6.03865vw;
+    margin-top: 18.35749vw;
+    margin-bottom: 6.28019vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer {
+    position: relative;
+    top: 6.03865vw;
+    left: 88.88889vw;
+    right: 10.38647vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 9.90338vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .blogButtonContainer {
+    width: 33.81643vw;
+    height: 7.97101vw;
+    border: 0.24155vw solid #ffa702;
+    margin-right: 4.34783vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .blogButtonContainer .tagText {
+    margin-left: 3.38164vw;
+    font-size: 4.10628vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab {
+    background-color: #ffa702;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeContainer .activeTab .tagText {
+    color: #ffffff;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .borderBottom {
+    width: 147.58454vw;
+    height: 0vw;
+    border: 0.24155vw solid #c7c7c7;
+    margin-top: 7.1256vw;
+    margin-bottom: 6.64251vw;
+    margin-left: 6.28019vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0;
+    margin: auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .blogButtonContainer {
+    width: 40.09662vw;
+    height: auto;
+    border: 0.24155vw solid #ffa702;
+    margin-left: 2.17391vw;
+    margin-right: 2.17391vw;
+    margin-bottom: 4.34783vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .blogButtonContainer .tagText {
+    padding: 1.44928vw;
+    font-size: 3.1401vw;
+    line-height: 5.31401vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab {
+    background-color: #ffa702;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .searchTypeSection1 .activeToggleTab .tagText {
+    color: #ffffff;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .adjustSearchTypeSection1 {
+    margin-top: 5.07246vw;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .applyButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 49.75845vw;
+    height: 12.80193vw;
+    background: #0055ff;
+    border-radius: 0.72464vw;
+    margin-top: 6.28019vw;
+    margin-left: 6.28019vw;
+    cursor: pointer;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .leftSection .part2Container .applyButton .applyText {
+    font-family: Roboto-regular;
+    font-size: 4.58937vw;
+    color: #ffffff;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 148vh !important;
+    z-index: 1200;
+    background: #f9f9f9;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 .closeButtonContainer {
+    position: absolute;
+    top: 37.76042vw !important;
+    left: 91.92708vw !important;
+    width: 5.46875vw;
+    height: 5.20833vw;
+    background: white;
+    cursor: pointer;
+    z-index: 350;
+    border: 0.2px solid #000000;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection1 .closeButtonContainer img {
+    width: 50%;
+    height: 50%;
+    padding: 11px;
+  }
+  .SearchPageContainer .mainSearchBoxContainer .rightSection {
+    display: none;
+  }
+  .part3ContainerMob {
+    display: none;
+  }
+  .otpContainer1 {
+    display: none;
+  }
+  .rightSection1 {
+    display: block;
+  }
+  .rightSection1 .closeButtonContainer {
+    position: absolute;
+    top: 1.30208vw;
+    left: 47.39583vw;
+    width: 5.46875vw;
+    height: 5.20833vw;
+    background: white;
+    cursor: pointer;
+    z-index: 350;
+    border: 0.2px solid #000000;
+    border-radius: 1px;
+    opacity: 1;
+  }
+  .rightSection1 .closeButtonContainer img {
+    width: 50%;
+    height: 50%;
+    padding: 11px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .part3ContainerMob {
+    display: none;
+  }
+  .otpContainer1 {
+    display: none;
+  }
+  .rightSection1 {
+    display: none;
+  }
+}
+
+.mapboxgl-canvas {
+  left: 0;
+}
+/*# sourceMappingURL=searchpage.css.map */

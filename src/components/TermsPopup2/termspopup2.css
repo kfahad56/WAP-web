@@ -1,0 +1,20 @@
+.appBar {
+  position: relative !important;
+}
+
+.title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.MuiDialogContent-root {
+  overflow: unset !important;
+}
+
+.MuiDialogActions-root {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+/*# sourceMappingURL=termspopup2.css.map */

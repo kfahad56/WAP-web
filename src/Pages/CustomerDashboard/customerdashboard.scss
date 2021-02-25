@@ -1,0 +1,141 @@
+$desk: 100 / 1920;
+.customerDashboardContainer {
+    position: relative;
+    .signoutBarContainer {
+        position: relative;
+        display: flex;
+        margin: auto;
+        width: 1631 * $desk + vw;
+        height: 55 * $desk + vw;
+        background: rgba(119, 119, 119, 0.27);
+        .leftSection {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-left: 109 * $desk + vw;
+            .Text {
+                font-family: Roboto-regular;
+                font-size: 17 * $desk + vw;
+                margin-right: 98 * $desk + vw;
+                color: #002366;
+                cursor: pointer;
+            }
+            .activeText {
+                font-family: Roboto-regular;
+                font-size: 17 * $desk + vw;
+                margin-right: 98 * $desk + vw;
+                color: #ffa702;
+                cursor: pointer;
+            }
+        }
+        .rightSection {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 721 * $desk + vw;
+            cursor: pointer;
+            .logoutImage {
+                width: 28 * $desk + vw;
+                height: 28 * $desk + vw;
+                margin-right: 19 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .logoutText {
+                font-size: 17 * $desk + vw;
+                color: #002366;
+                font-family: Roboto-regular;
+                font-weight: 600;
+            }
+        }
+    }
+    .myWarehouseContainer {
+        position: relative;
+        .noteContainer {
+            display: flex;
+            align-items: center;
+            margin-top: 14 * $desk + vw;
+            margin-left: 201 * $desk + vw;
+            height: 20 * $desk + vw;
+            .noteImage {
+                width: 18 * $desk + vw;
+                height: 18 * $desk + vw;
+                margin-right: 10 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .noteText {
+                font-family: Roboto-regular;
+                font-size: 13 * $desk + vw;
+                margin-right: 48 * $desk + vw;
+                color: #ffa702;
+            }
+            .crossImage {
+                width: 18 * $desk + vw;
+                height: 18 * $desk + vw;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .warehouseRentedContainer {
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 542 * $desk + vw;
+            margin: auto;
+            h3 {
+                margin-top: 114 * $desk + vw;
+                margin-bottom: 48 * $desk + vw;
+                font-family: Roboto-regular;
+                font-size: 30 * $desk + vw;
+                font-weight: lighter;
+            }
+            .whyImage {
+                width: 534 * $desk + vw;
+                height: 372 * $desk + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .lookingText {
+                font-family: Roboto-regular;
+                font-size: 17 * $desk + vw;
+                margin-top: 94 * $desk + vw;
+                span {
+                    color: #0055ff;
+                    cursor: pointer;
+                }
+            }
+        }
+        .warehouseDataContainer {
+            display: flex;
+            margin-top: 51 * $desk + vw;
+            margin-left: 145 * $desk + vw;
+            .cardViewContainer {
+                margin-right: 64 * $desk + vw;
+            }
+        }
+        .shortlistedWarehouseContainer {
+            display: flex;
+            margin-top: 43 * $desk + vw;
+            margin-left: 145 * $desk + vw;
+        }
+        .settingsContainer {
+            display: flex;
+            flex-direction: column;
+            margin-top: 43 * $desk + vw;
+            margin-left: 145 * $desk + vw;
+        }
+    }
+}

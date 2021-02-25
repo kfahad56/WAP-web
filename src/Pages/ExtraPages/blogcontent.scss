@@ -1,0 +1,401 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+.btnAdjust {
+  width: 100%;
+}
+.error {
+  // font-family: Roboto-medium;
+  font-size: 16px;
+  margin-top: 15 * $desk + vw;
+  color: #ff0000;
+}
+.sec-head2 h2::before {
+  left: 0 !important;
+}
+.sec-head2 h2::after {
+  left: 14% !important;
+}
+.sec-head2::before {
+  display: none;
+}
+.sec-head2::after {
+  display: none;
+}
+.blogMailAdjust {
+  input {
+    background-color: #f8f9fa;
+  }
+  label {
+    background-color: #f8f9fa;
+  }
+}
+p {
+  font-family: inherit;
+}
+// .blogImageAdjust {
+//   width: 1115 * $desk + vw;
+//   height: 556 * $desk + vw;
+// }
+@media only screen and (max-width: 800px) {
+  .sec-head2 {
+    margin-left: 17px;
+  }
+}
+// .blogContentContainer {
+//   .blogDescContainer {
+//     position: relative;
+//     display: flex;
+//     margin-top: 50 * $desk + vw;
+//     .leftSection {
+//       position: relative;
+//       .topSection {
+//         display: flex;
+//         align-items: center;
+//         justify-content: space-between;
+//         width: 1115 * $desk + vw;
+//         height: 78 * $desk + vw;
+//         margin-left: 152 * $desk + vw;
+//         margin-bottom: 0 * $desk + vw;
+//         .headingText {
+//           font-family: Roboto-bold;
+//           font-size: 59 * $desk + vw;
+//         }
+//         .blogByText {
+//           font-family: Roboto-regular;
+//           font-size: 20 * $desk + vw;
+//         }
+//       }
+//       h4 {
+//         margin-left: 152 * $desk + vw;
+//         font-family: Roboto-regular;
+//         font-size: 30 * $desk + vw;
+//         width: 945 * $desk + vw;
+//         line-height: 42 * $desk + vw;
+//       }
+//       .descImage {
+//         margin-top: 30 * $desk + vw;
+//         margin-bottom: 97 * $desk + vw;
+//         margin-left: 152 * $desk + vw;
+//         width: 1115 * $desk + vw;
+//         height: 556 * $desk + vw;
+//         img {
+//           width: 100%;
+//           height: 100%;
+//         }
+//       }
+//       .descText {
+//         margin-left: 152 * $desk + vw;
+//         width: 1095 * $desk + vw;
+//         font-family: Roboto-regular;
+//         font-size: 20 * $desk + vw;
+//         line-height: 32 * $desk + vw;
+//         margin-bottom: 20 * $desk + vw;
+//         div a {
+//           text-decoration: underline;
+//           color: #0055ff;
+//         }
+//       }
+//       .nextPrevContainer {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         margin-top: 73 * $desk + vw;
+//         margin-bottom: 93 * $desk + vw;
+//         .nextText {
+//           font-family: Roboto-regular;
+//           font-size: 24 * $desk + vw;
+//           margin-left: 54.5 * $desk + vw;
+//           margin-right: 54.5 * $desk + vw;
+//           cursor: pointer;
+//         }
+//       }
+//     }
+//     .rightSection {
+//       position: relative;
+//       margin-left: 62 * $desk + vw;
+//       .trendingNowContainer {
+//         display: none;
+//         position: sticky;
+//         top: 150 * $desk + vw;
+//         width: 456 * $desk + vw;
+//         height: 374 * $desk + vw;
+//         background: #f3f3f3;
+//         border-radius: 9 * $desk + vw;
+//         .trendingText {
+//           position: relative;
+//           font-family: Roboto-regular;
+//           font-size: 34 * $desk + vw;
+//           margin-left: 31 * $desk + vw;
+//           top: 22 * $desk + vw;
+//           margin-bottom: 39 * $desk + vw;
+//         }
+//         .trendingContent {
+//           margin-bottom: 17 * $desk + vw;
+//           .titleTextContainer {
+//             display: flex;
+//             margin-left: 21 * $desk + vw;
+//             margin-bottom: 17 * $desk + vw;
+//             div {
+//               font-family: Roboto-regular;
+//               font-size: 23 * $desk + vw;
+//             }
+//             .numberText {
+//               margin-right: 16 * $desk + vw;
+//             }
+//           }
+//           .divideBorder {
+//             width: 417 * $desk + vw;
+//             height: 0px;
+//             border: 1 * $desk + vw solid rgba(112, 112, 112, 0.27);
+//             margin-left: 21 * $desk + vw;
+//           }
+//         }
+//       }
+//       .subscribeContainer {
+//         position: sticky;
+//         top: 150 * $desk + vw;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         width: 456 * $desk + vw;
+//         height: 308 * $desk + vw;
+//         background: #f3f3f3;
+//         border-radius: 9 * $desk + vw;
+//         margin-top: 40 * $desk + vw;
+//         margin-bottom: 40 * $desk + vw;
+//         .subscribeText {
+//           font-family: Roboto-bold;
+//           font-size: 34 * $desk + vw;
+//           margin-top: 19 * $desk + vw;
+//           margin-bottom: 42 * $desk + vw;
+//         }
+//         .emailID {
+//           margin-left: 39 * $desk + vw;
+//         }
+//         .MuiOutlinedInput-input {
+//           font-family: Roboto-regular;
+//           font-size: 16 * $desk + vw;
+//         }
+//         .MuiInputBase-fullWidth {
+//           width: 418 * $desk + vw;
+//         }
+//         .MuiOutlinedInput-root {
+//           border-radius: 4 * $desk + vw;
+//           margin-bottom: 0;
+//           width: 418 * $desk + vw;
+//           background: #ffffff;
+//         }
+//         .error {
+//           font-family: Roboto-medium;
+//           font-size: 16 * $desk + vw;
+//           margin-top: 15 * $desk + vw;
+//           color: #ff0000;
+//         }
+//         .subsrcibeButton {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           width: 332 * $desk + vw;
+//           height: 68 * $desk + vw;
+//           background: #0055ff;
+//           // opacity: 0.55;
+//           border-radius: 4 * $desk + vw;
+//           margin-top: 15 * $desk + vw;
+//           cursor: pointer;
+//           .btnText {
+//             font-family: Roboto-regular;
+//             font-size: 24 * $desk + vw;
+//             color: #ffffff;
+//           }
+//         }
+//         .subsrcibeButton:hover {
+//           background: #00c;
+//         }
+//       }
+//     }
+//   }
+//   .footerContainer {
+//     background-color: #f9f9f9;
+//   }
+// }
+// @media only screen and (max-width: 800px) {
+//   .blogContentContainer {
+//     .blogDescContainer {
+//       position: relative;
+//       display: flex;
+//       flex-direction: column;
+//       margin-top: 30 * $mob + vw;
+//       .leftSection {
+//         position: relative;
+//         .topSection {
+//           display: flex;
+//           flex-direction: column;
+//           align-items: flex-start;
+//           justify-content: space-between;
+//           width: 390 * $mob + vw;
+//           height: 68 * $mob + vw;
+//           margin-left: 20 * $mob + vw;
+//           margin-bottom: 0 * $mob + vw;
+//           .headingText {
+//             font-family: Roboto-bold;
+//             font-size: 30 * $mob + vw;
+//           }
+//           .blogByText {
+//             font-family: Roboto-regular;
+//             font-size: 15 * $mob + vw;
+//           }
+//         }
+//         h4 {
+//           margin-left: 20 * $mob + vw;
+//           font-family: Roboto-regular;
+//           font-size: 20 * $mob + vw;
+//           width: 372 * $mob + vw;
+//           line-height: 27 * $mob + vw;
+//           font-weight: lighter;
+//           margin-top: 35 * $desk + vw;
+//         }
+//         .descImage {
+//           margin-top: 17 * $mob + vw;
+//           margin-bottom: 17 * $mob + vw;
+//           margin-left: 20 * $mob + vw;
+//           width: 375 * $mob + vw;
+//           height: 205 * $mob + vw;
+//           img {
+//             width: 100%;
+//             height: 100%;
+//           }
+//         }
+//         .descText {
+//           margin-left: 20 * $mob + vw;
+//           width: 375 * $mob + vw;
+//           font-family: Roboto-regular;
+//           font-size: 15 * $mob + vw;
+//           line-height: 27 * $mob + vw;
+//           margin-bottom: 20 * $mob + vw;
+//           div a {
+//             text-decoration: underline;
+//             color: #0055ff;
+//           }
+//         }
+//         .nextPrevContainer {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           margin-top: 56 * $mob + vw;
+//           margin-bottom: 26 * $mob + vw;
+//           .nextText {
+//             font-family: Roboto-regular;
+//             font-size: 16 * $mob + vw;
+//             margin-left: 68 * $mob + vw;
+//             margin-right: 68 * $mob + vw;
+//             cursor: pointer;
+//           }
+//         }
+//       }
+//       .rightSection {
+//         position: relative;
+//         margin-left: 29 * $mob + vw;
+//         .trendingNowContainer {
+//           display: none;
+//           position: sticky;
+//           top: 0 * $mob + vw;
+//           width: 375 * $mob + vw;
+//           height: 374 * $mob + vw;
+//           background: #f3f3f3;
+//           border-radius: 9 * $mob + vw;
+//           .trendingText {
+//             position: relative;
+//             font-family: Roboto-regular;
+//             font-size: 34 * $mob + vw;
+//             margin-left: 31 * $mob + vw;
+//             top: 22 * $mob + vw;
+//             margin-bottom: 39 * $mob + vw;
+//           }
+//           .trendingContent {
+//             margin-bottom: 17 * $mob + vw;
+//             .titleTextContainer {
+//               display: flex;
+//               margin-left: 21 * $mob + vw;
+//               margin-bottom: 17 * $mob + vw;
+//               div {
+//                 font-family: Roboto-regular;
+//                 font-size: 23 * $mob + vw;
+//               }
+//               .numberText {
+//                 margin-right: 16 * $mob + vw;
+//               }
+//             }
+//             .divideBorder {
+//               width: 417 * $mob + vw;
+//               height: 0px;
+//               border: 1 * $mob + vw solid rgba(112, 112, 112, 0.27);
+//               margin-left: 21 * $mob + vw;
+//             }
+//           }
+//         }
+//         .subscribeContainer {
+//           position: sticky;
+//           top: 0 * $mob + vw;
+//           display: flex;
+//           flex-direction: column;
+//           align-items: center;
+//           width: 360 * $mob + vw;
+//           height: 268 * $mob + vw;
+//           background: #f3f3f3;
+//           border-radius: 9 * $mob + vw;
+//           margin-top: 40 * $mob + vw;
+//           margin-bottom: 40 * $mob + vw;
+//           .subscribeText {
+//             font-family: Roboto-bold;
+//             font-size: 30 * $mob + vw;
+//             margin-top: 19 * $mob + vw;
+//             margin-bottom: 42 * $mob + vw;
+//           }
+//           .emailID {
+//             margin-left: 39 * $mob + vw;
+//           }
+//           .MuiOutlinedInput-input {
+//             font-family: Roboto-regular;
+//             font-size: 13 * $mob + vw;
+//           }
+//           .MuiInputBase-fullWidth {
+//             width: 320 * $mob + vw;
+//           }
+//           .MuiOutlinedInput-root {
+//             border-radius: 4 * $mob + vw;
+//             margin-bottom: 0;
+//             width: 320 * $mob + vw;
+//             background: #ffffff;
+//           }
+//           .error {
+//             font-family: Roboto-medium;
+//             font-size: 13 * $mob + vw;
+//             margin-top: 15 * $mob + vw;
+//             margin-left: 0 * $mob + vw;
+//             color: #ff0000;
+//           }
+//           .subsrcibeButton {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             width: 124 * $mob + vw;
+//             height: 38 * $mob + vw;
+//             background: #0055ff;
+//             // opacity: 0.55;
+//             border-radius: 4 * $mob + vw;
+//             margin-top: 20 * $mob + vw;
+//             cursor: pointer;
+//             .btnText {
+//               font-family: Roboto-regular;
+//               font-size: 14 * $mob + vw;
+//               color: #ffffff;
+//             }
+//           }
+//           .subsrcibeButton:hover {
+//             background: #00c;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

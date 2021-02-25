@@ -1,0 +1,75 @@
+.errorMessage {
+  position: relative;
+  font-size: 16px;
+  margin-top: 1.04167vw;
+  margin-left: 16px;
+  color: #ff0000;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.loader {
+  position: relative;
+  z-index: 1;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  bottom: 0vw;
+  left: 1vw;
+  width: 100%;
+}
+
+.checkboxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.38542vw;
+}
+
+.checkboxContainer input {
+  width: 10%;
+}
+
+.checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.MuiDialog-paperFullScreen {
+  width: 85% !important;
+  height: 80% !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .sec-head-login {
+    margin-bottom: 30px !important;
+  }
+  .checkboxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15.70048vw;
+    margin-bottom: 20px;
+  }
+  .checkboxContainer input {
+    width: 12%;
+  }
+  .checkboxContainer .checkboxText {
+    margin-left: 2.41546vw;
+    line-height: 5.7971vw;
+    font-size: 13px;
+  }
+  .MuiDialog-paperFullScreen {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+/*# sourceMappingURL=login.css.map */

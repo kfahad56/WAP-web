@@ -1,0 +1,145 @@
+@media only screen and (max-width: 800px) {
+  .adjusth4 {
+    font-size: 22px !important;
+  }
+  .active :hover {
+    background-color: #666;
+    color: #b9ec20;
+  }
+  .dropdown {
+    width: 100vw;
+    margin-left: -17px;
+  }
+  .dropdown .MobDiscription {
+    margin-top: -2.89855vw;
+    width: 89.13043vw;
+    font-size: 4.10628vw;
+  }
+  .dropdown .MobAccordionMap {
+    display: inline-block;
+  }
+  .dropdown .MobAccordionMap p {
+    width: 100%;
+    margin-bottom: 5.07246vw;
+  }
+  .dropdown .MobAccordionMap .MapImage {
+    top: 170.5314vw;
+    left: 6.28019vw;
+    width: 91.78744vw;
+    height: 109.17874vw;
+  }
+  .dropdown .MobAccordionMap .MapImage .mainMap {
+    height: 434px;
+  }
+  .dropdown .MobAccordionMap .MapImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown .localityContainer {
+    position: relative;
+    margin-top: -2.41546vw;
+  }
+  .dropdown .localityContainer .descText p {
+    font-size: 3.62319vw;
+    margin-bottom: 4.83092vw;
+  }
+  .dropdown .amenitiesContainer {
+    position: relative;
+    margin-top: -20px;
+    width: 414px;
+    margin-left: -20px;
+  }
+  .dropdown .amenitiesContainer .viewAllContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 304px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .dropdown .amenitiesContainer .viewAllContainer .viewalltText {
+    font-size: 3.86473vw;
+    color: #ffa702;
+  }
+  .dropdown .amenitiesContainer .viewAllContainer .arrow {
+    width: 2.89855vw;
+    height: 2.41546vw;
+    margin-left: 2.89855vw;
+    margin-top: 0.96618vw;
+  }
+  .dropdown .amenitiesContainer .viewAllContainer .arrow img {
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown .amenitiesContainer .amenitiesCardSliderSection {
+    position: relative;
+    width: 100vw;
+    height: auto;
+  }
+  .dropdown .addOnServiceContainer {
+    margin-top: -20px;
+    width: 414px;
+  }
+  .dropdown .addOnServiceContainer .addOnServiceSliderSection {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    width: 100vw;
+    height: auto;
+  }
+  .dropdown .certificateContainer {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown .certificateContainer .certificateTextContainer {
+    margin-left: 4.83092vw;
+  }
+  .dropdown .certificateContainer .certificateTextContainer .certificateText {
+    color: unset;
+    font-size: 3.38164vw;
+  }
+  .dropdown .certificateContainer .industryTagContainerAdjust {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    margin-top: 15px;
+  }
+  .dropdown .certificateContainer .industryTagContainerAdjust .blogButtonContainer {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  .dropdown .certificateContainer .industryTagContainerAdjust .blogButtonContainer .tagText {
+    font-size: 14px;
+  }
+  .dropdown .certificateContainer .MobSlider {
+    display: none;
+    top: 370.28986vw;
+    margin-left: 8.45411vw;
+    width: 80.91787vw;
+    height: 0.72464vw;
+    background: #707070 0% 0% no-repeat padding-box;
+    border-radius: 1.20773vw;
+    opacity: 0.38;
+  }
+  .dropdown .certificateContainer .MobSlider .MobInnerSlider {
+    top: 370.28986vw;
+    left: 10.38647vw;
+    width: 30.43478vw;
+    height: 0.72464vw;
+    background: #0055ff 0% 0% no-repeat padding-box;
+    border-radius: 1.20773vw;
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=MobAccordian.css.map */

@@ -1,0 +1,90 @@
+.backButtonContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.backButtonContainer .backArrow {
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+.backButtonContainer .backText {
+  margin-left: 0.72917vw;
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  color: #ffa702;
+}
+
+.backButtonContainer:hover .backText {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .backButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 14.25121vw;
+    cursor: pointer;
+  }
+  .backButtonContainer .backArrow {
+    font-size: 4.83092vw;
+    color: #ffa702;
+    opacity: 1;
+    margin-top: -18.59903vw;
+  }
+  .backButtonContainer .backText {
+    margin-left: 2.89855vw;
+    font-family: Roboto-regular;
+    font-size: 3.86473vw;
+    color: #ffa702;
+    margin-top: -18.59903vw;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .backButtonContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 7.68229vw;
+    cursor: pointer;
+  }
+  .backButtonContainer .backArrow {
+    font-size: 2.60417vw;
+    color: #ffa702;
+    opacity: 1;
+    margin-top: -10.02604vw;
+  }
+  .backButtonContainer .backText {
+    margin-left: 1.5625vw;
+    font-family: Roboto-regular;
+    font-size: 2.08333vw;
+    color: #ffa702;
+    margin-top: -10.02604vw;
+  }
+}
+/*# sourceMappingURL=backbutton.css.map */

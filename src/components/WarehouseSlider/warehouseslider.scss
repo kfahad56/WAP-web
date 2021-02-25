@@ -1,0 +1,162 @@
+$desk: 100 / 1920;
+$mob: 100 / 414;
+.warehouseSliderContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .adjustSlider {
+        width: 1330px; // 1275
+        height: 302px;
+    }
+    .adjustSlider2 {
+        width: 100%; // 1275
+        .slick-slide {
+            position: relative;
+            width: 76px !important;
+            // margin-left: 9.5px;
+            margin-right: 15px;
+            // display: flex;
+            // align-items: center ;
+        }
+    }
+    .slick-slider {
+        position: relative;
+        // margin-left: 9.5px;
+        margin-right: 15px;
+        // display: flex;
+        // align-items: center ;
+    }
+    .slick-track {
+        display: flex;
+    }
+    *:focus {
+        outline: 0;
+        outline: none;
+    }
+    .imageContainer {
+        width: 650px !important;
+        height: 286px;
+        margin-right: 20px;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8 * $desk + vw;
+            object-fit: cover;
+        }
+    }
+    .thumbImageContainer {
+        width: 76px !important;
+        height: 66px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .rightArrowContainer {
+        position: absolute;
+        width: 73 * $desk + vw;
+        height: 73 * $desk + vw;
+        top: 161 * $desk + vw;
+        left: 882 * $desk + vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background: #ffffff;
+        box-shadow: 0 1 * $desk + vw 4 * $desk + vw rgba(0, 0, 0, 0.3);
+        opacity: 1;
+        border-radius: 50%;
+        .rightButton {
+            position: absolute;
+            width: 26 * $desk + vw;
+            height: 19 * $desk + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .rightArrowContainer:hover {
+        background: #e4e4e4;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .warehouseSliderContainer {
+        position: relative;
+        width: 414 * $mob + vw;
+        left: -4px;
+        overflow: hidden;
+        .adjustSlider {
+            width: 735 * $mob + vw; // 1275
+            height: 189 * $mob + vw;
+        }
+        .adjustSlider2 {
+            display: none;
+            width: 404 * $mob + vw; // 1275
+        }
+        .slick-slider {
+            position: relative;
+            margin-left: 6 * $mob + vw;
+            margin-right: 6 * $mob + vw;
+            // display: flex;
+            // align-items: center ;
+        }
+        .slick-track {
+            display: flex;
+        }
+        *:focus {
+            outline: 0;
+            outline: none;
+        }
+        .imageContainer {
+            width: 355 * $mob + vw !important;
+            height: 189 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 6 * $mob + vw;
+            }
+            .imageDesc {
+                position: absolute !important;
+                top: 199 * $mob + vw;
+                font-family: Roboto-regular;
+                font-size: 9 * $mob + vw;
+                color: #000;
+            }
+        }
+        .thumbImageContainer {
+            width: 107 * $mob + vw !important;
+            height: 94 * $mob + vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .rightArrowContainer {
+            display: none;
+            position: absolute;
+            width: 73 * $mob + vw;
+            height: 73 * $mob + vw;
+            top: 161 * $mob + vw;
+            left: 910 * $mob + vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            background: #ffffff;
+            box-shadow: 0 1 * $mob + vw 4 * $mob + vw rgba(0, 0, 0, 0.3);
+            opacity: 1;
+            border-radius: 50%;
+            .rightButton {
+                position: absolute;
+                width: 26 * $mob + vw;
+                height: 19 * $mob + vw;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,640 @@
+.vendorLogin {
+  position: relative;
+}
+
+.vendorLogin .signInContainer {
+  display: none;
+}
+
+.vendorLogin .profileButtonContainer {
+  display: none;
+}
+
+.vendorLogin .registerUserContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.vendorLogin .registerUserContainer .backButtonContainer {
+  width: 3.64583vw;
+  margin-top: 3.90625vw;
+}
+
+.vendorLogin .registerUserContainer .optBoxContainer {
+  margin-top: 3.64583vw;
+}
+
+.vendorLogin .registerUserContainer .optBoxContainer .closeButtonContainer {
+  display: none;
+}
+
+.vendorLogin .registerUserContainer .welcomeContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.875vw;
+  margin-bottom: 1.19792vw;
+}
+
+.vendorLogin .registerUserContainer .welcomeContainer .loginHeadText {
+  width: 8.69792vw;
+  font-family: Roboto-bold;
+  font-size: 1.51042vw;
+  line-height: 1.97917vw;
+}
+
+.vendorLogin .registerUserContainer .welcomeContainer .hubshubImage {
+  width: 8.64583vw;
+  height: 2.13542vw;
+  margin-left: 0.57292vw;
+}
+
+.vendorLogin .registerUserContainer .welcomeContainer .hubshubImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.vendorLogin .registerUserContainer .subText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Roboto-regular;
+  font-size: 1.35417vw;
+  margin-bottom: 2.29167vw;
+}
+
+.vendorLogin .registerUserContainer .error {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 43.22917vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .leftFormSection {
+  margin-right: 1.5625vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-root {
+  border-radius: 0.20833vw;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+  font-weight: 500;
+  color: #000;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection {
+  margin-left: 1.5625vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiInputBase-fullWidth {
+  width: 20.05208vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-root {
+  border-radius: 0.20833vw;
+  margin-bottom: 1.77083vw;
+  width: 20.05208vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiFormLabel-root {
+  font-size: 1.14583vw;
+  font-weight: 500;
+  color: #000;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3.38542vw;
+}
+
+.vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer .checkboxText {
+  margin-left: 1.04167vw;
+  font-family: Roboto-regular;
+  line-height: 1.40625vw;
+  font-size: 1.04167vw;
+}
+
+.vendorLogin .registerUserContainer .signInWithMobileContainer {
+  margin: auto;
+  margin-top: 1.875vw;
+  margin-bottom: 1.875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20.05208vw;
+  height: 3.85417vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  cursor: pointer;
+}
+
+.vendorLogin .registerUserContainer .signInWithMobileContainer .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.vendorLogin .registerUserContainer .signInWithMobileContainer:hover {
+  background: #00c;
+}
+
+.vendorLogin .registerUserContainer .vendorLoader {
+  position: relative;
+  z-index: 1;
+  margin-left: 19.5vw;
+}
+
+.vendorLogin .registerUserContainer .error409 {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+}
+
+.vendorLogin .registerUserContainer .error404 {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+}
+
+.vendorLogin .registerUserContainer .error203 {
+  position: relative;
+  color: red;
+  font-size: 1.09375vw;
+}
+
+.vendorLogin .registerUserContainer .error200 {
+  position: relative;
+  color: #046d00;
+  font-size: 1.09375vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .vendorLogin {
+    position: relative;
+  }
+  .vendorLogin .registerUserContainer {
+    position: relative;
+    display: inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 100vw;
+  }
+  .vendorLogin .registerUserContainer .closeButtonContainer {
+    position: absolute;
+    top: 6.52174vw;
+    right: 12.31884vw;
+    width: 4.10628vw;
+    height: 4.10628vw;
+    cursor: pointer;
+  }
+  .vendorLogin .registerUserContainer .closeButtonContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .vendorLogin .registerUserContainer .backButtonContainer {
+    display: none;
+    width: 16.90821vw;
+    margin-top: 18.11594vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15.94203vw;
+    margin-bottom: 7.97101vw;
+    margin-left: 0vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .loginHeadText {
+    width: 33.81643vw;
+    font-family: Roboto-bold;
+    font-size: 6.03865vw;
+    line-height: 9.17874vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .hubshubImage {
+    width: 32.6087vw;
+    height: 7.97101vw;
+    margin-left: 2.17391vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .hubshubImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .vendorLogin .registerUserContainer .subText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Roboto-regular;
+    font-size: 4.10628vw;
+    margin-bottom: 8.21256vw;
+  }
+  .vendorLogin .registerUserContainer .error {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: red;
+    font-size: 3.62319vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-root {
+    border: 0.5 solid #707070;
+    margin-bottom: 8.21256vw;
+    width: 72.46377vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiFormLabel-root {
+    font-size: 3.86473vw;
+    color: black;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection {
+    margin-left: 0vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-root {
+    border: 0.5 solid #707070;
+    margin-bottom: 8.21256vw;
+    width: 72.46377vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiFormLabel-root {
+    font-size: 3.86473vw;
+    color: black;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 15.70048vw;
+    margin-bottom: 20px;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer input {
+    width: 12%;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer .checkboxText {
+    margin-left: 2.41546vw;
+    line-height: 5.7971vw;
+    font-size: 13px;
+  }
+  .vendorLogin .registerUserContainer .signInWithMobileContainer {
+    margin: auto;
+    margin-top: 4.10628vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.48309vw;
+    margin-top: 7.24638vw;
+    margin-bottom: 7.24638vw;
+    cursor: pointer;
+  }
+  .vendorLogin .registerUserContainer .signInWithMobileContainer .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .vendorLogin .registerUserContainer .vendorLoader {
+    position: relative;
+    z-index: 1;
+    bottom: -5vw;
+    margin-left: 42vw;
+  }
+  .vendorLogin .registerUserContainer .error409 {
+    position: relative;
+    color: red;
+    font-size: 5.07246vw;
+  }
+  .vendorLogin .registerUserContainer .error404 {
+    position: relative;
+    color: red;
+    font-size: 5.07246vw;
+  }
+  .vendorLogin .registerUserContainer .error203 {
+    position: relative;
+    color: red;
+    font-size: 5.07246vw;
+  }
+  .vendorLogin .registerUserContainer .error200 {
+    position: relative;
+    color: #046d00;
+    font-size: 5.07246vw;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .vendorLogin .registerUserContainer {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    width: 100vw;
+  }
+  .vendorLogin .registerUserContainer .backButtonContainer {
+    width: 9.11458vw;
+    margin-top: 11.71875vw;
+  }
+  .vendorLogin .registerUserContainer .partnerText {
+    position: absolute;
+    top: 5.20833vw;
+    right: 7.8125vw;
+    font-family: Roboto-medium;
+    font-size: 1.95313vw;
+    cursor: pointer;
+    z-index: 1;
+    color: #0055ff;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 4.6875vw;
+    margin-bottom: 4.29688vw;
+    margin-left: 8.46354vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .loginHeadText {
+    width: 25.91146vw;
+    font-family: Roboto-bold;
+    font-size: 3.77604vw;
+    line-height: 4.94792vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .hubshubImage {
+    width: 17.57812vw;
+    height: 4.29688vw;
+    margin-right: 7.8125vw;
+  }
+  .vendorLogin .registerUserContainer .welcomeContainer .hubshubImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .vendorLogin .registerUserContainer .subText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Roboto-regular;
+    font-size: 2.21354vw;
+    margin-bottom: 4.42708vw;
+  }
+  .vendorLogin .registerUserContainer .error {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: red;
+    font-size: 1.95313vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection {
+    margin-left: 7.16146vw;
+    margin-right: 0.65104vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 1.69271vw;
+    color: #000;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiInputBase-fullWidth {
+    width: 39.0625vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiOutlinedInput-root {
+    border-radius: 0;
+    margin-bottom: 4.42708vw;
+    width: 39.0625vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .leftFormSection .MuiFormLabel-root {
+    font-size: 2.47396vw;
+    color: #000;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection {
+    margin-left: 0.65104vw;
+    margin-right: 7.16146vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 1.69271vw;
+    color: #000;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiInputBase-fullWidth {
+    width: 39.0625vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiOutlinedInput-root {
+    border-radius: 0;
+    margin-bottom: 4.42708vw;
+    width: 39.0625vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .MuiFormLabel-root {
+    font-size: 2.47396vw;
+    color: #000;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 5.85938vw;
+  }
+  .vendorLogin .registerUserContainer .registerFormContainer .rightFormSection .checkboxContainer .checkboxText {
+    margin-left: 2.41546vw;
+    line-height: 5.7971vw;
+    font-size: 13px;
+  }
+  .vendorLogin .registerUserContainer .signInWithMobileContainer {
+    margin: auto;
+    margin-top: 0.78125vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 22.65625vw;
+    height: 5.85938vw;
+    background: #0055ff;
+    border-radius: 0.52083vw;
+    cursor: pointer;
+    margin-bottom: 3.51563vw;
+  }
+  .vendorLogin .registerUserContainer .signInWithMobileContainer .btnText {
+    font-family: Roboto-regular;
+    font-size: 2.60417vw;
+    color: #ffffff;
+  }
+  .vendorLogin .registerUserContainer .vendorLoader {
+    position: relative;
+    z-index: 1;
+    margin-left: 19.5vw;
+  }
+  .vendorLogin .registerUserContainer .error409 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: red;
+    font-size: 1.95313vw;
+  }
+  .vendorLogin .registerUserContainer .error404 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: red;
+    font-size: 1.95313vw;
+  }
+  .vendorLogin .registerUserContainer .error203 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: red;
+    font-size: 1.95313vw;
+  }
+  .vendorLogin .registerUserContainer .error200 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #046d00;
+    font-size: 1.95313vw;
+  }
+}
+/*# sourceMappingURL=vendorlogin.css.map */

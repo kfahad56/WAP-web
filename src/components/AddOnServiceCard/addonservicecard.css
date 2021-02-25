@@ -1,0 +1,43 @@
+.addOnServiceCardContainer {
+  position: relative;
+}
+
+.addOnServiceCardContainer .addOnServiceSlides {
+  width: 40.88542vw;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  background: rgba(248, 248, 248, 0.55);
+  padding-bottom: 1.04167vw;
+}
+
+.addOnServiceCardContainer .addOnServiceSlides .slidesSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 46.875vw;
+  margin-left: 2.08333vw;
+}
+
+@media only screen and (max-width: 800px) {
+  .addOnServiceCardContainer {
+    position: relative;
+  }
+  .addOnServiceCardContainer .addOnServiceSlides {
+    width: 100vw;
+    background: rgba(248, 248, 248, 0.55);
+  }
+  .addOnServiceCardContainer .addOnServiceSlides .slidesSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100vw;
+    overflow: scroll;
+    margin-left: 8.45411vw;
+  }
+}
+/*# sourceMappingURL=addonservicecard.css.map */

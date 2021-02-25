@@ -1,0 +1,179 @@
+{
+  "warehouseServiceProvider": [
+    {
+      "question": "How can I provide my services to warehouses listed on WAP?",
+      "description": "We have a repository of high quality service partners. If you are passionate about the logistics and warehousing industry in India and would like to be a part of the WAP ecosystem, please contact us to forge a beneficially mutual relationship.",
+      "tag": "wsp1"
+    },
+    {
+      "tag": "wsp2",
+      "question": "How can I registered on your platform",
+      "description": "Use the Contact Us or Partner With Us options on the website to initiate the query. Our business support executive will respond within 48 working hrs."
+    },
+    {
+      "tag": "wsp3",
+      "question": "How can WAP help me grow?",
+      "description": "As a WAP Partner, you get preferential access to wide geographies and customers who wish to utilize your services but may not know about your facility. WAP is a great platform to engage and build on logistics services and expand your network."
+    }
+  ],
+  "below_warehouse_service_provider": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "general": [
+    {
+      "question": "What is WAP? How does it work?",
+      "description": "WAP is the leading technology-enabled warehousing and supply chain partner in India. We pride ourselves on providing Simple, Convenient and Reliable services to the industry. We create tailor-made solutions for the most common issues faced by businesses in this aspect, using technology interventions, subject matter expertise and best practices. Thousands of WAP partners have experienced and continue to experience the convenience of a single platform for all warehousing and logistics needs. You can contact WAP to know more about how we can partner for a symbiotic relationship.",
+      "tag": "g1"
+    },
+    {
+      "question": "How will WAP make my logistics more convenient?",
+      "description": "WAP has a wide geographical coverage, ranging from metros to Tier 3/4 cities. The platform can provide ready solutions for your business's warehousing needs at distant and varied locations, thus eliminating the hassle usually associated with searching for a suitable storage solution in a particular geography. WAP has partnered with proven local partners to provide allied services like packaging, last mile delivery, security services, distribution services, etc. All these can be monitored using a single dashboard for added convenience and to maintain total control of all your business's logistics needs",
+      "tag": "g2"
+    },
+    {
+      "question": "How does WAP charge for its services?",
+      "tag": "g3",
+      "description": "WAP takes Zero Brokerage. Our charges for allied and warehouse services are in line with industry norms in a certain area and agreed upon mutually. These prices are benchmarked regularly to provide the most competitive rates to our users."
+    },
+    {
+      "question": "How does the WAP payment mechanism and billing work?",
+      "tag": "g4",
+      "description": "WAP uses proprietary financial software to generate regular invoices. The payment mechanism is through the dashboard and without any human interface. All data is secured through industry leading SSL technology. WAP requests partners to process the invoices within the due dates."
+    },
+    {
+      "question": "What is WAP Index?",
+      "tag": "g5",
+      "description": "WAP index is a patented tool developed by WAP. This is a benchmarking tool to grade various warehouses so that the owner and end users can take an informed decision."
+    },
+    {
+      "question": "How can I access my dashboard?",
+      "tag": "g6",
+      "description": "Use your login credential and click on the name ( Top Right corner) on landing page. Select dashboard in the dropdown."
+    },
+    {
+      "question": "I want to store goods at multiple location can I use same ID?",
+      "tag": "g7",
+      "description": "Sure. Using your dashboard, you can manage all the warehouses where you have stored from a single point. You can also view the status of your supply chain activities from this same dashboard."
+    },
+    {
+      "question": "I registered on WAP and am facing issues with my account?",
+      "tag": "g8",
+      "description": "You can check and edit your account from your login dashboard. If the issue still persists, please raise a ticket from My dashboard and we will revert ."
+    },
+    {
+      "question": "I was contacted by WAP Agent requesting money transfer of money to an account.Can I go ahead?",
+      "tag": "g9",
+      "description": "WAP or any of its representatives will never contact you on the phone to make any monetary transfer. Please do not share sensitive information like account details, passwords, card numbers and PIN over telephone to anyone. For payments, please use our SSL encrypted payment mechanism or use my dashboard to check any payment notices. WAP employees will never demand or accept cash from any of our partners."
+    },
+    {
+      "question": "How many warehouses does WAP have?",
+      "description": "We have more than 100 warehouses all across the country. ",
+      "tag": "numwr01"
+    }
+  ],
+  "below_warehouse_owner": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "warehouseUser": [
+    {
+      "question": "How should I select a warehouse?",
+      "description": "On the Homepage, enter the location you wish to search a warehouse or storage solution in, add details of approximate area and expected duration of usage, and click search. The result will list all warehouses/storage solutions available at or near your specified location. You can save or share the listing, or explore it in detail- We have details like amenities, services, photos of the warehouse, etc. available for viewing. You can even request a tour of the location, or reserve/enquire the space immediately. If you have any further questions, please feel free to get in touch with us by clicking on the 'Contact Us' tab.",
+      "tag": "wu1"
+    },
+    {
+      "tag": "wu2",
+      "question": "I like a Warehouse. Can I visit it before finalizing?",
+      "description": "Definitely! You can arrange a visit to the warehousing facility in question by clicking 'Schedule a Visit'. This service is free of charge."
+    },
+    {
+      "tag": "wu3",
+      "question": "Do you take any brokerage for arranging a warehouse?",
+      "description": "WAP takes Zero Brokerage from warehouse users. The costing involves value addition to the warehouse & allied services."
+    },
+    {
+      "tag": "wu4",
+      "question": "I booked a space but now I need to extend the lease. Will I need to pay the sam price?",
+      "description": "WAP uses Telescopic pricing strategy . The exact price will be determined case to case but will always be in line with benchmarked prices in the location."
+    },
+    {
+      "tag": "wu5",
+      "question": "I had an issue with my goods stored. Whom do I contact?",
+      "description": "You can create a ticket for any issue faced with the goods directly from your dashboard. If your issue is not resolved you can contact your account manager . Details of account manager are available on your dashboard."
+    },
+    {
+      "tag": "wu6",
+      "question": "Do I need insurance for goods beign stored?",
+      "description": "We strongly recommend comprehensive insurance commensurate with the quality , quantity and nature of items being stored or transported. WAP has partnered with inleading insurance companies and can arrange a suitable quote based on your requirements."
+    },
+    {
+      "tag": "wu7",
+      "question": "I want to store goods at multiple location can I use same ID?",
+      "description": "Sure. Using your dashboard, you can manage all the warehouses where you have stored from a single point. You can also view the status of your supply chain activities from this same dashboard."
+    },
+    {
+      "tag": "wu8",
+      "question": "The goods I want to store require a HAZMAT certification. Can WAP arrange that?",
+      "description": "WAP has a wide variety of warehouses on its platform. You can check the warehouse certifications for specialized handling like Hazmat, HACCP, Bio medical etc. WAP recommends following the local government regulations whilst storing and transporting all goods especially specialized goods."
+    },
+    {
+      "tag": "wu9",
+      "question": "Who is in charge of security at the WAP warehouse?",
+      "description": "Warehouse security will be mutually agreed upon and decided. WAP can provide access to security service partners for individual warehouses at competitive rates."
+    },
+    {
+      "tag": "wu10",
+      "question": "Do I need to provide some security deposit when booking a warehouse?",
+      "description": "WAP does not require any deposit for booking a warehouse. The charges are agreed upon mutually on a case-to-case basis as per local prevalent norms. Alternate means like bank guarantees, etc. are encouraged."
+    },
+    {
+      "tag": "wu11",
+      "question": "What services does WAP currently offer?",
+      "description": "WAP is constantly adding new value-added services to its portfolio for the convenience of our users and partners, For a list of additional services available, please browse through individual listings. If you need any additional information, please do not hesitate to contact us."
+    }
+  ],
+  "warehouseOwner": [
+    {
+      "question": "How I can list my warehouse on WAP?",
+      "description": "Please click on the 'Partner With Us' option on the top right corner of the home page to get started. Once you've provided us with all the relevant details, our team will process this information and reach out to you to take this forward.",
+      "tag": "wo1"
+    },
+    {
+      "question": "Are the warehouses on WAP subject to any checks?",
+      "tag": "wo2",
+      "description": "Yes, all warehouses listed on our platform are subject to regular audits. Also, WAP utilizes a benchmarking process called the WAP Index to grade warehousing facilities listed on our website and their offerings. The WAP Index score of a facility determines its audit frequency."
+    },
+    {
+      "question": "I only have a part of my warehouse available. Can I list part warehouse only?",
+      "tag": "wo3",
+      "description": "WAP's on-demand warehouse service enables warehouse owners to utilize empty/part empty warehouse to accommodate any demand surges they might be experiencing in the short term. You can get in touch with WAP to become an on-demand warehouse partner to optimise the use of your currently partly empty warehouse."
+    },
+    {
+      "question": "Do I need to buy my own insurance policy for my warehouse when I list it on WAP ?",
+      "tag": "wo4",
+      "description": "We recommend mandatory insurance for your warehousing facility to cover any liabilities arising to the warehouse owner. The requirement for scope and extent of insurance varies with location, type of warehouse, nature of goods, etc. WAP also provides assistance to our partners in obtaining through our collaborations with leading insurance companies."
+    },
+    {
+      "question": "Do I need to upgrade my warehouse? Will WAP provide a loan for this?",
+      "tag": "wo5",
+      "description": "Warehouse Upgradation as a service is available by WAP to its partners. Since a warehouse that provides a better level of services and a larger range of amenities gets more eyeballs and a better rate, it's always recommended that you upgrade your warehouse. WAP provides fee-based services for warehouse assessment and upgradation that you can avail of. We also have partners who specialize in carrying out the warehouse upgradation in a cost-effective and efficient manner. Regarding the financial aspect, WAP has partnered with leading financial and leasing companies who can assist in providing credit for warehouse upgradation. Please do get in touch with us in case of any specific queries regarding the same."
+    },
+    {
+      "question": "Is there a minimum size of warehouse that can be listed on WAP?",
+      "tag": "wo6",
+      "description": "Currently, we are partnering with warehouse owners with property sizes more than 3000 sq. feet."
+    },
+    {
+      "question": "How does the WAP billing process work?",
+      "tag": "wo7",
+      "description": "See Billing Section for more details on this."
+    },
+    {
+      "question": "Who is in charge of security?",
+      "tag": "wo8",
+      "description": "Warehouse security will be mutually agreed upon and decided. WAP can provide you with access to security service partners for individual warehouses at competitive rates."
+    }
+  ],
+  "below_warehouse_user": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "below_general": "<!--StartFragment-->\n\nLorem. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "seo": {
+    "title": "FAQs - About services & solutions provided by WAP",
+    "description": "How do we help businesses? Know more about our services, amenities & value propositions.",
+    "keywords": "WAP FAQs, Warehousing FAQs"
+  }
+}

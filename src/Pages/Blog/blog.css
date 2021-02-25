@@ -1,0 +1,20 @@
+.blogContainer {
+  position: relative;
+}
+
+.blogContainer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.blogContainer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .sec-head {
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

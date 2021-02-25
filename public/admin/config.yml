@@ -1,0 +1,510 @@
+backend:
+  name: git-gateway
+  local_backend: true
+  branch: live # Branch to update (optional; defaults to master)
+
+media_folder: "public/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images" # The src attribute for uploaded media will begin with /images/uploads
+# publish_mode: editorial_workflow
+# site_url: https://hubshub.netlify.app
+
+collections:
+  - name: home
+    label: "Home Page"
+    preview_path: /
+    files:
+      - file: src/cms_pages/home.json
+        name: home
+        preview_path: /
+        label: "Home page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: banner_images
+            widget: list
+            label: "Banner Images"
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: alt
+                label: alt_tag
+              - widget: image
+                name: image
+                label: "image"
+          - name: suggestion
+            label: "Suggestion_heading"
+            widget: string
+            required: true
+          - name: suggested_desc
+            label: "Suggestion_description"
+            widget: string
+            required: true
+          - name: why_hubshub
+            label: "Why Hubshub?"
+            widget: string
+            required: true
+          - name: why_hubshub_users
+            label: "Why Hubshub(Users)"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: heading
+                label: Heading
+              - widget: string
+                name: desc
+                label: Description
+              - widget: string
+                name: alt
+                label: alt_tag
+              - widget: image
+                name: image
+                label: "image"
+          - name: why_hubshub_warehousing_partners
+            label: "Why Hubshub(Warehousing Service Partners)"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: heading
+                label: Heading
+              - widget: string
+                name: desc
+                label: Description
+              - widget: string
+                name: alt
+                label: alt_tag
+              - widget: image
+                name: image
+                label: "image"
+          - name: extra_below_why_hubshub_warehousing_partners
+            label: "Extra Below Why Hubshub"
+            required: false
+            widget: markdown
+          - name: how_to_hubshub
+            label: "How to use hubshub"
+            widget: string
+            required: true
+          - name: how_to_hubshub_users
+            label: "How to use Hubshub(Users)"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: heading
+                label: Heading
+              - widget: string
+                name: desc
+                label: Description
+              - widget: string
+                name: alt
+                label: alt_tag
+              - widget: image
+                name: image
+                label: "image"
+          - name: how_to_hubshub_partners
+            label: "How to use Hubshub(Partners)"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: heading
+                label: Heading
+              - widget: string
+                name: desc
+                label: Description
+              - widget: string
+                name: alt
+                label: alt_tag
+              - widget: image
+                name: image
+                label: "image"
+          - name: extra_below_how_to_hubshub
+            label: "Extra below How to use hubshub"
+            widget: markdown
+            required: false
+
+  - name: about
+    label: "About Page"
+    preview_path: aboutus
+    files:
+      - file: src/cms_pages/about.json
+        name: about
+        preview_path: aboutus
+        label: "About page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: aboutContent
+            label: "About Us Content"
+            widget: object
+            allow_add: true
+            required: true
+            fields:
+              - name: desc1
+                label: "Description Para 1"
+                widget: string
+                required: true
+              - name: desc2
+                label: "Description Para 2"
+                widget: string
+                required: true
+              - name: aboutImage
+                label: "About Us Image"
+                widget: image
+                required: true
+          - name: extra_below_about_us
+            label: "Extra content below about us"
+            widget: markdown
+            required: false
+          - name: values
+            label: "Our Values"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: image
+                name: icon
+                label: "Value Icon"
+              - widget: string
+                name: title
+                label: "Value Title"
+              - widget: string
+                name: description
+                label: "Value Description"
+          - name: extra_below_our_values
+            label: "Extra content below our values"
+            widget: markdown
+            required: false
+          - name: team
+            label: "Join Our Team Content"
+            widget: object
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: desc
+                label: "Description"
+
+  - name: faq
+    label: "Faq Page"
+    preview_path: faqpage
+    create: false
+    files:
+      - file: src/cms_pages/faq.json
+        name: faq
+        preview_path: faqpage
+        label: "Faq page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: general
+            label: "General"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: question
+                label: "General Question"
+              - widget: string
+                name: description
+                label: "General Description"
+              - widget: string
+                name: tag
+                label: "Tag"
+          - name: below_general
+            label: "Extra below General"
+            widget: markdown
+            required: false
+          - name: warehouseOwner
+            label: "For The Warehouse Owner"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: question
+                label: "Warehouse Owner Question"
+              - widget: string
+                name: description
+                label: "Warehouse Owner Description"
+              - widget: string
+                name: tag
+                label: "Tag"
+          - name: below_warehouse_owner
+            label: "Extra below Warehouse owner"
+            widget: markdown
+            required: false
+          - name: warehouseServiceProvider
+            label: "For The Warehouse Service Provider"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: question
+                label: "Warehouse Service Provider Question"
+              - widget: string
+                name: description
+                label: "Warehouse Service Provider Description"
+              - widget: string
+                name: tag
+                label: "Tag"
+          - name: below_warehouse_service_provider
+            label: "Extra below warehouse service provider"
+            widget: markdown
+            required: false
+          - name: warehouseUser
+            label: "For The Warehouse User"
+            widget: list
+            allow_add: true
+            required: true
+            fields:
+              - widget: string
+                name: question
+                label: "Warehouse User Question"
+              - widget: string
+                name: description
+                label: "Warehouse User Description"
+              - widget: string
+                name: tag
+                label: "Tag"
+          - name: below_warehouse_user
+            label: "Extra below Warehouse user"
+            widget: markdown
+            required: false
+
+  - name: contact
+    label: "Contact Page"
+    preview_path: contactpage
+    create: false
+    files:
+      - file: src/cms_pages/contact.json
+        name: contact
+        preview_path: contactpage
+        label: "Contact page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - widget: string
+            name: address
+            label: "Corporate Office"
+          - widget: string
+            name: email
+            label: "Email Address"
+
+  - name: blog
+    label: "Blog page"
+    preview_path: blogpage
+    files:
+      - file: src/cms_pages/blog.json
+        name: blog
+        preview_path: blogpage
+        label: "Blog page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: blog_data
+            label: "Blog Content Data"
+            widget: list
+            allow_add: true
+            fields:
+              - name: url
+                label: "Blog URL"
+                widget: string
+              - name: blog_image
+                label: "Blog Image"
+                widget: object
+                fields:
+                  - name: image
+                    label: "Image"
+                    widget: image
+                  - name: alt
+                    label: alt_tag
+                    widget: string
+              - name: text
+                label: "Title Text"
+                widget: string
+              - name: sub_text
+                label: "Sub Heading Text"
+                widget: string
+              - name: description
+                label: "Description"
+                widget: string
+              - name: author
+                label: "Blog Author"
+                widget: string
+              - name: blog_date
+                label: "Blog Date"
+                widget: date
+                format: "MMM Do YY"
+              - name: full_blog_content
+                label: "Full Description"
+                widget: list
+                allow_add: true
+                fields:
+                  - name: desc
+                    label: "Description"
+                    widget: markdown
+
+  - name: career
+    label: "Career"
+    preview_path: career
+    files:
+      - file: src/cms_pages/career.json
+        name: content
+        create: false
+        preview_path: career
+        label: "Career"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: opportunities_at_hubshub
+            label: "Opportunities At Hubshub"
+            widget: object
+            fields:
+              - name: description
+                label: "Description"
+                widget: markdown
+              - name: image
+                label: "Image"
+                widget: object
+                fields:
+                  - name: image
+                    label: "Image"
+                    widget: image
+                  - name: alt
+                    label: alt_tag
+                    widget: string
+          - name: vacancies
+            label: "Vacancies"
+            widget: list
+            allow_add: true
+            fields:
+              - name: type
+                label: "Type"
+                widget: string
+
+  - name: pages
+    label: "Extra page"
+    preview_path: p
+    files:
+      - file: src/cms_pages/page.json
+        allow_add: true
+        name: content
+        preview_path: p
+        label: "Page content"
+        fields:
+          - name: seo
+            label: "Seo Tags"
+            widget: object
+            fields:
+              - name: title
+                lable: "Title Tag"
+                widget: string
+              - name: description
+                label: "Description Tag"
+                widget: string
+              - name: keywords
+                label: "Keyword Tag"
+                widget: string
+          - name: page_content
+            label: "Page Content"
+            widget: list
+            allow_add: true
+            fields:
+              - name: description
+                label: "Page Description"
+                widget: string
+              - name: text
+                label: "Page Text"
+                widget: string
+              - name: url
+                label: "Page URL"
+                widget: string
+              - name: content
+                label: "Content"
+                widget: markdown
+              - name: page_image
+                label: "Page Image"
+                widget: object
+                required: true
+                fields:
+                  - name: image
+                    label: "Image"
+                    widget: image
+                  - name: alt
+                    label: alt_tag
+                    widget: string

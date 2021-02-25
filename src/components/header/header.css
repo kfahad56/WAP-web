@@ -1,0 +1,418 @@
+.profileButtonContainer {
+  position: absolute;
+  top: 1.30208vw;
+  right: -7.8125vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 15.625vw;
+}
+
+.profileButtonContainer .afterSignInContainer {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 0.52083vw;
+  padding-bottom: 0.52083vw;
+  padding-left: 1.04167vw;
+  padding-right: 1.04167vw;
+  width: auto;
+  height: auto;
+  background: #ffffff;
+  border: 0.05208vw solid rgba(0, 0, 0, 0.4);
+  border-radius: 0.36458vw;
+  cursor: pointer;
+}
+
+.profileButtonContainer .afterSignInContainer .userImage {
+  display: none;
+  width: 0.83333vw;
+  height: 0.83333vw;
+  margin-right: 0.57292vw;
+}
+
+.profileButtonContainer .afterSignInContainer .userImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.profileButtonContainer .afterSignInContainer .signInText {
+  font-size: 0.98958vw;
+  color: #000000;
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter {
+  max-height: 0px;
+  transition: max-height 1s ease;
+  -webkit-transition: max-height 1s ease;
+  overflow: hidden;
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter.menu-enter-active {
+  height: auto;
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave {
+  transition: max-height 1s ease;
+  -webkit-transition: max-height 1s ease;
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave.menu-leave-active {
+  overflow: hidden;
+  max-height: 0px;
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+  height: auto;
+  -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1);
+  transition: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer div {
+  cursor: pointer;
+  font-size: 0.98958vw;
+  color: #000000;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 0.52083vw;
+}
+
+.HeaderContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 7.29167vw;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1100;
+}
+
+.HeaderContainer .logoContainer {
+  position: absolute;
+  left: 7.60417vw;
+  width: 14.375vw;
+  height: 3.54167vw;
+}
+
+.HeaderContainer .logoContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.HeaderContainer .navbarContainer {
+  position: relative;
+  margin-left: 24.14062vw;
+  top: 0.52083vw;
+}
+
+.HeaderContainer .navbarContainer ul,
+.HeaderContainer .navbarContainer li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.98958vw;
+  color: #002366;
+  margin-left: 1.32812vw;
+  margin-right: 1.32812vw;
+  padding-bottom: 0.20833vw;
+  height: 1.5625vw;
+  font-family: Roboto-regular;
+  cursor: pointer;
+}
+
+.HeaderContainer .navbarContainer li:hover {
+  border-bottom: solid 0.15625vw #002366;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.HeaderContainer .signInContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 22.21354vw;
+  cursor: pointer;
+}
+
+.HeaderContainer .signInContainer .userImage {
+  width: 0.83333vw;
+  height: 0.83333vw;
+  margin-right: 0.57292vw;
+  display: none;
+}
+
+.HeaderContainer .signInContainer .userImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.HeaderContainer .signInContainer .partnerWithUsText {
+  font-size: 0.98958vw;
+  color: #002366;
+  font-family: Roboto-regular;
+  font-weight: 600;
+  margin-right: 1.5625vw;
+}
+
+.HeaderContainer .signInContainer .signInText {
+  font-size: 0.98958vw;
+  color: #002366;
+  font-family: Roboto-regular;
+  font-weight: 600;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0vw;
+  width: 100%;
+  z-index: 200;
+}
+
+@media only screen and (max-width: 800px) {
+  .profileButtonContainer {
+    position: relative;
+    margin-right: 40px;
+    margin-left: 180px;
+    width: auto;
+  }
+  .profileButtonContainer .afterSignInContainer {
+    position: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1.20773vw;
+    padding-bottom: 1.20773vw;
+    padding-left: 2.41546vw;
+    padding-right: 2.41546vw;
+    width: auto;
+    height: auto;
+    background: #ffffff;
+    border: 0.24155vw solid rgba(0, 0, 0, 0.4);
+    border-radius: 1.69082vw;
+    cursor: pointer;
+  }
+  .profileButtonContainer .afterSignInContainer .userImage {
+    display: none;
+    width: 3.86473vw;
+    height: 3.86473vw;
+    margin-right: 2.657vw;
+  }
+  .profileButtonContainer .afterSignInContainer .userImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .profileButtonContainer .afterSignInContainer .signInText {
+    font-size: 3.38164vw;
+    color: #000000;
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter {
+    max-height: 0px;
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+    overflow: hidden;
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-enter.menu-enter-active {
+    height: auto;
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave {
+    transition: max-height 1s ease;
+    -webkit-transition: max-height 1s ease;
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .menu-leave.menu-leave-active {
+    overflow: hidden;
+    max-height: 0px;
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    height: auto;
+    -webkit-transition: cubic-bezier(0.23, 1, 0.32, 1);
+    transition: cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .profileButtonContainer .afterSignInContainer .dropDownContainer .dropDownTextContainer div {
+    cursor: pointer;
+    font-size: 3.38164vw;
+    color: #000000;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 2.41546vw;
+  }
+  .HeaderContainer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 24.15459vw;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .HeaderContainer .logoContainer {
+    position: absolute;
+    left: 4.58937vw;
+    width: 37.43961vw;
+    height: 14.7343vw;
+  }
+  .HeaderContainer .logoContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .HeaderContainer .adjustBars {
+    position: absolute;
+    right: 7.24638vw;
+    display: block;
+    color: #002366;
+    font-size: 4.83092vw;
+  }
+  .HeaderContainer .navbarContainer {
+    display: none;
+    position: relative;
+    margin-left: 111.95652vw;
+  }
+  .HeaderContainer .navbarContainer ul,
+  .HeaderContainer .navbarContainer li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 4.58937vw;
+    color: #002366;
+    margin-left: 6.15942vw;
+    margin-right: 6.15942vw;
+    font-family: Roboto-regular;
+    cursor: pointer;
+  }
+  .HeaderContainer .signInContainer {
+    display: none;
+  }
+  .HeaderContainer .profileButtonContainer {
+    display: none;
+  }
+  .sticky {
+    position: relative;
+    top: 0vw;
+    width: 100%;
+    z-index: 200;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .HeaderContainer {
+    position: relative;
+    width: 100%;
+    height: 11.19792vw;
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .HeaderContainer .logoContainer {
+    position: absolute;
+    left: 7.03125vw;
+    width: 15.49479vw;
+    height: 5.33854vw;
+  }
+  .HeaderContainer .logoContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .HeaderContainer .adjustBars {
+    position: absolute;
+    right: 7.94271vw;
+    display: block;
+    color: #002366;
+    font-size: 2.60417vw;
+  }
+  .HeaderContainer .navbarContainer {
+    position: relative;
+    display: none;
+    margin-left: 60.35156vw;
+  }
+  .HeaderContainer .navbarContainer ul,
+  .HeaderContainer .navbarContainer li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2.47396vw;
+    color: #002366;
+    margin-left: 3.32031vw;
+    margin-right: 3.32031vw;
+    font-family: Roboto-regular;
+    cursor: pointer;
+  }
+  .HeaderContainer .signInContainer {
+    display: none;
+  }
+  .HeaderContainer .profileButtonContainer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .adjustBars {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */

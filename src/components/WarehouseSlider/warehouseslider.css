@@ -1,0 +1,188 @@
+.warehouseSliderContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.warehouseSliderContainer .adjustSlider {
+  width: 1330px;
+  height: 302px;
+}
+
+.warehouseSliderContainer .adjustSlider2 {
+  width: 100%;
+}
+
+.warehouseSliderContainer .adjustSlider2 .slick-slide {
+  position: relative;
+  width: 76px !important;
+  margin-right: 15px;
+}
+
+.warehouseSliderContainer .slick-slider {
+  position: relative;
+  margin-right: 15px;
+}
+
+.warehouseSliderContainer .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.warehouseSliderContainer *:focus {
+  outline: 0;
+  outline: none;
+}
+
+.warehouseSliderContainer .imageContainer {
+  width: 650px !important;
+  height: 286px;
+  margin-right: 20px;
+}
+
+.warehouseSliderContainer .imageContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.41667vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.warehouseSliderContainer .thumbImageContainer {
+  width: 76px !important;
+  height: 66px;
+}
+
+.warehouseSliderContainer .thumbImageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.warehouseSliderContainer .rightArrowContainer {
+  position: absolute;
+  width: 3.80208vw;
+  height: 3.80208vw;
+  top: 8.38542vw;
+  left: 45.9375vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0.05208vw 0.20833vw rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.warehouseSliderContainer .rightArrowContainer .rightButton {
+  position: absolute;
+  width: 1.35417vw;
+  height: 0.98958vw;
+}
+
+.warehouseSliderContainer .rightArrowContainer .rightButton img {
+  width: 100%;
+  height: 100%;
+}
+
+.warehouseSliderContainer .rightArrowContainer:hover {
+  background: #e4e4e4;
+}
+
+@media only screen and (max-width: 800px) {
+  .warehouseSliderContainer {
+    position: relative;
+    width: 100vw;
+    left: -4px;
+    overflow: hidden;
+  }
+  .warehouseSliderContainer .adjustSlider {
+    width: 177.53623vw;
+    height: 45.65217vw;
+  }
+  .warehouseSliderContainer .adjustSlider2 {
+    display: none;
+    width: 97.58454vw;
+  }
+  .warehouseSliderContainer .slick-slider {
+    position: relative;
+    margin-left: 1.44928vw;
+    margin-right: 1.44928vw;
+  }
+  .warehouseSliderContainer .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .warehouseSliderContainer *:focus {
+    outline: 0;
+    outline: none;
+  }
+  .warehouseSliderContainer .imageContainer {
+    width: 85.74879vw !important;
+    height: 45.65217vw;
+  }
+  .warehouseSliderContainer .imageContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.44928vw;
+  }
+  .warehouseSliderContainer .imageContainer .imageDesc {
+    position: absolute !important;
+    top: 48.06763vw;
+    font-family: Roboto-regular;
+    font-size: 2.17391vw;
+    color: #000;
+  }
+  .warehouseSliderContainer .thumbImageContainer {
+    width: 25.84541vw !important;
+    height: 22.70531vw;
+  }
+  .warehouseSliderContainer .thumbImageContainer img {
+    width: 100%;
+    height: 100%;
+  }
+  .warehouseSliderContainer .rightArrowContainer {
+    display: none;
+    position: absolute;
+    width: 17.63285vw;
+    height: 17.63285vw;
+    top: 38.88889vw;
+    left: 219.80676vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0.24155vw 0.96618vw rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    border-radius: 50%;
+  }
+  .warehouseSliderContainer .rightArrowContainer .rightButton {
+    position: absolute;
+    width: 6.28019vw;
+    height: 4.58937vw;
+  }
+  .warehouseSliderContainer .rightArrowContainer .rightButton img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=warehouseslider.css.map */

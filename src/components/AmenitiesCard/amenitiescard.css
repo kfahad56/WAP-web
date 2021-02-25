@@ -1,0 +1,96 @@
+.amenitiesCard {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 11.19792vw;
+  height: 9.58333vw;
+  background: #f2f2f2;
+  border-radius: 0.15625vw;
+  margin-right: 1.40625vw;
+  margin-bottom: 1.40625vw;
+}
+
+.amenitiesCard .fas {
+  font-size: 25px;
+}
+
+.amenitiesCard .amenitiesImage {
+  margin-bottom: 0.72917vw;
+}
+
+.amenitiesCard .amenitiesImage .MuiSvgIcon-root {
+  font-size: 1.8rem;
+}
+
+.amenitiesCard .amenitiesImage img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.amenitiesCard .amenitiesTtext {
+  font-size: 0.83333vw;
+  margin-top: 0.72917vw;
+  width: 7.8125vw;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .amenitiesCard {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 38.88889vw;
+    height: 36.47343vw;
+    background: #f2f2f2;
+    border-radius: 0.72464vw;
+    margin-left: 3.38164vw;
+    margin-right: 3.38164vw;
+    margin-bottom: 6.76329vw;
+  }
+  .amenitiesCard .fas {
+    font-size: 22px;
+  }
+  .amenitiesCard .amenitiesImage {
+    margin-bottom: 0;
+  }
+  .amenitiesCard .amenitiesImage .MuiSvgIcon-root {
+    font-size: 1.8rem;
+  }
+  .amenitiesCard .amenitiesImage img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .amenitiesCard .amenitiesTtext {
+    font-size: 12px;
+    margin-top: 3.38164vw;
+    width: 33.81643vw;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=amenitiescard.css.map */

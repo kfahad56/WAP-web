@@ -1,0 +1,157 @@
+{
+  "why_hubshub": "Welcome to the new way of Warehousing with WAP, your all-in-one Warehousing and Logistics Partner. WAP is attempting to create a different ecosystem in Distribution by challenging the WAP & Spoke model with a Connected Distribution network, which gives you better service as well as efficiency. WAP is bridging the gap between logistics service providers and users, along with a whole bouquet of value-added service offerings to make the process simple, convenient and reliable. Come, join the revolution!",
+  "how_to_hubshub": "Whether you’re a business owner looking to rent a storage facility or a storage owner wanting to become our supply chain and warehousing partner, WAP makes it all easy and hassle-free.",
+  "suggestion": "Suggested Storage Locations For You !",
+  "extra_below_why_hubshub_warehousing_partners": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\nMaecenas efficitur nisi at turpis viverra euismod. Morbi rutrum egestas consectetur. Donec in justo ut sapien lacinia fermentum. In ut justo eu metus sollicitudin commodo. Nulla ultrices purus ut nisl viverra dictum. Suspendisse mauris nisl, sodales sit amet odio ut, eleifend maximus velit. Maecenas id elementum orci. In ullamcorper pulvinar leo, eget blandit leo finibus non. Vestibulum sit amet varius eros. Nullam blandit urna eu urna aliquam interdum.\n\nDonec felis odio, commodo vel viverra nec, ultrices eu felis. Donec iaculis at ex vitae euismod. Duis tristique, tellus ut tincidunt vehicula, ipsum felis fermentum lacus, sed porttitor dui libero sit amet nunc. Maecenas nec condimentum nulla. Phasellus id posuere nibh. Ut nec ultricies felis. Donec mattis in magna dignissim tempus. Morbi fringilla dolor eu est blandit, in sodales ante consequat. Vivamus at dui eu odio luctus condimentum vitae a neque. Nam feugiat velit at suscipit eleifend. Nunc ex risus, molestie eu orci quis, maximus rhoncus metus. Cras quis est dapibus, ultrices est eget, facilisis quam. Morbi\n\n<!--EndFragment-->",
+  "extra_below_how_to_hubshub": "<!--StartFragment-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium cursus metus ac lacinia. Vestibulum nibh nisi, hendrerit id pulvinar et, varius et nibh. Morbi vestibulum porta nisi placerat ultricies. Etiam pulvinar convallis turpis, vel semper orci dapibus quis. Suspendisse risus dui, dictum a nisi nec, ornare pharetra libero. Aenean ac auctor enim. Pellentesque tempor ipsum et eros rutrum consectetur. Phasellus suscipit efficitur arcu in dictum. Cras iaculis placerat lacinia. Pellentesque non orci eu nibh finibus dictum.\n\n<!--EndFragment-->",
+  "how_to_hubshub_partners": [
+    {
+      "heading": "Submit Your Details",
+      "desc": "Fill in the form with all your and your property’s basic details",
+      "image": "/images/submit-detail.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Upload Visuals & Documents",
+      "desc": "Make sure you upload photos, videos and any relevant documents to give your target customer all the information they need to make an informed choice.",
+      "image": "/images/upload-visuals.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Rent Out",
+      "desc": "Sit back and relax while we process all this information and get back to you with an exciting proposal for collaboration.",
+      "image": "/images/rent-out.png",
+      "alt": "-"
+    }
+  ],
+  "why_hubshub_warehousing_partners": [
+    {
+      "heading": "Discoverability",
+      "desc": "Reach the right client base for your space through WAP and let your target customer know that your space and services are available. Users looking for supply chain solutions can now view your offerings remotely, thus capturing a whole new market for your space.",
+      "image": "/images/12.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Zero Brokerage",
+      "desc": "WAP doesn't charge any brokerage fees. Now, sit back and enjoy this easy way of renting out your space without paying a hefty brokerage to a middleman. ",
+      "alt": "-",
+      "image": "/images/13.png"
+    },
+    {
+      "heading": "Expert Operations Assistance",
+      "image": "/images/14.png",
+      "desc": "Optimise your warehouse space with the guidance of WAP experts who will help you utilise your space just right. Higher space utilization means higher realization. WAP also collaborates with its partners for security and handling services.",
+      "alt": "-"
+    },
+    {
+      "heading": "Access to Technology",
+      "desc": "Efficiency is of paramount importance to us at WAP and we help our partners in this aspect with the latest tools and technology. We link our warehousing partners with our users via a dashboard that gives real-time visibility and status updates.",
+      "alt": "-",
+      "image": "/images/09.png"
+    },
+    {
+      "heading": "Regular Compliance Audits",
+      "desc": "WAP conducts regular audits for its partners to ensure you stay compliant and that your space remains available for hire without any disruptions. Our experts will work with you to ensure that your warehouse and services meet a certain standard of quality.",
+      "alt": "-",
+      "image": "/images/10.png"
+    },
+    {
+      "heading": "Transparent Transactions",
+      "desc": "Nothing behind the scenes or under the table here at WAP! Transactions are legit, transparent and seamless. This ensures that you get the best possible deal for your property from our users.",
+      "alt": "-",
+      "image": "/images/11.png"
+    },
+    {
+      "image": "/images/08.png",
+      "heading": "Develop Service Portfolio",
+      "desc": "WAP works closely with its partners to help you develop a range of value-added services that is bound to attract more business. These services could range from packaging and labeling to managing insurance, manpower and equipment leasing.",
+      "alt": "-"
+    }
+  ],
+  "why_hubshub_users": [
+    {
+      "heading": "One-stop  Warehousing & Logistics Solution",
+      "desc": "WAP takes care of all your warehousing and secondary distribution needs, making it so easy for you to enter a new geographical market or launch a new product. We have a wide geographical reach to help you access even the remotest locations with ease.",
+      "image": "/images/05.png",
+      "alt": "-"
+    },
+    {
+      "heading": "High Visibility of Options",
+      "desc": "Now you can view all the warehousing &amp; logistics options available at a certain location and the details for each, including space and rates, with the click of a few buttons. No more hassle of dealing with local agents or sending your team to the area!",
+      "image": "/images/06.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Vetted & Secure Warehouses",
+      "desc": "WAP ensures that its warehousing partners adhere to strict compliance and security protocols. Since these spaces and services are vetted by WAP, you have an added layer of reassurance of quality",
+      "image": "/images/07.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Online Real-time Visibility",
+      "desc": "Get updates of your inventory and supply chain status anytime anywhere with WAP dashboard. Control your products and their movement using tools that give you 24/7 visibility.",
+      "image": "/images/02.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Addition & Standardization of Services",
+      "desc": "WAP goes above and beyond just linking demand and supply when it comes to warehousing options by providing an array of standardised value-added services, including packaging, insurance, sorting, manpower contracting, analytics, equipment leasing and fulfillment.",
+      "image": "/images/03.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Access to Latest Technology",
+      "desc": "WAP relies on the most efficient tools and technology for inventory benchmarking and optimization. Our WAP Index helps benchmark your supply chain and inventory status to allow for constant improvements.",
+      "image": "/images/04.png",
+      "alt": "-"
+    },
+    {
+      "heading": "KPI/SLA-driven Services",
+      "desc": "Just like your customers' satisfaction is important for you, your satisfaction is our first priority. Our dashboard keeps us accountable to stick to mutually agreed KPIs and SLAs.",
+      "image": "/images/01.png",
+      "alt": "-"
+    }
+  ],
+  "banner_images": [
+    {
+      "image": "/images/4.jpg",
+      "alt": "-"
+    },
+    {
+      "image": "/images/5.jpg",
+      "alt": "-"
+    },
+    {
+      "image": "/images/slider4.jpg",
+      "alt": "-"
+    }
+  ],
+  "how_to_hubshub_users": [
+    {
+      "heading": "Tell Us Your Requirements",
+      "desc": "Give us your location, duration of use and area required so that we can search our database and find you the best options",
+      "image": "/images/tell-us-requirement.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Browse Through Our Listings",
+      "desc": "Take a look at our specially curated list of warehouses and other storage facilities to find the right one for you. You can also use our filters to refine the search",
+      "image": "/images/browse-through-our-listing.png",
+      "alt": "-"
+    },
+    {
+      "heading": "Finalise and Book",
+      "desc": "Once you’ve shortlisted your favourites, go through the photos, services, reviews and testimonials for each. And once you’ve found the right fit, book a tour or just go ahead and reserve it!",
+      "image": "/images/finilise-n-book.png",
+      "alt": "-"
+    }
+  ],
+  "thumbnail": "/images/4.jpg",
+  "suggested_desc": "Here are a few warehousing options we think you might be interested in based on your search. Go ahead and explore them to find the right fit for your business!",
+  "icons": [],
+  "seo": {
+    "title": "On Demand Warehousing & Logistics Hub | WAP",
+    "description": "-",
+    "keywords": "warehouse, wareshouse near me, chemical warehouse, retail warehouse, food warehouse"
+  }
+}

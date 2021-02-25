@@ -1,0 +1,837 @@
+.carrerPageContainer {
+  position: relative;
+}
+
+.carrerPageContainer .error {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+
+.carrerPageContainer .carrerContentSection {
+  position: relative;
+  margin-top: 3.48958vw;
+  margin-bottom: 4.6875vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carrerPageContainer .carrerContentSection .leftSection {
+  margin-right: 8.38542vw;
+}
+
+.carrerPageContainer .carrerContentSection .leftSection h3 {
+  margin-bottom: 1.30208vw;
+  font-family: Roboto-bold;
+  font-size: 2.1875vw;
+}
+
+.carrerPageContainer .carrerContentSection .leftSection p {
+  width: 37.5vw;
+  font-family: Roboto-regular;
+  font-size: 1.08854vw;
+  line-height: 2.1875vw;
+}
+
+.carrerPageContainer .carrerContentSection .rightSection .carrerImage {
+  width: 36.875vw;
+  height: 9.375vw;
+}
+
+.carrerPageContainer .carrerContentSection .rightSection .carrerImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.carrerPageContainer .parahSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  width: 76.875vw;
+  height: 12.96875vw;
+  background: rgba(199, 199, 199, 0.19);
+  margin-bottom: 9.375vw;
+}
+
+.carrerPageContainer .parahSection .titleText {
+  font-family: Roboto-regular;
+  font-size: 1.77083vw;
+  margin-left: 2.29167vw;
+  margin-bottom: 0.9375vw;
+}
+
+.carrerPageContainer .parahSection .parahText {
+  width: 67.03125vw;
+  font-family: Roboto-regular;
+  font-size: 1.04167vw;
+  margin-left: 2.29167vw;
+  line-height: 2.1875vw;
+}
+
+.carrerPageContainer .vacanciesContainer h3 {
+  font-family: Roboto-bold;
+  font-size: 2.1875vw;
+  margin-left: 11.5625vw;
+  margin-bottom: 2.8125vw;
+}
+
+.carrerPageContainer .vacanciesContainer .vacanciesTabContainer {
+  margin-left: 11.5625vw;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.carrerPageContainer .incaseContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3.90625vw;
+  margin-bottom: 5.20833vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection {
+  width: 31.51042vw;
+  height: 52.1875vw;
+  background: rgba(199, 199, 199, 0.21);
+  border-radius: 0.20833vw;
+  margin-right: 3.25521vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .incaseText {
+  font-family: Roboto-bold;
+  font-size: 2.1875vw;
+  margin-top: 1.875vw;
+  margin-bottom: 3.02083vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .adjustDropdownInput .MuiInputBase-input {
+  height: 1.04167vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.83333vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .MuiInputBase-fullWidth {
+  width: 21.77083vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .MuiOutlinedInput-root {
+  border-radius: 0.20833vw;
+  margin-bottom: 2.96875vw;
+  width: 21.77083vw;
+  background: #ffffff;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer {
+  position: relative;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer input {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  width: 14.58333vw;
+  height: 2.08333vw;
+  cursor: pointer;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer .attachCVText {
+  font-family: Roboto-medium;
+  font-size: 1.09375vw;
+  margin-left: 0vw;
+  width: 6.25vw;
+  height: 2.08333vw;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer .fileSelected {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+  width: 21.77083vw;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .incaseButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 21.77083vw;
+  height: 3.90625vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  margin-top: 1.82292vw;
+  cursor: pointer;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .incaseButton .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.carrerPageContainer .incaseContainer .leftSection .incaseButton:hover {
+  background: #00c;
+}
+
+.carrerPageContainer .incaseContainer .rightSection {
+  margin-left: 3.25521vw;
+}
+
+.carrerPageContainer .incaseContainer .rightSection .incaseImage {
+  width: 37.76042vw;
+  height: 52.1875vw;
+}
+
+.carrerPageContainer .incaseContainer .rightSection .incaseImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.carrerPageContainer .vacanciesPart2Container {
+  position: relative;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesImage {
+  position: relative;
+  width: 100%;
+  height: 25.78125vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 6.30208vw;
+  margin-bottom: 4.27083vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection {
+  width: 33.54167vw;
+  margin-right: 12.91667vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .backButtonContainer {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection h3 {
+  font-family: Roboto-bold;
+  font-size: 2.1875vw;
+  margin-top: 1.875vw;
+  margin-bottom: 1.25vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .vacanciesSubTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.44792vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .vacanciesSubTextContainer div {
+  font-family: Roboto-regular;
+  font-size: 1.09375vw;
+  margin-right: 4.53125vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .detailsContainer {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  line-height: 2.1875vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection {
+  width: 31.51042vw;
+  height: 51.09375vw;
+  background: rgba(199, 199, 199, 0.21);
+  border-radius: 0.20833vw;
+  margin-right: 3.25521vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseText {
+  font-family: Roboto-bold;
+  font-size: 1.77083vw;
+  margin-top: 0.83333vw;
+  margin-bottom: 1.5625vw;
+  margin-left: 2.76042vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .adjustDropdownInput .MuiInputBase-input {
+  height: 1.04167vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiOutlinedInput-input {
+  font-family: Roboto-regular;
+  font-size: 0.67708vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiInputBase-fullWidth {
+  width: 21.77083vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiOutlinedInput-root {
+  border-radius: 0;
+  margin-bottom: 2.96875vw;
+  width: 21.77083vw;
+  background: #ffffff;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiFormLabel-root {
+  font-size: 1.14583vw;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .attachCVText {
+  font-family: Roboto-medium;
+  font-size: 1.09375vw;
+  margin-left: -15.625vw;
+  margin-top: 1.04167vw;
+  margin-bottom: 1.04167vw;
+  cursor: pointer;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 21.77083vw;
+  height: 3.90625vw;
+  background: #0055ff;
+  border-radius: 0.20833vw;
+  margin-top: 2.34375vw;
+  cursor: pointer;
+}
+
+.carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseButton .btnText {
+  font-family: Roboto-regular;
+  font-size: 1.25vw;
+  color: #ffffff;
+}
+
+.carrerPageContainer .footerContainer {
+  background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 800px) {
+  .carrerPageContainer {
+    position: relative;
+  }
+  .carrerPageContainer .carrerContentSection {
+    position: relative;
+    margin-top: 8.69565vw;
+    margin-bottom: 7.24638vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .carrerPageContainer .carrerContentSection .leftSection {
+    width: 99.27536vw;
+  }
+  .carrerPageContainer .carrerContentSection .leftSection h3 {
+    width: 70.77295vw;
+    margin-top: 5.31401vw;
+    margin-bottom: 3.62319vw;
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-left: 9.66184vw;
+  }
+  .carrerPageContainer .carrerContentSection .leftSection p {
+    margin-left: 9.66184vw;
+    width: 90.09662vw;
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+    line-height: 1.1em;
+  }
+  .carrerPageContainer .carrerContentSection .rightSection .carrerImage {
+    margin-left: 0;
+    width: 94.2029vw;
+    height: 27.53623vw;
+  }
+  .carrerPageContainer .carrerContentSection .rightSection .carrerImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .carrerPageContainer .parahSection {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90.33816vw;
+    height: 58.21256vw;
+    background: rgba(199, 199, 199, 0.19);
+    margin-top: -9.42029vw;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+  }
+  .carrerPageContainer .parahSection .parahText {
+    width: 85.02415vw;
+    height: 48.55072vw;
+    font-family: Roboto-regular;
+    font-size: 3.86473vw;
+    line-height: 1.2em;
+  }
+  .carrerPageContainer .vacanciesContainer {
+    width: 90.33816vw;
+  }
+  .carrerPageContainer .vacanciesContainer h3 {
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-top: 13.52657vw;
+    margin-left: 5.55556vw;
+    text-align: left;
+    margin-bottom: 6.03865vw;
+  }
+  .carrerPageContainer .vacanciesContainer .vacanciesTabContainer {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 94.2029vw;
+    margin-left: 4.34783vw;
+  }
+  .carrerPageContainer .incaseContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 7.24638vw;
+    width: 100vw;
+    height: 157.00483vw;
+    background: #fbfbfb 0% 0% no-repeat padding-box;
+    opacity: 12;
+    border-radius: 0.96618vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection {
+    width: 90.57971vw;
+    height: 161.11111vw;
+    background: #ffffff;
+    margin-right: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 100;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .incaseText {
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-top: 8.69565vw;
+    margin-bottom: 6.76329vw;
+    margin-left: 4.10628vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 141.0628vw;
+    width: 85.74879vw;
+    margin-left: 13.76812vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .adjustDropdownInput {
+    width: 72.46377vw;
+    margin-left: -11.5942vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .adjustDropdownInput .MuiInputBase-input {
+    height: 4.83092vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 5.31401vw;
+    width: 72.46377vw;
+    background: #ffffff;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer {
+    position: relative;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer input {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    width: 72.46377vw;
+    height: 9.66184vw;
+    cursor: pointer;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer .attachCVText {
+    font-family: Roboto-medium;
+    font-size: 4.34783vw;
+    margin-left: -14.49275vw;
+    width: auto;
+    height: 9.66184vw;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .formContainer .attachCVContainer .fileSelected {
+    font-family: Roboto-regular;
+    font-size: 4.10628vw;
+    width: 72.46377vw;
+    margin-left: -14.49275vw;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .error {
+    position: relative;
+    font-family: Roboto-medium;
+    font-size: 3.62319vw;
+    margin-left: 0;
+    top: -21.73913vw;
+    color: #ff0000;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .incaseButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    margin-top: -19.32367vw;
+    margin-left: 0;
+    cursor: pointer;
+  }
+  .carrerPageContainer .incaseContainer .leftSection .incaseButton .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .carrerPageContainer .incaseContainer .rightSection {
+    position: absolute;
+    left: 0;
+    width: 21.73913vw;
+    margin-right: unset;
+    margin-left: unset;
+  }
+  .carrerPageContainer .incaseContainer .rightSection .incaseImage {
+    width: 100vw;
+    height: 161.11111vw;
+  }
+  .carrerPageContainer .incaseContainer .rightSection .incaseImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .carrerPageContainer .vacanciesPart2Container {
+    position: relative;
+    width: 100vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesImage {
+    position: relative;
+    margin-left: 2.89855vw;
+    width: 94.2029vw;
+    height: 27.53623vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesImage img {
+    width: 100%;
+    height: 100%;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 29.22705vw;
+    margin-bottom: 19.80676vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection {
+    width: 155.55556vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .backButtonContainer {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-left: 2.17391vw;
+    margin-top: -9.17874vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection h3 {
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-top: -2.41546vw;
+    margin-left: 4.83092vw;
+    margin-bottom: 4.83092vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .vacanciesSubTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 4.83092vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .vacanciesSubTextContainer div {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+    margin-left: 4.83092vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .leftSection .detailsContainer {
+    margin-left: 4.83092vw;
+    margin-bottom: 13.52657vw;
+    font-family: Roboto-regular;
+    font-size: 4.34783vw;
+    line-height: 7.24638vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection {
+    width: 90.82126vw;
+    height: 156.28019vw;
+    background: rgba(199, 199, 199, 0.21);
+    border-radius: 0.96618vw;
+    margin-right: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseText {
+    font-family: Roboto-bold;
+    font-size: 7.24638vw;
+    margin-top: 4.58937vw;
+    margin-bottom: 6.76329vw;
+    margin-left: 4.10628vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 141.0628vw;
+    width: 85.99034vw;
+    margin-left: 13.76812vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .adjustDropdownInput {
+    width: 72.46377vw;
+    margin-left: -14.00966vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .adjustDropdownInput .MuiInputBase-input {
+    height: 4.83092vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiOutlinedInput-input {
+    font-family: Roboto-regular;
+    font-size: 3.1401vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiInputBase-fullWidth {
+    width: 72.46377vw;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiOutlinedInput-root {
+    border-radius: 0.96618vw;
+    margin-bottom: 5.31401vw;
+    width: 72.46377vw;
+    background: #ffffff;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .MuiFormLabel-root {
+    font-size: 3.86473vw;
+    color: #000000;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .formContainer .attachCVText {
+    width: 22.94686vw;
+    font-family: Roboto-medium;
+    font-size: 3.1401vw;
+    margin-left: -60.38647vw;
+    cursor: pointer;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 42.02899vw;
+    height: 10.86957vw;
+    background: #0055ff;
+    border-radius: 0.96618vw;
+    margin-top: -38.64734vw;
+    margin-left: 3.86473vw;
+    cursor: pointer;
+  }
+  .carrerPageContainer .vacanciesPart2Container .vacanciesPart2Section .rightSection .incaseButton .btnText {
+    font-family: Roboto-regular;
+    font-size: 3.62319vw;
+    color: #ffffff;
+  }
+  .carrerPageContainer .footerContainer {
+    background-color: #f9f9f9;
+  }
+}
+/*# sourceMappingURL=carrerpage.css.map */

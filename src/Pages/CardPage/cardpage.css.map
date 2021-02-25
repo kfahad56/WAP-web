@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,kBAAkB,CAAC;EACf,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "cardpage.scss"
+    ],
+    "names": [],
+    "file": "cardpage.css"
+}
